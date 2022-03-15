@@ -3,34 +3,17 @@
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+As questões que motivaram a direção deste projeto são as dores das empresas na busca por profissionais que possuam fit cultural, hard skills e soft skills alinhados com as vagas disponíveis, objetivando-se ter maior capilaridade dos currículos nas áreas específicas. Além da falta de visibilidade de pessoas que anseiam sua inserção no mercado de trabalho.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Disposto em um software interativo, a criação de um banco de currículos é objetivo deste projeto, assim como a gestão, manutenção e filtragem de perfis de pessoas candidatas à vagas de emprego, para seleção adequada às empresas em processo de recrutamento. O intuito é facilitar o acesso das empresas às candidaturas mais bem qualificadas para a posição a ser preenchida.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Um dos problemas recorrentes durante processos seletivos é o grande volume de candidatos que não estão alinhados culturalmente com a empresa, portanto, possuem menor probabilidade de se adaptar aos valores, aos propósitos ou não possuem o perfil da vaga apresentada. Além disso, os candidatos também possuem dificuldades em encontrar, em um só lugar, vagas que sejam compatíveis com a sua formação e com seus objetivos.
+O presente trabalho tem como fundamentos o preenchimento de lacunas na captação de posições em aberto no mercado de trabalho, a celeridade ao processo de contratação e, em uma abordagem mais abrangente, o papel facilitador na retomada da economia e no quadro de desemprego recente, visto que o país atingiu a taxa de desemprego de 12,6%, segundo o Instituto Brasileiro de Geografia e Estatística (IBGE, 2021).
 
 ## Público-Alvo
 
