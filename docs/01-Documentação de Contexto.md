@@ -1,6 +1,12 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O cenário do mercado de trabalho tem sofrido várias modificações de forma acelerada por força da situação econômica do país também agravada pela pandemia do coronavírus. Empresas precisam responder, consequentemente, de forma acelerada, a essas mudanças, considerando estratégias de permanência no mercado e especificidade no perfil do colaborador ideal ao contexto atual.
+
+Por um lado, organizações têm se valido de ferramentas que facilitam e abreviam o tempo despendido no processo de recrutamento e seleção de profissionais. Na outra ponta, pessoas, na busca por uma posição no mercado de trabalho, têm procurado se posicionar de forma notória em espaços mais amplos, com maiores possibilidades de serem vistos.
+Posto isso, a ferramenta que atende às empresas também mostra sua importância para as candidaturas, pois é um ambiente onde os dois grupos com interesses próximos conseguem se conectar.
+
+Pensando em aliviar as dores do recrutador e da pessoa candidata, o desenvolvimento de uma solução que faça a análise de currículos, onde recrutadores possam expor os requisitos relevantes para cada posição de trabalho almejada e candidatos tenham oportunidade de se destacar e incorporando suas habilidades e experiências, aponta para uma resposta para maximizar as relações recrutador/candidato. 
+
 
 ## Problema
 
@@ -13,17 +19,11 @@ Disposto em um software interativo, a criação de um banco de currículos é ob
 ## Justificativa
 
 Um dos problemas recorrentes durante processos seletivos é o grande volume de candidatos que não estão alinhados culturalmente com a empresa, portanto, possuem menor probabilidade de se adaptar aos valores, aos propósitos ou não possuem o perfil da vaga apresentada. Além disso, os candidatos também possuem dificuldades em encontrar, em um só lugar, vagas que sejam compatíveis com a sua formação e com seus objetivos.
+
 O presente trabalho tem como fundamentos o preenchimento de lacunas na captação de posições em aberto no mercado de trabalho, a celeridade ao processo de contratação e, em uma abordagem mais abrangente, o papel facilitador na retomada da economia e no quadro de desemprego recente, visto que o país atingiu a taxa de desemprego de 12,6%, segundo o Instituto Brasileiro de Geografia e Estatística (IBGE, 2021).
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Os dois grupos que norteiam esse projeto são: empresas com a demanda de preencher uma vaga de trabalho e pessoas que objetivam fazer parte de uma seleção para alcance de uma posição de trabalho. Embora a ferramenta possa ser usada por qualquer empresa ou pessoa, o público alvo da mesma são profissionais com idade entre 18 a 24 anos, pois segundo dados do IBGE, o desemprego afeta cerca de 31% das pessoas que estão nessa faixa etária. E também recrutadores de pequenas e médias empresas, que buscam agilizar o processo de recrutamento na busca por profissionais que possuam fit cultural, hard skills e soft skills alinhados com as vagas disponíveis.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
