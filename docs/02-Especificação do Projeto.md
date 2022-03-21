@@ -58,8 +58,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                   |PARA ... `MOTIVO/VALOR`                                           |
 |--------------------|------------------------------------------------------|------------------------------------------------------------------|
-|Paulo Mendes        | Centralizar informações dos profissionais            | Agilizar o recrutamento                                          |
-|Carla Santos        | Saber com mais facilidade os requisitos de uma vaga  | Evitar frustrações e entender se a vaga combina com o meu perfil |
+| Paulo Mendes       | Centralizar informações dos profissionais            | Agilizar o recrutamento                                          |
+| Carla Santos       | Saber com mais facilidade os requisitos de uma vaga  | Evitar frustrações e entender se a vaga combina com o meu perfil |
 | Paulo Mendes       | Filtrar perfis de profissionais                      | Encontrar profissionais mais compatíveis com a vaga              |
 | Fernando Silva     | Entrar em contato com o profissional através do site | Facilitar o contato com o profissional                           |
 | Fernando Silva     | Ser notificado sobre o surgimento de vagas           | Conseguir um emprego na área que escolheu                        |
@@ -68,52 +68,57 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais, que descrevem os comportamentos do sistema, as possibilidades de interações dos usuários, além das particularidades para o bom funcionamento da aplicação, bem como os requisitos não funcionais, que descrevem os aspectos que o sistema deverá apresentar em termos de desempenho, usabilidade, segurança, confiabilidade, entre outros.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|ID    |                                     Descrição do Requisito                                               | Prioridade |
+|------|----------------------------------------------------------------------------------------------------------|------------|
+|RF-01 | O sistema deve permitir o cadastro de empresas recrutadoras                                              | ALTA       | 
+|RF-02 | O sistema deve permitir o cadastro de pessoas candidatas a posições de trabalho                          | ALTA       |
+|RF-03 | O sistema deve permitir a publicação de posições de trabalho                                             | ALTA       |
+|RF-04 | O sistema deve permitir a pesquisa por vagas de emprego                                                  | ALTA       |
+|RF-05 | O sistema deve permitir a pesquisa por empresas recrutadoras                                             | MÉDIA      |
+|RF-06 | O sistema deve permitir a pesquisa por pessoas candidatas                                                | MÉDIA      |
+|RF-07 | O sistema deve possuir filtro de busca para critérios conforme demanda                                   | ALTA       |
+|RF-08 | O sistema deve permitir salvar vagas de trabalho                                                         | BAIXA      |
+|RF-09 | O sistema deve permitir a visualização de vagas por ordem cronológica de cadastro                        | BAIXA      |
+|RF-10 | O sistema deve permitir exportar currículos em formato PDF                                               | MÉDIA      | 
+|RF-11 | O sistema deve permitir o cadastro de email para recebimento de vagas de trabalho                        | ALTA       |
+|RF-12 | O sistema deve permitir o cadastro de email para recebimento de pessoas candidatas                       | ALTA       |
+|RF-13 | O sistema deve permitir que os usuários avaliem sua experiência                                          | MÉDIA      |
+|RF-14 | O sistema deve apresentar as vagas de trabalho separadas por categorias                                  | MÉDIA      |
+|RF-15 | O sistema deve conter uma página com as principais perguntas frequentes (FAQ - Frequent Asked Questions) | MÉDIA      |
+|RF-16 | O sistema deve conter uma página com espaço para envio de dúvidas, sugestões, elogios e/ou reclamações   | ALTA       |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|ID     |                                                Descrição do Requisito                                                                            |Prioridade|
+|-------|--------------------------------------------------------------------------------------------------------------------------------------------------|----------|
+|RNF-01 | O site deve ser publicado em um ambiente acessível publicamente na Internet (GitHub Pages, Heroku)                                               | ALTA     | 
+|RNF-02 | O website se adaptará ao formato de tela do dispositivo utilizado, sem que ocorram distorções                                                    |  ALTA    |
+|RNF-03 | O website deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Internet Explorer, Microsoft Edge, Safari)       |  ALTA    |
+|RNF-04 | O sistema estará disponível 100% do tempo                                                                                                        |  ALTA    |
+|RNF-05 | O sistema disponibilizará às funcionalidades ao usuário de maneira simples e intuitiva                                                           |  ALTA    |
+|RNF-06 | O sistema terá tempo máximo de resposta e, quando o tempo for excedido, informará ao usuário que a operação está demorando mais do que o esperado|  MÉDIA   |
+|RNF-07 | Apenas empresas que tenham sido autenticadas por um componente de controle de acesso e autenticação poderão visualizar informações dos candidatos|  MÉDIA   |
+|RNF-08 | Deve ser feita cópias de todos os dados do sistema a cada 24 horas                                                                               |  ALTA    |
+|RNF-09 | O sistema deve limitar o tempo de acesso ao sistema a fim de reduzir qualquer tipo de ameaça                                                     |  BAIXA   |
+|RNF-10 | O sistema deverá se comunicar com o banco SQL Server                                                                                             |  ALTA    |
+|RNF-11 | O sistema deve ser modularizado                                                                                                                  |  ALTA    |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|ID   | Restrição                                                                                                                   |
+|-----|-----------------------------------------------------------------------------------------------------------------------------|
+|RE-01| MySQL será o banco de dados a ser utilizado                                                                                 |
+|RE-02| O código do projeto deverá usar linguagem de programação **                                                                 |
+|RE-03| O projeto deverá estar em conformidade com os parâmetros instituídos pelas diretrizes de trabalhos acadêmicos da PUC Minas  |
+|RE-04| O desenvolvimento do projeto não poderá exceder o prazo final em 26/06/22                                                   |
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
