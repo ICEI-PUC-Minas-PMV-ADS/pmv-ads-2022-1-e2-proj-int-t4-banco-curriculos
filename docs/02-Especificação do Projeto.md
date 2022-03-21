@@ -56,19 +56,15 @@ A seguir são retratadas as personas identificadas, resultantes da etapa de pesq
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                   |PARA ... `MOTIVO/VALOR`                                           |
+|--------------------|------------------------------------------------------|------------------------------------------------------------------|
+|Paulo Mendes        | Centralizar informações dos profissionais            | Agilizar o recrutamento                                          |
+|Carla Santos        | Saber com mais facilidade os requisitos de uma vaga  | Evitar frustrações e entender se a vaga combina com o meu perfil |
+| Paulo Mendes       | Filtrar perfis de profissionais                      | Encontrar profissionais mais compatíveis com a vaga              |
+| Fernando Silva     | Entrar em contato com o profissional através do site | Facilitar o contato com o profissional                           |
+| Fernando Silva     | Ser notificado sobre o surgimento de vagas           | Conseguir um emprego na área que escolheu                        |
+| Carla Santos       | Filtrar empresas por área de atuação                 | Visualizar empresas que são da área de formação do profissional  |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
