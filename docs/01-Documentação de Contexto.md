@@ -24,6 +24,4 @@ O presente trabalho tem como fundamentos o preenchimento de lacunas na captaçã
 
 ## Público-Alvo
 
-Os dois grupos que norteiam esse projeto são: empresas com a demanda de preencher uma vaga de trabalho e pessoas que objetivam fazer parte de uma seleção para alcance de uma posição de trabalho. Embora a ferramenta possa ser usada por qualquer empresa ou pessoa, o público alvo da mesma são profissionais com idade entre 18 a 24 anos, pois segundo dados do IBGE, o desemprego afeta cerca de 31% das pessoas que estão nessa faixa etária. E também recrutadores de pequenas e médias empresas, que buscam agilizar o processo de recrutamento na busca por profissionais que possuam fit cultural, hard skills e soft skills alinhados com as vagas disponíveis.
-
-
+Os dois grupos que norteiam esse projeto são: empresas com a demanda de preencher uma vaga de trabalho e pessoas que objetivam fazer parte de uma seleção para alcance de uma posição de trabalho. Embora a ferramenta possa ser utilizada por qualquer empresa ou pessoa, o público alvo da mesma são profissionais com idade entre 17 a 29 anos, pois segundo dados do IBGE, o desemprego a longo prazo, que é caracterizado por pessoas que estão desempregadas há mais de dois anos atinge 50% da população dentro dessa faixa etária. Complementando nosso público alvo, temos os recrutadores de pequenas e médias empresas, que buscam agilizar o processo de recrutamento na busca por profissionais que possuam fit cultural, hard skills e soft skills alinhados com as vagas disponíveis.
