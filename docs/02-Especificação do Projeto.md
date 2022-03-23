@@ -12,7 +12,7 @@ A seguir são retratadas as personas identificadas, resultantes da etapa de pesq
 
 <p align = "center">Quadro 1 - Persona Raquel Couto</p>
 
-|<img src="img\PauloMendes.jpg" width="380" title="persona1">| PAULO MENDES |
+|<img src="img\PauloMendes.jpg" width="200" title="persona1">| PAULO MENDES |
 |---------------------------------------------------------|--------------|
 |**Idade**        | 27 anos                                              | 
 |**Cargo**        | Tech Recruiter                                       |
@@ -26,7 +26,7 @@ A seguir são retratadas as personas identificadas, resultantes da etapa de pesq
 
 <p align = "center">Quadro 2 - Persona Carla Santos</p>
 
-|<img src="img\CarlaSantos.jpg" width="380" title="persona1">| CARLA SANTOS |
+|<img src="img\CarlaSantos.jpg" width="200" title="persona1">| CARLA SANTOS |
 |---------------------------------------------------------|--------------|
 |**Idade**        | 23 anos                                              | 
 |**Cargo**        | Desenvolvedora                                       |
@@ -40,7 +40,7 @@ A seguir são retratadas as personas identificadas, resultantes da etapa de pesq
 
 <p align = "center">Quadro 3 - Persona Fernando Silva</p>
 
-|<img src="img\FernandoSilva.jpg" width="380" title="persona1">| FERNANDO SILVA |
+|<img src="img\FernandoSilva.jpg" width="200" title="persona1">| FERNANDO SILVA |
 |---------------------------------------------------------|--------------|
 |**Idade**        | 21 anos                                              | 
 |**Cargo**        | Publicitário                                         |
@@ -54,7 +54,7 @@ A seguir são retratadas as personas identificadas, resultantes da etapa de pesq
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                   |PARA ... `MOTIVO/VALOR`                                           |
 |--------------------|------------------------------------------------------|------------------------------------------------------------------|
@@ -122,13 +122,24 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+Um candidato entra no site e efetua seu login. Caso não possua cadastro prévio, ele o faz com seus dados pessoais e informações de âmbito profissional.
+<br>
+O candidato pesquisa as vagas de emprego de acordo com o seu perfil, seleciona a vaga desejada e registra a sua candidatura.
+<br>
+O recrutador efetua login no site e recebe a notificação do candidato, analisa seu perfil, realiza contato caso o perfil do candidato seja de seu interesse e, assim, inicia a comunicação entre as partes.
+<br>
+O recrutador anuncia suas posições de trabalho no site e pesquisa possíveis candidatos que se enquadrem no perfil desejado. Ele pode exportar o currículo em formato pdf para sua máquina e pode fazer contato com o candidato por meio da plataforma.
+<br>
+Ao preencher a posição de trabalho em sua empresa, o recrutador exclui o anúncio da vaga no site.
+<br>
+O candidato e o recrutador podem avaliar a experiência que tiveram durante o processo e podem enviar dúvidas, sugestões e reclamações para a plataforma.
+<br>
+<p align = "center">Figura 1 - Diagrama de Casos de Uso</p>
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+<img src="img\usecasediagram.png" width="200" title="persona1">
+
+
+
+
