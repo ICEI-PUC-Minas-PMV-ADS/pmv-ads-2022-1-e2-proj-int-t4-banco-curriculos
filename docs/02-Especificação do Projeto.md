@@ -56,6 +56,8 @@ A seguir são retratadas as personas identificadas, resultantes da etapa de pesq
 
 Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
+<div align = "center">
+
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                   |PARA ... `MOTIVO/VALOR`                                           |
 |--------------------|------------------------------------------------------|------------------------------------------------------------------|
 | Paulo Mendes       | Centralizar informações dos profissionais            | Agilizar o recrutamento                                          |
@@ -65,12 +67,14 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 | Fernando Silva     | Ser notificado sobre o surgimento de vagas           | Conseguir um emprego na área que escolheu                        |
 | Carla Santos       | Filtrar empresas por área de atuação                 | Visualizar empresas que são da área de formação do profissional  |
 
+</div>
 
 ## Requisitos
 
 O escopo funcional do projeto é definido por meio dos requisitos funcionais, que descrevem os comportamentos do sistema, as possibilidades de interações dos usuários, além das particularidades para o bom funcionamento da aplicação, bem como os requisitos não funcionais, que descrevem os aspectos que o sistema deverá apresentar em termos de desempenho, usabilidade, segurança, confiabilidade, entre outros.
 
 ### Requisitos Funcionais
+<div align = "center">
 
 |ID    |                                     Descrição do Requisito                                               | Prioridade |
 |------|----------------------------------------------------------------------------------------------------------|------------|
@@ -91,7 +95,10 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais, qu
 |RF-15 | O sistema deve conter uma página com as principais perguntas frequentes (FAQ - Frequent Asked Questions) | MÉDIA      |
 |RF-16 | O sistema deve conter uma página com espaço para envio de dúvidas, sugestões, elogios e/ou reclamações   | ALTA       |
 
+</div>
+
 ### Requisitos não Funcionais
+<div align = "center">
 
 |ID     |                                                Descrição do Requisito                                                                            |Prioridade|
 |-------|--------------------------------------------------------------------------------------------------------------------------------------------------|----------|
@@ -107,10 +114,13 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais, qu
 |RNF-10 | O sistema deverá se comunicar com o banco SQL Server                                                                                             |  ALTA    |
 |RNF-11 | O sistema deve ser modularizado                                                                                                                  |  ALTA    |
 
+</div>
 
 ## Restrições
 
 As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
+
+<div align = "center">
 
 |ID   | Restrição                                                                                                                   |
 |-----|-----------------------------------------------------------------------------------------------------------------------------|
@@ -119,6 +129,8 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 |RE-03| O projeto deverá estar em conformidade com os parâmetros instituídos pelas diretrizes de trabalhos acadêmicos da PUC Minas  |
 |RE-04| O desenvolvimento do projeto não poderá exceder o prazo final em 26/06/22                                                   |
 
+</div>
+<br>
 
 ## Diagrama de Casos de Uso
 
@@ -138,7 +150,10 @@ O candidato e o recrutador podem avaliar a experiência que tiveram durante o pr
 <br>
 <p align = "center">Figura 1 - Diagrama de Casos de Uso</p>
 
-<img src="img\usecasediagram.png"  align="center" width="500" title="persona1">
+<div align = "center">
+<img src="img\usecasediagram.png"  width="500" title="persona1">
+</div>
+<p align = "center">Fonte: Elaborado pelos autores</p>
 
 
 
