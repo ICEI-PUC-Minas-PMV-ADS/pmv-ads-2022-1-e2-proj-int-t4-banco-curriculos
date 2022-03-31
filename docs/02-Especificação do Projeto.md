@@ -83,17 +83,18 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais, qu
 |RF-03 | O sistema deve permitir a publicação de posições de trabalho                                             | ALTA       |
 |RF-04 | O sistema deve permitir a pesquisa por vagas de emprego                                                  | ALTA       |
 |RF-05 | O sistema deve permitir a pesquisa por empresas recrutadoras                                             | MÉDIA      |
-|RF-06 | O sistema deve permitir a pesquisa por pessoas candidatas                                                | MÉDIA      |
-|RF-07 | O sistema deve possuir filtro de busca para critérios conforme demanda                                   | ALTA       |
-|RF-08 | O sistema deve permitir salvar vagas de trabalho                                                         | BAIXA      |
-|RF-09 | O sistema deve permitir a visualização de vagas por ordem cronológica de cadastro                        | BAIXA      |
-|RF-10 | O sistema deve permitir exportar currículos em formato PDF                                               | MÉDIA      | 
-|RF-11 | O sistema deve permitir o cadastro de email para recebimento de vagas de trabalho                        | ALTA       |
-|RF-12 | O sistema deve permitir o cadastro de email para recebimento de pessoas candidatas                       | ALTA       |
-|RF-13 | O sistema deve permitir que os usuários avaliem sua experiência                                          | MÉDIA      |
-|RF-14 | O sistema deve apresentar as vagas de trabalho separadas por categorias                                  | MÉDIA      |
-|RF-15 | O sistema deve conter uma página com as principais perguntas frequentes (FAQ - Frequent Asked Questions) | MÉDIA      |
-|RF-16 | O sistema deve conter uma página com espaço para envio de dúvidas, sugestões, elogios e/ou reclamações   | ALTA       |
+|RF-06 | O sistema deve permitir o usuário a candidatura para as vagas de trabalho | ALTA |
+|RF-07 | O sistema deve permitir a pesquisa por pessoas candidatas                                                | MÉDIA      |
+|RF-08 | O sistema deve possuir filtro de busca para critérios conforme demanda                                   | ALTA       |
+|RF-09 | O sistema deve permitir salvar vagas de trabalho                                                         | BAIXA      |
+|RF-10 | O sistema deve permitir a visualização de vagas por ordem cronológica de cadastro                        | BAIXA      |
+|RF-11 | O sistema deve permitir exportar currículos em formato PDF                                               | MÉDIA      | 
+|RF-12 | O sistema deve permitir o cadastro de email para recebimento de vagas de trabalho                        | ALTA       |
+|RF-13 | O sistema deve permitir o cadastro de email para recebimento de pessoas candidatas                       | ALTA       |
+|RF-14 | O sistema deve permitir que os usuários avaliem sua experiência                                          | MÉDIA      |
+|RF-15 | O sistema deve apresentar as vagas de trabalho separadas por categorias                                  | MÉDIA      |
+|RF-16 | O sistema deve conter uma página com as principais perguntas frequentes (FAQ - Frequent Asked Questions) | MÉDIA      |
+|RF-17 | O sistema deve conter uma página com espaço para envio de dúvidas, sugestões, elogios e/ou reclamações   | ALTA       |
 
 </div>
 
