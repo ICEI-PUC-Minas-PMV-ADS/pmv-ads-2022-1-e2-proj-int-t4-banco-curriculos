@@ -12,7 +12,7 @@ A seguir são retratadas as personas identificadas, resultantes da etapa de pesq
 
 <p align = "center">Quadro 1 - Persona Raquel Couto</p>
 
-|<img src="img\PauloMendes.jpg" width="200" title="persona1">| PAULO MENDES |
+|<img src="img\PauloMendes.jpg" width="100" title="persona1">| PAULO MENDES |
 |---------------------------------------------------------|--------------|
 |**Idade**        | 27 anos                                              | 
 |**Cargo**        | Tech Recruiter                                       |
@@ -26,7 +26,7 @@ A seguir são retratadas as personas identificadas, resultantes da etapa de pesq
 
 <p align = "center">Quadro 2 - Persona Carla Santos</p>
 
-|<img src="img\CarlaSantos.jpg" width="200" title="persona1">| CARLA SANTOS |
+|<img src="img\CarlaSantos.jpg" width="100" title="persona1">| CARLA SANTOS |
 |---------------------------------------------------------|--------------|
 |**Idade**        | 23 anos                                              | 
 |**Cargo**        | Desenvolvedora                                       |
@@ -40,7 +40,7 @@ A seguir são retratadas as personas identificadas, resultantes da etapa de pesq
 
 <p align = "center">Quadro 3 - Persona Fernando Silva</p>
 
-|<img src="img\FernandoSilva.jpg" width="200" title="persona1">| FERNANDO SILVA |
+|<img src="img\FernandoSilva.jpg" width="100" title="persona1">| FERNANDO SILVA |
 |---------------------------------------------------------|--------------|
 |**Idade**        | 21 anos                                              | 
 |**Cargo**        | Publicitário                                         |
@@ -152,7 +152,7 @@ O candidato e o recrutador podem avaliar a experiência que tiveram durante o pr
 <p align = "center">Figura 1 - Diagrama de Casos de Uso</p>
 
 <div align = "center">
-<img src="img\usecasediagram.png"  width="500" title="persona1">
+<img src="img\usecasediagram.png"  width="600" title="persona1">
 </div>
 <p align = "center">Fonte: Elaborado pelos autores</p>
 
