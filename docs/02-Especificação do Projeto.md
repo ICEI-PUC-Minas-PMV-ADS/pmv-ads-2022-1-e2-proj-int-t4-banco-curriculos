@@ -156,6 +156,22 @@ O candidato e o recrutador podem avaliar a experiência que tiveram durante o pr
 </div>
 <p align = "center">Fonte: Elaborado pelos autores</p>
 
+<br>
+
+## Diagrama de Classes
+
+A Figura 2 apresenta o Diagrama de Classes, com as listas de atributos e de operações a serem utilizados no projeto. Abaixo é possível observar como as classes se relacionam, em termos de associações e multiplicidades, para produzir as funcionalidades do sistema.
+
+<p align="center">Figura 2 - Diagrama de classes</p>
+
+<div align="center">
+
+<img src="img\classDiagram.jpg">
+
+</div>
+
+<p align="center">Fonte: Elaborado pelos autores</p>
+
 
 
 
