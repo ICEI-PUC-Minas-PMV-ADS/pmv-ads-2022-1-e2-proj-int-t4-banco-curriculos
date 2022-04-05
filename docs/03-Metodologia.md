@@ -53,10 +53,14 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 Para manter de forma organizada o processo de desenvolvimento do sistema, a equipe optou por utilizar a metodologia ágil Kanban, que é um sistema de gestão de trabalho que busca conduzir as tarefas por um fluxo predefinido. Além de indicar, com o Kanban também é possível limitar as tarefas em andamento, tornando-o um método que permite com que o workflow seja mais produtivo.	
 A equipe possui um quadro na ferramenta Trello onde se faz a organização e distribuição das tarefas de cada etapa. O quadro possui listas e as mesmas seguem os padrões do método Kanban. Segue abaixo a estrutura do Trello com suas respectivas listas:
 
-- **Backlog:** Nesta lista são adicionadas todas as tarefas da etapa que foram identificadas mas não iniciadas, podendo ou não já estarem alocadas há alguma pessoa.
-- **Em desenvolvimento:** São adicionadas nesta lista as tarefas que já foram alocadas há algum membro do grupo e que o mesmo já esteja atuando sobre ela.
-- **Bloqueio:** Vão parar nessa lista as tarefas em que surgiram algum impedimento durante seu andamento ou tarefas em que foram identificados pontos de melhoria.
-- **Concluído:** Nessa lista são colocadas as tarefas que passaram por todo o processo de desenvolvimento e não necessitam de melhorias, ou seja, tarefas prontas para serem entregues.
+- `Backlog:` Nesta lista são adicionadas todas as tarefas da etapa que foram identificadas mas não iniciadas, podendo ou não já estarem alocadas há alguma pessoa.
+- `Em desenvolvimento:` São adicionadas nesta lista as tarefas que já foram alocadas há algum membro do grupo e que o mesmo já esteja atuando sobre ela.
+- `Bloqueio:` Vão parar nessa lista as tarefas em que surgiram algum impedimento durante seu andamento ou tarefas em que foram identificados pontos de melhoria.
+- `Concluído:` Nessa lista são colocadas as tarefas que passaram por todo o processo de desenvolvimento e não necessitam de melhorias, ou seja, tarefas prontas para serem entregues.
+
+<p align = "center">Figura 1 - Quadro Kanban no Trello</p> 
+
+![Quadro Trello](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos/blob/main/docs/img/Trello.png)
 
 
 ### Ferramentas
