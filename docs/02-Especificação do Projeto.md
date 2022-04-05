@@ -10,15 +10,14 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 A seguir são retratadas as personas identificadas, resultantes da etapa de pesquisa e mapeamento do problema: 
 
-<p align = "center">Quadro 1 - Persona Raquel Couto</p>
+<p align = "center">Quadro 1 - Persona Paulo Mendes</p>
 
-|<img src="img\PauloMendes.jpg" width="100" title="persona1">| PAULO MENDES |
-|---------------------------------------------------------|--------------|
-|**Idade**        | 27 anos                                              | 
-|**Cargo**        | Tech Recruiter                                       |
-|**Interesses**   | Tecnologia, livros e estudos                         |
-|**Frustrações**  | Profissionais que não dão resposta, falta de uma plataforma de recrutamento mais completa, candidatos que não possuem o perfil da vaga                    |
-|**Redes sociais**| LinkedIn, Instagram e Whatsapp                       |
+
+| PAULO MENDES  |                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|<img src="img\PauloMendes.jpg" width="100" title="persona1">|**Idade:** 27 anos <br> **Ocupação:** Tech Recruiter | **Redes Sociais:**  LinkedIn, Instagram e Whatsapp <br> **Interesses:** Tecnologia, livros e estudos |
+|**Motivações:**  Paulo gosta de sua profissão e espera contratar pessoas que sejam adequadas para cada tipo de vaga, por isso, o mesmo está sempre em busca de plataformas de recrutamento que sejam simples de utilizar e mais completas. |**Frustrações:** Por trabalhar com o recrutamento de pessoas, Paulo se sente desmotivado com plataformas que dificultam seu contato com os profissionais e que não possuem um bom sistema de seleção de candidatos para as vagas disponíveis.|**Hobbies, História:** Paulo sempre teve interesse pela tecnologia e facilidade em lidar e se comunicar com as pessoas, e foi com base nesses fatores que ele decidiu ser tech recruiter.| 
+
 
 <p align = "center">Fonte: Elaborado pelos autores</p>
 
@@ -26,13 +25,10 @@ A seguir são retratadas as personas identificadas, resultantes da etapa de pesq
 
 <p align = "center">Quadro 2 - Persona Carla Santos</p>
 
-|<img src="img\CarlaSantos.jpg" width="100" title="persona1">| CARLA SANTOS |
-|---------------------------------------------------------|--------------|
-|**Idade**        | 23 anos                                              | 
-|**Cargo**        | Desenvolvedora                                       |
-|**Interesses**   | Tecnologia, jogos e yoga                             |
-|**Frustrações**  | Dificuldade em conseguir emprego                     |
-|**Redes sociais**| Instagram,  Whatsapp e Twitter                       |
+| CARLA SANTOS  |                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|<img src="img\CarlaSantos.jpg" width="100" title="persona1">|**Idade:** 23 anos <br> **Ocupação:** Desenvolvedora | **Redes Sociais:** Instagram, Whatsapp e Twitter <br> **Interesses:** Tecnologia, jogos e yoga|
+|**Motivações:** Carla adora a área que escolheu para sua formação pois busca ajudar as pessoas através da criação de softwares, por isso, não vê a hora de conseguir um emprego. |**Frustrações:**  Carla se sente frustrada por receber oportunidades de vagas que não são tão compatíveis com sua formação, tendo assim que realizar várias buscas em seu tempo livre.|**Hobbies, História:** Desde pequena Carla sempre gostou muito de jogos eletrônicos e tudo relacionado à tecnologia, por isso resolveu se tornar desenvolvedora, mas ela também gosta de passar um tempo em contato com a natureza e fazer exercícios| 
 
 <p align = "center">Fonte: Elaborado pelos autores</p>
 
@@ -40,13 +36,10 @@ A seguir são retratadas as personas identificadas, resultantes da etapa de pesq
 
 <p align = "center">Quadro 3 - Persona Fernando Silva</p>
 
-|<img src="img\FernandoSilva.jpg" width="100" title="persona1">| FERNANDO SILVA |
-|---------------------------------------------------------|--------------|
-|**Idade**        | 21 anos                                              | 
-|**Cargo**        | Publicitário                                         |
-|**Interesses**   | Marketing, publicidade e propaganda                  |
-|**Frustrações**  | Recém formado porém encontra dificuldades em conseguir primeiro emprego na sua área|
-|**Redes sociais**| Instagram,  Whatsapp e Twitter                       |
+| FERNANDO SILVA |                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|<img src="img\FernandoSilva.jpg" width="100" title="persona1">|**Idade:** 21 anos <br> **Ocupação:**  Estudante de Publicidade| **Redes Sociais:** Instagram, Whatsapp e Twitter <br> **Interesses:** Marketing, publicidade e propaganda |
+|**Motivações:** Prestes a concluir sua faculdade, Fernando gostaria de encontrar um estágio para que ele possa ganhar experiência na área em que decidiu cursar. |**Frustrações:** Por ainda estar na universidade, Fernando tem dificuldade em encontrar vagas para iniciantes ou de estágio em sua área pois são poucos divulgadas, dificultando sua inserção no mercado de trabalho. |**Hobbies, História:** Fernando é um cara animado e bastante sociável, além disso ele também é muito criativo.| 
 
 <p align = "center">Fonte: Elaborado pelos autores</p>
 
