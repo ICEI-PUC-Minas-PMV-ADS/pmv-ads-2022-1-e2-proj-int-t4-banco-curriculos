@@ -6,9 +6,9 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Diagrama de Classes
 
-A Figura 2 apresenta o Diagrama de Classes, com as listas de atributos e de operações a serem utilizados no projeto. Abaixo é possível observar como as classes se relacionam, em termos de associações e multiplicidades, para produzir as funcionalidades do sistema.
+A Figura 3 apresenta o Diagrama de Classes, com as listas de atributos e de operações a serem utilizados no projeto. Abaixo é possível observar como as classes se relacionam, em termos de associações e multiplicidades, para produzir as funcionalidades do sistema.
 
-<p align="center">Figura 2 - Diagrama de classes</p>
+<p align="center">Figura 3 - Diagrama de classes</p>
 
 <div align="center">
 
@@ -20,19 +20,33 @@ A Figura 2 apresenta o Diagrama de Classes, com as listas de atributos e de oper
 
 ## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+A Figura 4 apresenta o modelo de Entidade Relacionamento, capaz de descrever as entidades envolvidas na aplicação, os atributos e a forma como se relacionam. O Modelo ER representa, de forma abstrata, a estrutura do banco de dados.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
+<p align="center">Figura 4 - Modelo ER</p>
 
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+<div align="center">
+
+<img src="img\EntidadeERelacionamento.jpg">
+
+</div>
+
+<p align="center">Fonte: Elaborado pelos autores</p>
+
+
 
 ## Esquema Relacional
 
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
- 
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
+O Esquema Relacional (Figura 5) apresenta a estrutura do banco de dados, incluindo as tabelas que serão criadas, os atributos, os tipos de dados, as chaves primárias e estrangeiras, e os seus relacionamentos. 
 
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
+<p align="center">Figura 5 - Esquema Relacional</p>
+
+<div align="center">
+
+<img src="img\EsquemaRelacional.jpeg">
+
+</div>
+
+<p align="center">Fonte: Elaborado pelos autores</p>
 
 ## Tecnologias Utilizadas
 

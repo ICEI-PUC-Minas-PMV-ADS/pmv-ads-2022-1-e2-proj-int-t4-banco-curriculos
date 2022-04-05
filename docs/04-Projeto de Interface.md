@@ -1,11 +1,13 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
 
 
 ## Diagrama de Fluxo
+
+A estrutura da aplicação bem como seu alcance estão evidenciados no Diagrama de Fluxo, elaborado para relacionar aos dados e os processos resultantes da transformação destes.
+
+A seguir, o quadro expositivo dos principais requisitos funcionais que direcionam o fluxo:
 
 <div align = "center">
 
@@ -19,9 +21,16 @@
 </div>
 <p align = "center">Fonte: Elaborado pelos autores</p>
 <br>
+
+A representação gráfica pode ser visualizada na Figura 2:
+
+<p align = "center">Figura 2 - Diagrama de Fluxo</p>
+
 <div align = "center">
+
 <img src="img\flowchart.png"  width="1000" title="flowchart">
 </div>
+
 <p align = "center">Fonte: Elaborado pelos autores</p>
 
 ## Wireframes

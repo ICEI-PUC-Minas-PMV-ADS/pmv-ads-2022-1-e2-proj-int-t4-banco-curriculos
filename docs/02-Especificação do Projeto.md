@@ -125,17 +125,19 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 
 |ID   | Restrição                                                                                                                   |
 |-----|-----------------------------------------------------------------------------------------------------------------------------|
-|RE-01| MySQL será o banco de dados a ser utilizado                                                                                 |
-|RE-02| O código do projeto deverá usar linguagem de programação **                                                                 |
-|RE-03| O projeto deverá estar em conformidade com os parâmetros instituídos pelas diretrizes de trabalhos acadêmicos da PUC Minas  |
-|RE-04| O desenvolvimento do projeto não poderá exceder o prazo final em 26/06/22                                                   |
+|RE-01| O projeto deverá ser conduzido com os direcionamentos do professor orientador                                                                                 |
+|RE-02| A equipe só poderá se reunir com o professor orientador às segundas-feiras às 20h50                                                                 |
+|RE-03| O projeto deverá estar em conformidade com o escopo disponibilizado pela PUC Minas  |
+|RE-04| O prazo para entrega final do projeto é 26/06/2022                                                 |
 
 </div>
 <br>
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos.
+O Diagrama de Casos de Uso, com a representação das funcionalidades e relacionamentos do sistema, é ferramenta que compõe a fase de levantamento e análise de requisitos da aplicação.
+
+A seguir apresenta-se a documentação narrativa e a representação visual do caso de uso:
 
 Um candidato entra no site e efetua seu login. Caso não possua cadastro prévio, ele o faz com seus dados pessoais e informações de âmbito profissional.
 <br>
