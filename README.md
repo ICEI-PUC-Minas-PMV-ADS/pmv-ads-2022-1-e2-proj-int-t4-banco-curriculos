@@ -10,6 +10,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
+* Ícaro Yan Miranda
 * Isabella Fernanda Campos Emiliano
 * Leonardo Filter Friedrich
 * Neeminas Junio Anjos Lopes
