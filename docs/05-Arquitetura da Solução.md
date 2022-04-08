@@ -54,7 +54,7 @@ Segue abaixo o diagrama de componentes. Esse diagrama apresenta os componentes q
 
 <div align="center">
 
-<img src="img\EsquemaRelacional.jpeg">
+<img src="img\diagramaComponentes.jpeg">
 
 </div>
 
