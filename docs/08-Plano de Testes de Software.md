@@ -1,5 +1,7 @@
 # Plano de Testes de Software
 
+<div align = "center">
+  
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | CT 01 | Cadastrar usuarios no site (empresas e candidatos) | 
 | rf 01 | O sistema deve permitir o cadastro de empresas recrutadoras | 
