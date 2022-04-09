@@ -1,12 +1,12 @@
 # Plano de Testes de Software
 
-|CT 01 | Cadastrar usuarios no site (empresas e candidatos)|
-|rf 01 | O sistema deve permitir o cadastro de empresas recrutadoras
-|rf 02 | O sistema deve permitir o cadastro de pessoas candidatas a posições de trabalho
-|Passos	| 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botao "Registrar-se" 5) Completar o fomrulario de informações.|
-|Critérios de Êxito | As informaçoes dos usuarios devem ser salvas no banco de dados - Os dados salvos devem ser passiveis de visualização antes de serem salvos.|
-|Entradas|
-|Objetivo do teste | Saber se o usuario consegue inserir e salvar suas informaçoes no banco.|
+| CT 01 | Cadastrar usuarios no site (empresas e candidatos) |
+| rf 01 | O sistema deve permitir o cadastro de empresas recrutadoras |
+| rf 02 | O sistema deve permitir o cadastro de pessoas candidatas a posições de trabalho |
+| Passos	| 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botao "Registrar-se" 5) Completar o fomrulario de informações. |
+| Critérios de Êxito | As informaçoes dos usuarios devem ser salvas no banco de dados - Os dados salvos devem ser passiveis de visualização antes de serem salvos. |
+| Entradas|
+| Objetivo do teste | Saber se o usuario consegue inserir e salvar suas informaçoes no banco. |
 
 
 
