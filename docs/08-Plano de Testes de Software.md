@@ -3,7 +3,8 @@
 <div align = "center">
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| CT 01 | Cadastrar usuarios no site (empresas e candidatos) | 
+|Caso de Teste |CT 01 - Cadastrar usuarios no site (empresas e candidatos) | 
+|--------------------|------------------------------------|
 | rf 01 | O sistema deve permitir o cadastro de empresas recrutadoras | 
 | rf 02 | O sistema deve permitir o cadastro de pessoas candidatas a posições de trabalho | 
 | Passos	| 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botao "Registrar-se" 5) Completar o fomrulario de informações. | 
