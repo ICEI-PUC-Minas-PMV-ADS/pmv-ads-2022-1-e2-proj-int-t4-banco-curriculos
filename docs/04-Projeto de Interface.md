@@ -203,11 +203,65 @@ A tela permite ao recrutador que ele faça a inclusão de uma nova vaga, preench
 <img src="img\seta.png"  width="150" title="flowchart">
 </div>
 
+<p align = "center">Figura 15 - Vaga postada</p>
+
 <div align = "center">
 <img src="img\Vaga postada.png"  width="800" title="flowchart">
 </div>
 
 <p align = "center">Fonte: Elaborado pelos autores</p>
+
+### Tela – Vagas postadas (Usuário recrutador)
+A tela permite ao recrutador visualize as vagas postadas, clicando sobre a vaga poderá ver mais detalhes sobre ela. Também poderá editar a vaga ou visualizar todos os candidatos para aquela vaga.
+
+<p align = "center">Figura 16 - Vagas postadas</p>
+
+<div align = "center">
+
+<img src="img\vagas postadas.png"  width="800" title="flowchart">
+  
+</div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+<div align = "center">
+<img src="img\seta.png"  width="150" title="flowchart">
+</div>
+
+<p align = "center">Figura 17 - Detalhes vaga</p>
+
+<div align = "center">
+<img src="img\detalhe vaga.png"  width="800" title="flowchart">
+</div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+<div align = "center">
+<img src="img\seta.png"  width="150" title="flowchart">
+</div>
+
+<p align = "center">Figura 18 - Edição de vaga</p>
+
+<div align = "center">
+<img src="img\edicao de vaga.png"  width="800" title="flowchart">
+</div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+
+<div align = "center">
+<img src="img\seta.png"  width="150" title="flowchart">
+</div>
+
+<p align = "center">Figura 19 - Candidatos da vaga</p>
+
+<div align = "center">
+<img src="img\candidados determinada vaga.png"  width="800" title="flowchart">
+</div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+
 
 
 
