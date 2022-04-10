@@ -8,10 +8,10 @@
 | RF 01 | O sistema deve permitir o cadastro de empresas recrutadoras | 
 | RF 02 | O sistema deve permitir o cadastro de pessoas candidatas a posições de trabalho | 
 | Passos	| 1) Acessar o navegador <br/>
-2) Informar o endereço do site <br/>
-3) Visualizar a página principal <br/>
-4) Clicar no botao "Registrar-se" <br/>
-5) Completar o fomrulario de informações. |
+| | 2) Informar o endereço do site <br/>
+| | 3) Visualizar a página principal <br/>
+| | 4) Clicar no botao "Registrar-se" <br/>
+| | 5) Completar o fomrulario de informações. |
 | Critérios de Êxito | As informaçoes dos usuarios devem ser salvas no banco de dados - Os dados salvos devem ser passiveis de visualização antes de serem salvos. | 
 | Entradas | Usuário, senha e uma das caixas: candidato ou empresa.
 | Objetivo do teste | Saber se o usuario consegue inserir e salvar suas informaçoes no banco. | 
