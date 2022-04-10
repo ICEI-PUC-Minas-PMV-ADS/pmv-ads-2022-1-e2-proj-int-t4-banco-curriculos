@@ -171,6 +171,46 @@ A tela permite ao usuário crie seu currículo preenchendo os campos do formulá
 
 <p align = "center">Fonte: Elaborado pelos autores</p>
 
+### Tela - Homepage (Usuário recrutador)
+
+Depois de fazer o login na aplicação, o usuário é redirecionado para uma homepage, ele possui a opção de clicar nas opções na barra de menu localizada na parte superior, com os links para todas as páginas possíveis de serem utilizadas por ele. Na tela de início existe um link que leva o recrutador para a página para criar uma nova vaga.
+
+<p align = "center">Figura 13 - Homepage Recrutador</p>
+
+<div align = "center">
+
+<img src="img\Tela inicial Recrutador.png"  width="800" title="flowchart">
+  
+</div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+### Tela - Criação de nova vaga (Usuário recrutador)
+
+A tela permite ao recrutador que ele faça a inclusão de uma nova vaga, preenchendo o formulário com as informações solicitadas.
+
+<p align = "center">Figura 14 - Criação de vaga</p>
+
+<div align = "center">
+
+<img src="img\Postar Vaga.png"  width="800" title="flowchart">
+  
+</div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+<div align = "center">
+<img src="img\seta.png"  width="150" title="flowchart">
+</div>
+
+<div align = "center">
+<img src="img\Vaga postada.png"  width="800" title="flowchart">
+</div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+
+
 
 
 
