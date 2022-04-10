@@ -166,7 +166,10 @@ A tela permite ao usuário crie seu currículo preenchendo os campos do formulá
 <div align = "center">
 
 <img src="img\Meu currículo.png"  width="800" title="flowchart">
+  
 </div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
 
 
 
