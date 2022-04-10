@@ -145,19 +145,19 @@ As questões vistas como litações à construção do projeto estão evidenciad
 ## Diagrama de Casos de Uso
 
 O Diagrama de Casos de Uso, com a representação das funcionalidades e relacionamentos do sistema, é ferramenta que compõe a fase de levantamento e análise de requisitos da aplicação.
-<br>
+<br><br>
 A seguir apresenta-se a documentação narrativa e a representação visual do caso de uso:
-<br>
+<br><br>
 Um candidato entra no site e efetua seu login. Caso não possua cadastro prévio, ele o faz com seus dados pessoais e informações de âmbito profissional.
-<br>
+<br><br>
 O candidato pesquisa as vagas de emprego de acordo com o seu perfil, seleciona a vaga desejada e registra a sua candidatura.
-<br>
+<br><br>
 O recrutador efetua login no site e recebe a notificação do candidato, analisa seu perfil, realiza contato caso o perfil do candidato seja de seu interesse e, assim, inicia a comunicação entre as partes.
-<br>
+<br><br>
 O recrutador anuncia suas posições de trabalho no site e pesquisa possíveis candidatos que se enquadrem no perfil desejado. Ele pode exportar o currículo em formato pdf para sua máquina e pode fazer contato com o candidato por meio da plataforma.
-<br>
+<br><br>
 Ao preencher a posição de trabalho em sua empresa, o recrutador exclui o anúncio da vaga no site.
-<br>
+<br><br>
 O candidato e o recrutador podem avaliar a experiência que tiveram durante o processo e podem enviar dúvidas, sugestões e reclamações para a plataforma.
 <br>
 <p align = "center">Figura 1 - Diagrama de Casos de Uso</p>
