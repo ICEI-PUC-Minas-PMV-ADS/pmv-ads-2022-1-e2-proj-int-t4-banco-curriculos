@@ -165,7 +165,7 @@ A tela permite ao usuário crie seu currículo preenchendo os campos do formulá
 
 <div align = "center">
 
-<img src="img\Vagas salvas.png"  width="800" title="flowchart">
+<img src="img\Meu currículo.png"  width="800" title="flowchart">
 </div>
 
 
