@@ -13,7 +13,6 @@
 | Objetivo do teste | Saber se o usuario consegue inserir e salvar suas informaçoes no banco. | 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
 |Caso de Teste | CT-02 - Publicação e pesquisa de vagas de emprego |
 |--------------------|------------------------------------|
 | RF 03 | O sistema deve permitir a publicação de posições de trabalho|
@@ -21,8 +20,6 @@
 |Critérios de Êxito | Conseguir salvar e compartilhar o link de uma vaga registrada pela empresa.|
 |Entradas| Usuário, senha e caracteristica da vaga.
 |Objetivo do teste | Saber se a pessoa que esta ofertando a vaga vai cosneguir registrar ela no banco.|
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Caso de Teste | CT 03 - Pesquisar vagas de emprego |
@@ -32,9 +29,6 @@
 |Critérios de Êxito | Ter resultado de vagas apos a pesquisa.|
 |Entradas| Usuário, senha, filtro e(ou) palavra-chave.
 |Objetivo do teste | Saber se as vagas foram salvas no banco.|
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Caso de Teste | CT 04 - Candidatura para vagas |
@@ -44,8 +38,6 @@
 |Critérios de Êxito | A candidatura ser salva no banco com as informaçoes do candidato e apresentar as informações a empresa que registrou a vaga.|
 |Entradas |  Usuário, senha, filtros e(ou) palavra-chave.
 |Objetivo do teste | Saber se conseguimos pegar as infos do usuario e anexar como candidatura na vaga desejada.|
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Caso de Teste | CT 05 - Filtragem nas buscas |
@@ -55,7 +47,6 @@
 |Critérios de Êxito | Aparecer no resultado de pesquisa apenas vagas que condizem com os objeitos filtrados anteriormente.|
 |Entradas| Filtros e(ou) palavra-chave.
 |Objetivo do teste | Saber se os filtros estão realmente fazendo seu dever e assim facilitar as buscas.|
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Caso de Teste | CT 06 - Recebimento de informaçoes de vagas |
@@ -65,8 +56,6 @@
 |Critérios de Êxito | Chegar aviso no email do candidato com vagas que correspondem as informaçoes dos curriculo que ele registrou.|
 |Entradas| Usuário, senha e email.
 |Objetivo do teste | Saber se o usuario vai ficar vinculado a uma tipagem de filtros, e sempre que correspondida a tipagem, se ele vai receber o email de uma nova vaga.|
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Caso de Teste | CT 07 - Recebimento de infirmacoes de candidatos|
@@ -76,8 +65,6 @@
 |Critérios de Êxito | Chegar aviso no email da empresa com candidatos que se registraramna vaga.|
 |Entradas| Usuário, senha e email.
 |Objetivo do teste | Saber se a pessoa que registrou a vaga vai receber as notificações sobre quem esta se candidatando.|
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Caso de Teste | CT 08 - Registro de duvidas e ajuda para candidatos e empresas.|
