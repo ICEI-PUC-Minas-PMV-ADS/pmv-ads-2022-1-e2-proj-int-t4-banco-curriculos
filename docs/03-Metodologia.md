@@ -17,6 +17,21 @@ Ambiente|Plataforma|Link de Acesso
 
 ## Controle de Versão
 
+Para organização, armazenamento e histórico de alterações do projeto, será utilizado o fluxo de trabalho Gitflow legado ao Git sistema de controle de versões. Devido ao grande fluxo de commits realizados no repositório do projeto, o Gitflow tornou-se um modelo mais adequado para se aderir pois, economizará tempo com a organização de tantas alterações.
+
+**Ciclos de desenvolvimento com branchs**
+Nesse fluxo, são criadas duas branchs principais: a `master` e a `develop`. Além de branchs secundárias podendo ser do tipo `feature`, `hotfix`, `release`.
+
+- Branchs principais
+ -`master` é a branch mãe ou seja, é o código final do projeto.
+ -`develop` é a branch onde são armazenados todos os registros estáveis sendo uma espécie de cópia da `master` mesclada com o código desenvolvido a partir das branchs secundárias. 
+
+- Branchs secundárias
+-`feature` é a branch usada para criar novos registros. Pode ser mergeada á `develop`.
+- Criada a partir da `master`, `hotfix` é a branch utilizada para alterações emergenciais e pontuais do projeto. Pode ser mergeada com a `develop` e a `master`.
+- Release é a branch de lançamento, ou seja, é unido todo o código pronto que será mergeado à `master`.
+
+
 
 ## Gerenciamento de Projeto
 
