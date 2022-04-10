@@ -144,6 +144,30 @@ A tela de permite ao usuário veja as vagas em que ele se candidatou.
 
 <p align = "center">Fonte: Elaborado pelos autores</p>
 
+### Tela – Salvas (Usuário padrão)
+
+A tela permite ao usuário veja as vagas que ele salvou.
+
+<p align = "center">Figura 11 - Vagas salvas</p>
+
+<div align = "center">
+
+<img src="img\Vagas salvas.png"  width="800" title="flowchart">
+</div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+### Tela – Meu currículo (Usuário padrão)
+
+A tela permite ao usuário crie seu currículo preenchendo os campos do formulário conforme solicitado e clicando em Salvar.
+
+<p align = "center">Figura 12 - Meu currículo</p>
+
+<div align = "center">
+
+<img src="img\Vagas salvas.png"  width="800" title="flowchart">
+</div>
+
 
 
 
