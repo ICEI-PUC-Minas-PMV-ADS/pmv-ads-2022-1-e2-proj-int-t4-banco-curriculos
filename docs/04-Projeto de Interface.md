@@ -6,8 +6,9 @@
 
 A estrutura da aplicação bem como seu alcance estão evidenciados no Diagrama de Fluxo, elaborado para relacionar aos dados e os processos resultantes da transformação destes.
 
-A seguir, o quadro expositivo dos principais requisitos funcionais que direcionam o fluxo:
+A seguir, o quadro 9, expositivo dos principais requisitos funcionais que direcionam o fluxo:
 
+<p align = "center">Quadro 9 - Fluxo do usuário</p>
 <div align = "center">
 
 |FLUXO DO USUÁRIO    | DESCRIÇÃO   | RF |

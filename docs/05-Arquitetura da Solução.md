@@ -1,7 +1,5 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
-
 ## Diagrama de Classes
 
 A Figura 3 apresenta o Diagrama de Classes, com as listas de atributos e de operações a serem utilizados no projeto. Abaixo é possível observar como as classes se relacionam, em termos de associações e multiplicidades, para produzir as funcionalidades do sistema.
@@ -48,7 +46,7 @@ O Esquema Relacional (Figura 5) apresenta a estrutura do banco de dados, incluin
 
 ## Tecnologias Utilizadas
 
-Segue abaixo o diagrama de componentes. Esse diagrama apresenta os componentes que farão parte da solução do projeto.
+Segue abaixo o diagrama de componentes, apresentando os componentes que farão parte da solução do projeto.
 
 <p align="center">Figura 6 - Diagrama de Componentes</p>
 
@@ -62,7 +60,7 @@ Segue abaixo o diagrama de componentes. Esse diagrama apresenta os componentes q
 
 A solução do projeto conta com os seguintes módulos:
 
-- Usuários: Os usuários são as pessoas que utilizarão a solução projetada.
+- Usuários: são as pessoas que utilizarão a solução projetada.
 - Smartphones/Tablets/Computadores: Caso estejam conectados à internet, esses dispositivos permitirão que os usuários possam acessar o site através do     navegador.  
 - Navegador: Será por meio do navegador que os usuários terão acesso ao site.
     - Páginas Web - As páginas web são um conjunto que arquivos HTML, CSS e JavaScript que são responsáveis pela montagem das páginas, seus estilos e as       funcionalidades do sistema.

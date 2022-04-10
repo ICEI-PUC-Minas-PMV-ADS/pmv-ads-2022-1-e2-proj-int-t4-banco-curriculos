@@ -1,7 +1,5 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 ## Personas
 
 A seguir são retratadas as personas identificadas, resultantes da etapa de pesquisa e mapeamento do problema: 
@@ -45,6 +43,8 @@ A seguir são retratadas as personas identificadas, resultantes da etapa de pesq
 
 Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
+<p align = "center">Quadro 4 - Histórias de usuários</p>
+
 <div align = "center">
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                   |PARA ... `MOTIVO/VALOR`                                           |
@@ -58,11 +58,18 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 </div>
 
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
 ## Requisitos
 
-O escopo funcional do projeto é definido por meio dos requisitos funcionais, que descrevem os comportamentos do sistema, as possibilidades de interações dos usuários, além das particularidades para o bom funcionamento da aplicação, bem como os requisitos não funcionais, que descrevem os aspectos que o sistema deverá apresentar em termos de desempenho, usabilidade, segurança, confiabilidade, entre outros.
+Para a compreensão das necessidades a serem solucionadas por meio do software, foi realizado o levantamento de requisitos onde estão estabelecidos as funcionalidades e os recursos da aplicação.
 
 ### Requisitos Funcionais
+
+O Quadro 5 apresenta as funcionalidades que a plataforma se propõe a oferecer.
+
+<p align = "center">Quadro 5 - Requisitos funcionais</p>
+
 <div align = "center">
 
 |ID    |                                     Descrição do Requisito                                               | Prioridade |
@@ -87,7 +94,14 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais, qu
 
 </div>
 
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
 ### Requisitos não Funcionais
+
+Os requisitos não funcionais são apresentados no Quadro 6.
+
+<p align = "center">Quadro 6 - Requisitos não funcionais</p>
+
 <div align = "center">
 
 |ID     |                                                Descrição do Requisito                                                                            |Prioridade|
@@ -106,9 +120,13 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais, qu
 
 </div>
 
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
 ## Restrições
 
-As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
+As questões vistas como litações à construção do projeto estão evidenciados no Quadro 7.
+
+<p align = "center">Quadro 7 - Restrições</p>
 
 <div align = "center">
 
@@ -120,6 +138,8 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 |RE-04| O prazo para entrega final do projeto é 26/06/2022                                                 |
 
 </div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
 <br>
 
 ## Diagrama de Casos de Uso
