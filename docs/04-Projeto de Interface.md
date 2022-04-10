@@ -264,7 +264,7 @@ A tela permite ao recrutador visualize as vagas postadas, clicando sobre a vaga 
 ### Tela – Candidatos (Usuário recrutador)
 A tela permite ao recrutador visualize os candidatos e para qual vaga ele se candidatou, o fluxo também permite ver o currículo do candidato e a opção de fazer a exportação do currículo do candidato. 
 
-<p align = "center">Figura 20 - Cadidatos</p>
+<p align = "center">Figura 20 - Candidatos</p>
 
 <div align = "center">
 <img src="img\candidatos.png"  width="800" title="flowchart">
