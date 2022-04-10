@@ -34,3 +34,105 @@ A representação gráfica pode ser visualizada na Figura 2:
 <p align = "center">Fonte: Elaborado pelos autores</p>
 
 ## Wireframes
+
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem.
+
+### Tela - Login 
+
+A tela inicial de login (Figura 3) permite ao usuário fazer login na aplicação, preenchendo suas credenciais conforme orientado. Além disso, o usuário pode ser direcionado para se cadastrar na opção “Não tem acesso? Cadastre-se” e para redefinir a senha da conta na opção "Esqueceu sua senha?".
+
+<p align = "center">Figura 3 - Tela inicial</p>
+
+<div align = "center">
+
+<img src="img\telainicial.png"  width="800" title="flowchart">
+</div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+### Cadastro do Usuário 
+
+O fluxo de Cadastro de Usuário ilustrado permite ao usuário se cadastrar na aplicação caso este ainda não possua uma conta, seguindo um formulário solicitando informações obrigatórias de acordo com o tipo de perfil a ser criado. Existindo duas opções como usuário padrão ou recrutador, sendo alternada através de um botão recrutador.
+
+O cadastro usuário padrão é apresentado na Figura 4:
+
+<p align = "center">Figura 4 - Cadastro do Usuário</p>
+
+<div align = "center">
+
+<img src="img\cadastrousuario.png"  width="800" title="flowchart">
+</div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+### Tela - Homepage (Usuário padrão)
+
+Depois de fazer o login na aplicação, o usuário é redirecionado para uma homepage, podendo clicar nas opções na barra de menu, localizada na parte superior, com os links para todas as páginas possíveis de serem utilizadas por ele. Na tela de início o usuário também poderá pesquisar por novas vagas, como apresentado nas Figuras 5 e 6.
+
+<p align = "center">Figura 5 - Homepage do usuário padrão</p>
+
+<div align = "center">
+
+<img src="img\homepage.png"  width="800" title="flowchart">
+</div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+<div align = "center">
+<img src="img\seta.png"  width="150" title="flowchart">
+</div>
+
+<p align = "center">Figura 6 - Homepage do usuário padrão após pesquisa</p>
+
+<div align = "center">
+
+<img src="img\homepage2.png"  width="800" title="flowchart">
+</div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+### Tela - Homepage - fluxo para candidatar a uma vaga (Usuário padrão)
+
+Após pesquisar vagas, o usuário pode se candidatar clicando sobra a vaga desejada e, posteriormente, em candidatar–se, como nas Figuras 7, 8 e 9.
+
+<p align = "center">Figura 7 - Página com as vagas pesquisadas</p>
+
+<div align = "center">
+
+<img src="img\vagas.png"  width="800" title="flowchart">
+</div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+<div align = "center">
+<img src="img\seta.png"  width="150" title="flowchart">
+</div>
+
+<p align = "center">Figura 8 - Detalhes sobre a vaga</p>
+
+<div align = "center">
+
+<img src="img\vagadetalhada.png"  width="800" title="flowchart">
+</div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+<div align = "center">
+<img src="img\seta.png"  width="150" title="flowchart">
+</div>
+
+<p align = "center">Figura 9 - Candidatura realizada com sucesso</p>
+
+<div align = "center">
+
+<img src="img\candidaturasucesso.png"  width="800" title="flowchart">
+</div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+
+
+
+
+
+
