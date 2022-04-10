@@ -145,9 +145,9 @@ As questões vistas como litações à construção do projeto estão evidenciad
 ## Diagrama de Casos de Uso
 
 O Diagrama de Casos de Uso, com a representação das funcionalidades e relacionamentos do sistema, é ferramenta que compõe a fase de levantamento e análise de requisitos da aplicação.
-
+<br>
 A seguir apresenta-se a documentação narrativa e a representação visual do caso de uso:
-
+<br>
 Um candidato entra no site e efetua seu login. Caso não possua cadastro prévio, ele o faz com seus dados pessoais e informações de âmbito profissional.
 <br>
 O candidato pesquisa as vagas de emprego de acordo com o seu perfil, seleciona a vaga desejada e registra a sua candidatura.
