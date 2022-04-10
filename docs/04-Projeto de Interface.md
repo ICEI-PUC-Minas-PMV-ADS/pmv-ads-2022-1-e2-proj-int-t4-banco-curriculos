@@ -135,8 +135,14 @@ Após pesquisar vagas, o usuário pode se candidatar clicando sobra a vaga desej
 
 A tela de permite ao usuário veja as vagas em que ele se candidatou.
 
+<p align = "center">Figura 10 - Vagas candidatadas</p>
 
+<div align = "center">
 
+<img src="img\Vagas Candidatadas.jpg"  width="800" title="flowchart">
+</div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
 
 
 
