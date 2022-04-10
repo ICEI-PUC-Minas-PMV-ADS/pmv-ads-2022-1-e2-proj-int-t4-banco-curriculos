@@ -45,7 +45,7 @@ A tela inicial de login (Figura 3) permite ao usuário fazer login na aplicaçã
 
 <div align = "center">
 
-<img src="img\telainicial.png"  width="800" title="flowchart">
+<img src="img\Tela de login Destop.png"  width="800" title="flowchart">
 </div>
 
 <p align = "center">Fonte: Elaborado pelos autores</p>
@@ -56,24 +56,11 @@ O fluxo de Cadastro de Usuário ilustrado permite ao usuário se cadastrar na ap
 
 O cadastro usuário padrão é apresentado na Figura 4:
 
-<p align = "center">Figura 4 - Cadastro do Usuário</p>
+<p align = "center">Figura 4 - Cadastro do Usuário Padrão</p>
 
 <div align = "center">
 
-<img src="img\cadastrousuario.png"  width="800" title="flowchart">
-</div>
-
-<p align = "center">Fonte: Elaborado pelos autores</p>
-
-### Tela - Homepage (Usuário padrão)
-
-Depois de fazer o login na aplicação, o usuário é redirecionado para uma homepage, podendo clicar nas opções na barra de menu, localizada na parte superior, com os links para todas as páginas possíveis de serem utilizadas por ele. Na tela de início o usuário também poderá pesquisar por novas vagas, como apresentado nas Figuras 5 e 6.
-
-<p align = "center">Figura 5 - Homepage do usuário padrão</p>
-
-<div align = "center">
-
-<img src="img\homepage.png"  width="800" title="flowchart">
+<img src="img\Tela de cadastro de usuário.png"  width="800" title="flowchart">
 </div>
 
 <p align = "center">Fonte: Elaborado pelos autores</p>
@@ -82,7 +69,36 @@ Depois de fazer o login na aplicação, o usuário é redirecionado para uma hom
 <img src="img\seta.png"  width="150" title="flowchart">
 </div>
 
-<p align = "center">Figura 6 - Homepage do usuário padrão após pesquisa</p>
+
+<p align = "center">Figura 5 - Cadastro do Usuário Recrutador</p>
+
+<div align = "center">
+
+<img src="img\Tela de cadastro de recrutador.png"  width="800" title="flowchart">
+</div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+
+
+### Tela - Homepage (Usuário padrão)
+
+Depois de fazer o login na aplicação, o usuário é redirecionado para uma homepage, podendo clicar nas opções na barra de menu, localizada na parte superior, com os links para todas as páginas possíveis de serem utilizadas por ele. Na tela de início o usuário também poderá pesquisar por novas vagas, como apresentado nas Figuras 5 e 6.
+
+<p align = "center">Figura 6 - Homepage do usuário padrão</p>
+
+<div align = "center">
+
+<img src="img\busca.png"  width="800" title="flowchart">
+</div>
+
+<p align = "center">Fonte: Elaborado pelos autores</p>
+
+<div align = "center">
+<img src="img\seta.png"  width="150" title="flowchart">
+</div>
+
+<p align = "center">Figura 7 - Homepage do usuário padrão após pesquisa</p>
 
 <div align = "center">
 
@@ -95,7 +111,7 @@ Depois de fazer o login na aplicação, o usuário é redirecionado para uma hom
 
 Após pesquisar vagas, o usuário pode se candidatar clicando sobra a vaga desejada e, posteriormente, em candidatar–se, como nas Figuras 7, 8 e 9.
 
-<p align = "center">Figura 7 - Página com as vagas pesquisadas</p>
+<p align = "center">Figura 8 - Página com as vagas pesquisadas</p>
 
 <div align = "center">
 
@@ -108,11 +124,11 @@ Após pesquisar vagas, o usuário pode se candidatar clicando sobra a vaga desej
 <img src="img\seta.png"  width="150" title="flowchart">
 </div>
 
-<p align = "center">Figura 8 - Detalhes sobre a vaga</p>
+<p align = "center">Figura 9 - Detalhes sobre a vaga</p>
 
 <div align = "center">
 
-<img src="img\vagadetalhada.png"  width="800" title="flowchart">
+<img src="img\visualizar vaga.png"  width="800" title="flowchart">
 </div>
 
 <p align = "center">Fonte: Elaborado pelos autores</p>
@@ -121,11 +137,11 @@ Após pesquisar vagas, o usuário pode se candidatar clicando sobra a vaga desej
 <img src="img\seta.png"  width="150" title="flowchart">
 </div>
 
-<p align = "center">Figura 9 - Candidatura realizada com sucesso</p>
+<p align = "center">Figura 10 - Candidatura realizada com sucesso</p>
 
 <div align = "center">
 
-<img src="img\candidaturasucesso.png"  width="800" title="flowchart">
+<img src="img\Candidatura realizada com suceeso.png"  width="800" title="flowchart">
 </div>
 
 <p align = "center">Fonte: Elaborado pelos autores</p>
@@ -135,7 +151,7 @@ Após pesquisar vagas, o usuário pode se candidatar clicando sobra a vaga desej
 
 A tela de permite ao usuário veja as vagas em que ele se candidatou.
 
-<p align = "center">Figura 10 - Vagas candidatadas</p>
+<p align = "center">Figura 11 - Vagas candidatadas</p>
 
 <div align = "center">
 
@@ -148,7 +164,7 @@ A tela de permite ao usuário veja as vagas em que ele se candidatou.
 
 A tela permite ao usuário veja as vagas que ele salvou.
 
-<p align = "center">Figura 11 - Vagas salvas</p>
+<p align = "center">Figura 12 - Vagas salvas</p>
 
 <div align = "center">
 
@@ -161,7 +177,7 @@ A tela permite ao usuário veja as vagas que ele salvou.
 
 A tela permite ao usuário crie seu currículo preenchendo os campos do formulário conforme solicitado e clicando em Salvar.
 
-<p align = "center">Figura 12 - Meu currículo</p>
+<p align = "center">Figura 13 - Meu currículo</p>
 
 <div align = "center">
 
@@ -175,7 +191,7 @@ A tela permite ao usuário crie seu currículo preenchendo os campos do formulá
 
 Depois de fazer o login na aplicação, o usuário é redirecionado para uma homepage, ele possui a opção de clicar nas opções na barra de menu localizada na parte superior, com os links para todas as páginas possíveis de serem utilizadas por ele. Na tela de início existe um link que leva o recrutador para a página para criar uma nova vaga.
 
-<p align = "center">Figura 13 - Homepage Recrutador</p>
+<p align = "center">Figura 14 - Homepage Recrutador</p>
 
 <div align = "center">
 
@@ -189,7 +205,7 @@ Depois de fazer o login na aplicação, o usuário é redirecionado para uma hom
 
 A tela permite ao recrutador que ele faça a inclusão de uma nova vaga, preenchendo o formulário com as informações solicitadas.
 
-<p align = "center">Figura 14 - Criação de vaga</p>
+<p align = "center">Figura 15 - Criação de vaga</p>
 
 <div align = "center">
 
@@ -203,7 +219,7 @@ A tela permite ao recrutador que ele faça a inclusão de uma nova vaga, preench
 <img src="img\seta.png"  width="150" title="flowchart">
 </div>
 
-<p align = "center">Figura 15 - Vaga postada</p>
+<p align = "center">Figura 16 - Vaga postada</p>
 
 <div align = "center">
 <img src="img\Vaga postada.png"  width="800" title="flowchart">
@@ -214,7 +230,7 @@ A tela permite ao recrutador que ele faça a inclusão de uma nova vaga, preench
 ### Tela – Vagas postadas (Usuário recrutador)
 A tela permite ao recrutador visualize as vagas postadas, clicando sobre a vaga poderá ver mais detalhes sobre ela. Também poderá editar a vaga ou visualizar todos os candidatos para aquela vaga.
 
-<p align = "center">Figura 16 - Vagas postadas</p>
+<p align = "center">Figura 17 - Vagas postadas</p>
 
 <div align = "center">
 
@@ -228,7 +244,7 @@ A tela permite ao recrutador visualize as vagas postadas, clicando sobre a vaga 
 <img src="img\seta.png"  width="150" title="flowchart">
 </div>
 
-<p align = "center">Figura 17 - Detalhes vaga</p>
+<p align = "center">Figura 18 - Detalhes vaga</p>
 
 <div align = "center">
 <img src="img\detalhe vaga.png"  width="800" title="flowchart">
@@ -240,7 +256,7 @@ A tela permite ao recrutador visualize as vagas postadas, clicando sobre a vaga 
 <img src="img\seta.png"  width="150" title="flowchart">
 </div>
 
-<p align = "center">Figura 18 - Edição de vaga</p>
+<p align = "center">Figura 19 - Edição de vaga</p>
 
 <div align = "center">
 <img src="img\edicao de vaga.png"  width="800" title="flowchart">
@@ -253,7 +269,7 @@ A tela permite ao recrutador visualize as vagas postadas, clicando sobre a vaga 
 <img src="img\seta.png"  width="150" title="flowchart">
 </div>
 
-<p align = "center">Figura 19 - Candidatos da vaga</p>
+<p align = "center">Figura 20 - Candidatos da vaga</p>
 
 <div align = "center">
 <img src="img\candidados determinada vaga.png"  width="800" title="flowchart">
@@ -264,7 +280,7 @@ A tela permite ao recrutador visualize as vagas postadas, clicando sobre a vaga 
 ### Tela – Candidatos (Usuário recrutador)
 A tela permite ao recrutador visualize os candidatos e para qual vaga ele se candidatou, o fluxo também permite ver o currículo do candidato e a opção de fazer a exportação do currículo do candidato. 
 
-<p align = "center">Figura 20 - Candidatos</p>
+<p align = "center">Figura 21 - Candidatos</p>
 
 <div align = "center">
 <img src="img\candidatos.png"  width="800" title="flowchart">
@@ -277,7 +293,7 @@ A tela permite ao recrutador visualize os candidatos e para qual vaga ele se can
 <img src="img\seta.png"  width="150" title="flowchart">
 </div>
 
-<p align = "center">Figura 21 - Currículo do candidato</p>
+<p align = "center">Figura 22 - Currículo do candidato</p>
 
 <div align = "center">
 <img src="img\curriculo candidato.png"  width="800" title="flowchart">
