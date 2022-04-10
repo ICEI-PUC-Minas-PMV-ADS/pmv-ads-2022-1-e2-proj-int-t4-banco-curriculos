@@ -15,8 +15,8 @@
 
 |Caso de Teste | CT-02 - Publicação e pesquisa de vagas de emprego |
 |--------------------|------------------------------------|
-| RF 03 | O sistema deve permitir a publicação de posições de trabalho that's rather long|
-|Passos | 1) Acessar o navegador <br/> 2) Informar o endereço do site <br/> 3) Visualizar a página principal <br/> 4) Clicar no botao Vagas <br/> 5) clicar no botao "registrar vaga" |
+| RF 03 | O sistema deve permitir a publicação de posições de trabalho|
+|Passos | 1) Acessar o navegador <br/> 2) Informar o endereço do site <br/> 3) Visualizar a página principal <br/>that's rather long 4) Clicar no botao Vagas <br/> 5) clicar no botao "registrar vaga" |
 |Critérios de Êxito | Conseguir salvar e compartilhar o link de uma vaga registrada pela empresa.|
 |Entradas| Usuário, senha e caracteristica da vaga.
 |Objetivo do teste | Saber se a pessoa que esta ofertando a vaga vai cosneguir registrar ela no banco.                                         |
