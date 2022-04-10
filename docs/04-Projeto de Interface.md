@@ -131,6 +131,11 @@ Após pesquisar vagas, o usuário pode se candidatar clicando sobra a vaga desej
 <p align = "center">Fonte: Elaborado pelos autores</p>
 
 
+### Tela – Vagas candidatas (Usuário padrão)
+
+A tela de permite ao usuário veja as vagas em que ele se candidatou.
+
+
 
 
 
