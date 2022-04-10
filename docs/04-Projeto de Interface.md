@@ -102,7 +102,7 @@ Depois de fazer o login na aplicação, o usuário é redirecionado para uma hom
 
 <div align = "center">
 
-<img src="img\homepage2.png"  width="800" title="flowchart">
+<img src="img\resultado busca.png"  width="800" title="flowchart">
 </div>
 
 <p align = "center">Fonte: Elaborado pelos autores</p>
@@ -115,7 +115,7 @@ Após pesquisar vagas, o usuário pode se candidatar clicando sobra a vaga desej
 
 <div align = "center">
 
-<img src="img\vagas.png"  width="800" title="flowchart">
+<img src="img\resultado busca.png"  width="800" title="flowchart">
 </div>
 
 <p align = "center">Fonte: Elaborado pelos autores</p>
