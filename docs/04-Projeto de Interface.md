@@ -65,10 +65,6 @@ O cadastro usuário padrão é apresentado na Figura 4:
 
 <p align = "center">Fonte: Elaborado pelos autores</p>
 
-<div align = "center">
-<img src="img\seta.png"  width="150" title="flowchart">
-</div>
-
 
 <p align = "center">Figura 5 - Cadastro do Usuário Recrutador</p>
 
