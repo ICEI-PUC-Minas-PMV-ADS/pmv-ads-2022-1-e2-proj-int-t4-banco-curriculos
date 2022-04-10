@@ -19,7 +19,7 @@
 |Passos | 1) Acessar o navegador <br/> 2) Informar o endereço do site <br/> 3) Visualizar a página principal <br/> 4) Clicar no botao Vagas <br/> 5) clicar no botao "registrar vaga" |
 |Critérios de Êxito | Conseguir salvar e compartilhar o link de uma vaga registrada pela empresa.|
 |Entradas| Usuário, senha e caracteristica da vaga.
-|Objetivo do teste | Saber se a pessoa que esta ofertando a vaga vai cosneguir registrar ela no banco.|
+|Objetivo do teste | Saber se a pessoa que esta ofertando a vaga vai cosneguir registrar ela no banco.                                         |
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Caso de Teste | CT 03 - Pesquisar vagas de emprego |
