@@ -4,7 +4,7 @@
 
 ## Diagrama de Fluxo
 
-A estrutura da aplicação bem como seu alcance estão evidenciados no Diagrama de Fluxo, elaborado para relacionar aos dados e os processos resultantes da transformação destes.
+A estrutura da aplicação bem como seu alcance estão evidenciados no Diagrama de Fluxo, elaborado para relacionar os dados e os processos resultantes da transformação destes.
 
 A seguir, o quadro 9, expositivo dos principais requisitos funcionais que direcionam o fluxo:
 
@@ -145,7 +145,7 @@ Após pesquisar vagas, o usuário pode se candidatar clicando sobra a vaga desej
 
 ### Tela – Vagas candidatas (Usuário padrão)
 
-A tela de permite ao usuário veja as vagas em que ele se candidatou.
+A tela de permite ao usuário ver as vagas em que ele se candidatou.
 
 <p align = "center">Figura 11 - Vagas candidatadas</p>
 
@@ -158,7 +158,7 @@ A tela de permite ao usuário veja as vagas em que ele se candidatou.
 
 ### Tela – Salvas (Usuário padrão)
 
-A tela permite ao usuário veja as vagas que ele salvou.
+A tela permite que o usuário veja as vagas por ele salvas.
 
 <p align = "center">Figura 12 - Vagas salvas</p>
 
@@ -171,7 +171,7 @@ A tela permite ao usuário veja as vagas que ele salvou.
 
 ### Tela – Meu currículo (Usuário padrão)
 
-A tela permite ao usuário crie seu currículo preenchendo os campos do formulário conforme solicitado e clicando em Salvar.
+A tela permite que usuário crie seu currículo preenchendo os campos do formulário conforme solicitado e clicando em Salvar.
 
 <p align = "center">Figura 13 - Meu currículo</p>
 
@@ -185,7 +185,7 @@ A tela permite ao usuário crie seu currículo preenchendo os campos do formulá
 
 ### Tela - Homepage (Usuário recrutador)
 
-Depois de fazer o login na aplicação, o usuário é redirecionado para uma homepage, ele possui a opção de clicar nas opções na barra de menu localizada na parte superior, com os links para todas as páginas possíveis de serem utilizadas por ele. Na tela de início existe um link que leva o recrutador para a página para criar uma nova vaga.
+Depois de fazer o login na aplicação, o usuário é redirecionado para a homepage, ele possui a opção de clicar nas opções na barra de menu localizada na parte superior, com os links para todas as páginas possíveis de serem utilizadas por ele. Na tela de início existe um link que leva o recrutador para a página para criar uma nova vaga.
 
 <p align = "center">Figura 14 - Homepage Recrutador</p>
 
