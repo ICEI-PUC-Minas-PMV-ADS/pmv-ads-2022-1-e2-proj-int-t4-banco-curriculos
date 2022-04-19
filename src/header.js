@@ -49,11 +49,11 @@ template.innerHTML = `
       <div class="logo">LOGO</div>
       <div class="links">
         <a href="index.html">Inicio</a>
-        <a href="">Meu Currículo</a>
-        <a href="">Vagas Salvas</a>
-        <a href="">Candidaturas</a>
+        <a href="curriculo.html">Meu Currículo</a>
+        <a href="vagas-salvas.html">Vagas Salvas</a>
+        <a href="candidaturas.html">Candidaturas</a>
         <div class="vertical-line"></div>
-        <a href="">Dúvidas</a>
+        <a href="duvidas.html">Dúvidas</a>
         <a href="">FAQ</a>
       </div>
       <div class="logo">
