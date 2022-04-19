@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      header {
+        width: 100%;
+        height: 75px;
+        background-color: #f4b324;
+        display: flex;
+        align-items: center;
+      }
+      a {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-decoration: none;
+        color: #000000;
+        text-transform: uppercase;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        width: 60px;
+        border-radius: 100px;
+        background-color: gray;
+        margin-left: 26px;
+      }
+      .vertical-line {
+        height: 30px;
+        border: 1px solid #000000;
+      }
+      .links {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 70%;
+        margin-left: 150px;
+      }
+    </style>
+    <title>Busca</title>
+  </head>
+  <body>
+    <comp-header></comp-header>
+    <script src="header.js"></script>
+  </body>
+</html>
