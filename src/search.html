@@ -4,54 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
-      header {
-        width: 100%;
-        height: 75px;
-        background-color: #f4b324;
-        display: flex;
-        align-items: center;
-      }
-      a {
-        font-family: "Inter";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 18px;
-        text-decoration: none;
-        color: #000000;
-        text-transform: uppercase;
-      }
-      .logo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 60px;
-        width: 60px;
-        border-radius: 100px;
-        background-color: gray;
-        margin-left: 26px;
-      }
-      .vertical-line {
-        height: 30px;
-        border: 1px solid #000000;
-      }
-      .links {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 70%;
-        margin-left: 150px;
-      }
-    </style>
+    <link href="./styles/navbar.css" rel="stylesheet" />
     <title>Busca</title>
   </head>
   <body>
-    <comp-header></comp-header>
-    <script src="header.js"></script>
+    <header>
+      <nav>
+        <div class="logo" href="/"></div>
+        <div class="menu-mobile">
+          <img src="img/menu-aberto.png" alt="Menu" />
+        </div>
+        <ul class="nav-list">
+          <li><a class="links" href="">Inicio</a></li>
+          <li><a class="links" href="">Meu Curriculo</a></li>
+          <li><a class="links" href="">Vagas Salvas</a></li>
+          <li><a class="links" href="">Candidaturas</a></li>
+          <div class="vertical-line"></div>
+          <li><a class="links" href="">Duvidas</a></li>
+          <li><a class="links" href="">FAQ</a></li>
+        </ul>
+        <div class="user" href="/"></div>
+      </nav>
+    </header>
+    <script src="./scripts/navbar-mobile.js"></script>
   </body>
 </html>
