@@ -1,6 +1,7 @@
 function addCard() {
   console.log("entrou");
   let content = document.querySelector(".cards-wrapper");
+  let footer = document.querySelector(".footer-wrapper");
   let output = "";
 
   output += `
@@ -20,4 +21,6 @@ function addCard() {
     </div>
   `;
   content.innerHTML = output;
+
+  footer.remove("footer-wrapper");
 }
