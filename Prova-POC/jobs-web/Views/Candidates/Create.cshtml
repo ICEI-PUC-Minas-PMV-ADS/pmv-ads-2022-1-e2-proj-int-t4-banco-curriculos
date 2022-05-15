@@ -1,0 +1,117 @@
+﻿@model Jobs.Models.Candidate
+
+@{
+    ViewData["Title"] = "Meu Currículo";
+}
+
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/style-NewResume.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap" rel="stylesheet">
+    <title>Meu currículo</title>
+</head>
+<body>
+    <div class="main">
+        <div class="content">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="title">
+                    <h1>Meu currículo</h1>
+                </div>
+
+                <fieldset>
+                    <label class="subtitle">Dados pessoais</label>
+                    <div class="form-group">
+                        <input asp-for="Name" type="text" nome="name" id="name" placeholder="Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" nome="telephone" id="telephone" placeholder="Telefone de contato" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" nome="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input asp-for="Cpf" type="number" name="cpf" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" placeholder="CPF" required>
+                        <input asp-for="Rg" nome="RG" id="rg" placeholder="RG" required>
+                    </div>
+                    <div class="form-group">
+                        <input asp-for="Birthdate"
+                               type="text"
+                               name="birthdate"
+                               id="birthdate"
+                               onfocus="(this.type='date')"
+                               onblur="(this.type='text')"
+                               placeholder="Data de nascimento"
+                               required />
+                        <select asp-for="Gender"
+                                name="gender" id="gender" asp-items="Html.GetEnumSelectList<Gender>()">
+                            <option selected disable value="">Gênero</option>
+                        </select>
+                        <select asp-for="Race" name="race" id="race" asp-items="Html.GetEnumSelectList<Race>()">
+                            <option selected disable value="">Raça</option>
+                        </select>
+                        <select asp-for="Pwd" name="pcd" id="pcd" asp-items="Html.GetEnumSelectList<Pwd>()">
+                            <option selected disable value="">PCD</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input asp-for="Linkedin" type="text" nome="linkedin" id="linkedin" placeholder="Linkedin">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <label class="subtitle">Endereço</label>
+                    <div class="form-group">
+                        <input name="cep" id="cep" pattern="\d{5}-\d{3}" placeholder="CEP" required />
+                        <input name="adress" id="adress" placeholder="Endereço" required />
+                        <input type="number" name="number" id="number" placeholder="Número" required />
+                    </div>
+                    <div class="form-group">
+                        <input name="city" id="city" placeholder="Cidade" required />
+                        <select name="state">
+                            <option value="estate">Estado</option>
+                            <option value="ac">Acre</option>
+                            <option value="al">Alagoas</option>
+                            <option value="am">Amazonas</option>
+                            <option value="ap">Amapá</option>
+                            <option value="ba">Bahia</option>
+                            <option value="ce">Ceará</option>
+                            <option value="df">Distrito Federal</option>
+                            <option value="es">Espírito Santo</option>
+                            <option value="go">Goiás</option>
+                            <option value="ma">Maranhão</option>
+                            <option value="mt">Mato Grosso</option>
+                            <option value="ms">Mato Grosso do Sul</option>
+                            <option value="mg">Minas Gerais</option>
+                            <option value="pa">Pará</option>
+                            <option value="pb">Paraíba</option>
+                            <option value="pr">Paraná</option>
+                            <option value="pe">Pernambuco</option>
+                            <option value="pi">Piauí</option>
+                            <option value="rj">Rio de Janeiro</option>
+                            <option value="rn">Rio Grande do Norte</option>
+                            <option value="ro">Rondônia</option>
+                            <option value="rs">Rio Grande do Sul</option>
+                            <option value="rr">Roraima</option>
+                            <option value="sc">Santa Catarina</option>
+                            <option value="se">Sergipe</option>
+                            <option value="sp">São Paulo</option>
+                            <option value="to">Tocantins</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <div>
+                    <button type="submit" class="buttons">Salvar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="~/js/script-NewResume.js"></script>
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+</body>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
