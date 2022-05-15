@@ -8,9 +8,7 @@
 
 ## Integrantes
 
-* Ícaro Yan Miranda
 * Isabella Fernanda Campos Emiliano
-* Leonardo Filter Friedrich
 * Neeminas Junio Anjos Lopes
 * Paloma Chaves Silva
 * Sabrina Chaves Silva

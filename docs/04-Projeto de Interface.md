@@ -24,7 +24,7 @@ A seguir, o quadro 9, expositivo dos principais requisitos funcionais que direci
 
 A representação gráfica pode ser visualizada na Figura 2:
 
-<p align = "center">Figura 2 - Diagrama de Fluxo</p>
+<p align = "center">Figura 2 - Diagrama de fluxo</p>
 
 <div align = "center">
 
@@ -56,7 +56,7 @@ O fluxo de Cadastro de Usuário ilustrado permite ao usuário se cadastrar na ap
 
 O cadastro usuário padrão é apresentado na Figura 4:
 
-<p align = "center">Figura 4 - Cadastro do Usuário Padrão</p>
+<p align = "center">Figura 4 - Cadastro do usuário padrão</p>
 
 <div align = "center">
 
@@ -66,7 +66,7 @@ O cadastro usuário padrão é apresentado na Figura 4:
 <p align = "center">Fonte: Elaborado pelos autores</p>
 
 
-<p align = "center">Figura 5 - Cadastro do Usuário Recrutador</p>
+<p align = "center">Figura 5 - cadastro do usuário recrutador</p>
 
 <div align = "center">
 

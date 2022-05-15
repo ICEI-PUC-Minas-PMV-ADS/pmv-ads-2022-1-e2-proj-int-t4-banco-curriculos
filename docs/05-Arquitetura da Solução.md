@@ -34,7 +34,7 @@ A Figura 24 apresenta o modelo de Entidade Relacionamento, capaz de descrever as
 
 O Esquema Relacional (Figura 25) apresenta a estrutura do banco de dados, incluindo as tabelas que serão criadas, os atributos, os tipos de dados, as chaves primárias e estrangeiras, e os seus relacionamentos. 
 
-<p align="center">Figura 25 - Esquema Relacional</p>
+<p align="center">Figura 25 - Esquema relacional</p>
 
 <div align="center">
 
