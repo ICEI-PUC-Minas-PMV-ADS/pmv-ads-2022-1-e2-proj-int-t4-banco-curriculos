@@ -17,6 +17,7 @@ body, .container {
     background-color: #1b191a;
 }
 
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -83,6 +84,10 @@ form {
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.86);
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 8px;
 }
 
 input, select {

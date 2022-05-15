@@ -38,9 +38,6 @@
                                     <a class="nav-link text-dark" asp-area="" asp-controller="Candidates" asp-action="Index">Vagas Criadas</a>
                                 </li>
                             }
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Index">Usuários</a>
-                            </li>
                         </ul>
                         <ul class="navbar-nav">
                             @if (User.Identity.IsAuthenticated)
@@ -63,7 +60,8 @@
                 </div>
             </nav>
         }
-    </header>
+
+</header>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

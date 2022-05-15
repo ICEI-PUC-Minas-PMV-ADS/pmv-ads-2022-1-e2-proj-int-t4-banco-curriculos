@@ -6,6 +6,11 @@ body {
   background-color: #1b191a;
 }
 
+h1{
+    text-align:center;
+    font-size: 30px;
+}
+
 .container {
     width: 100%;
     min-width: 100%;
@@ -38,8 +43,12 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    text-decoration: underline;
+    color:dodgerblue;
     cursor: pointer;
+}
+
+.forget-password:hover{
+    text-decoration: underline;
 }
 
 .logo-login {
@@ -62,3 +71,11 @@ hr {
 .button-login:hover {
     background-color: deepskyblue;
 }
+a {
+    color: dodgerblue;
+}
+
+.errorMessage {
+    color: #dc3545!important;
+}
+
