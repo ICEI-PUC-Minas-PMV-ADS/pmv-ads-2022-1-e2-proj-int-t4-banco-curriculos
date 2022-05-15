@@ -89,3 +89,16 @@ A tela de login é a tela que permite o usuário fazer o login no sistema bastan
 </div>
 
 <p align="center">Fonte: Elaborado pelos autores</p>
+
+## Tela - Cadastro
+
+A tela de cadatro permite que o usuário crie uma conta na aplicação caso o mesmo ainda não possua uma. Para realizar esse cadastro basta o usuário preencher os campos obrigatórios presentes na tela. Após a conclusão do cadastro, o usuário é redirecionado à tela de login para que realize o login na aplicação.
+
+<p align="center">Figura 33 - Tela de cadastro</p>
+
+<div align="center">
+
+
+</div>
+
+<p align="center">Fonte: Elaborado pelos autores</p>
