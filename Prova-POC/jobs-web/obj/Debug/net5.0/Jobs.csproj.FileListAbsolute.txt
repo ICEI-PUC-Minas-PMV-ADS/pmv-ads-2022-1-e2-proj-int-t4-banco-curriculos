@@ -2248,3 +2248,4 @@ C:\Users\sabri\source\repos\jobs-web-Isabella\jobs-web\obj\Debug\net5.0\Jobs.dll
 C:\Users\sabri\source\repos\jobs-web-Isabella\jobs-web\obj\Debug\net5.0\ref\Jobs.dll
 C:\Users\sabri\source\repos\jobs-web-Isabella\jobs-web\obj\Debug\net5.0\Jobs.pdb
 C:\Users\sabri\source\repos\jobs-web-Isabella\jobs-web\obj\Debug\net5.0\Jobs.genruntimeconfig.cache
+C:\Users\sabri\source\repos\jobs-web\jobs-web\bin\Debug\net5.0\Jobs.StaticWebAssets.xml

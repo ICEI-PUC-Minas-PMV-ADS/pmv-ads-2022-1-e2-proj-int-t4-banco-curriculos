@@ -82,6 +82,10 @@ form {
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.86);
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 8px;
 }
 
 input, select {
