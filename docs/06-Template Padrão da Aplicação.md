@@ -26,7 +26,7 @@ Complementam a paleta de cores as escalas de cinza apresentadas na Figura 28:
 
 <div align="center">
 
-<img src="img\coresecundarias.jpg">
+<img src="img\coresecundarias.png">
 
 </div>
 
@@ -40,7 +40,7 @@ A fonte utilizada na aplicação é a Inter e segue o seguinte padrão demonstra
 
 <div align="center">
 
-<img src="img\tipografia.jpg">
+<img src="img\tipografia.png">
 
 </div>
 
@@ -54,7 +54,7 @@ Os principais componentes utilizados na aplicação são indicados na Figura 30.
 
 <div align="center">
 
-<img src="img\componentestemplate.jpg">
+<img src="img\componentestemplate.png">
 
 </div>
 
@@ -68,7 +68,7 @@ Os ícones empregados no projeto complementam a identidade da aplicação e pode
 
 <div align="center">
 
-<img src="img\logomarca.jpg">
+<img src="img\logomarca.png">
 
 </div>
 
