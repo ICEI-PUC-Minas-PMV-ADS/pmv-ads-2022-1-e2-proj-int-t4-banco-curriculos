@@ -13,35 +13,32 @@ namespace Jobs.Models
         [Key]
         public int Id { get; set; }
 
-
-        public string Name { get; set; }
-
-
+        [Required(ErrorMessage = "Por favor, preencha o campo")]
         public DateTime Birthdate { get; set; }
 
+        [Required(ErrorMessage = "Por favor, preencha o campo")]
         public Gender Gender { get; set; }
 
-
+        [Required(ErrorMessage = "Por favor, preencha o campo")]
         public Race Race { get; set; }
 
+        [Required(ErrorMessage = "Por favor, preencha o campo")]
         public Pwd Pwd { get; set; }
 
-
+        [Required(ErrorMessage = "Por favor, preencha o campo")]
         public int Cpf { get; set; }
-
-
-        public int Rg { get; set; }
 
         public string Linkedin { get; set; }
 
-        [Display(Name="Candidato")]
-        public int CandidateId { get; set; }
+       // [Display(Name="Candidato")]
+        //public int CandidateId { get; set; }
 
-        [ForeignKey("UserId")]
+       // [ForeignKey("UserId")]
+       // public virtual User User { get; set; }
 
-        public User User { get; set; }
-
-
+        [ForeignKey("User")]
+        public int UserId { get; set; }
+        public virtual User User { get; set; }
 
         public ICollection<ProfessionalExperience> ProfessionalExperiences { get; set; }
         public ICollection<Education> Educations { get; set; }

@@ -10,7 +10,7 @@ using Jobs.Models;
 
 namespace Jobs.Controllers
 {
-    [Authorize]
+    [Authorize (Roles = "Candidato")]
     public class CandidatesController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -68,6 +68,12 @@ namespace Jobs.Controllers
 
             
             return View(candidate);
+        }
+
+        [AllowAnonymous]
+        public IActionResult AccessDenied()
+        {
+            return View();
         }
 
         // GET: Candidates/Edit/5

@@ -15624,6 +15624,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "g:\\Meu Drive\\Puc\\Eixo 2\\Projeto\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Views\\Candidates\\AccessDenied.cshtml",
+      "TargetPath": "Views\\Candidates\\AccessDenied.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "g:\\Meu Drive\\Puc\\Eixo 2\\Projeto\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Views\\Candidates\\Index.cshtml",
       "TargetPath": "Views\\Candidates\\Index.cshtml",
       "FileKind": "mvc"

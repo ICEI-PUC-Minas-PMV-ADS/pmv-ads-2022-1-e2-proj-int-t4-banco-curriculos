@@ -13,12 +13,19 @@ namespace Jobs.Models
         [Key]
         public int Id { get; set; }
 
+        [Required(ErrorMessage = "Por favor, preencha o campo")]
         public string Institution { get; set; }
+
+        [Required(ErrorMessage = "Por favor, preencha o campo")]
         public string Course { get; set; }
 
+        [Required(ErrorMessage = "Por favor, preencha o campo")]
         public CourseType CourseType { get; set; }
+
+        [Required(ErrorMessage = "Por favor, preencha o campo")]
         public DateTime StartDate { get; set; }
 
+        [Required(ErrorMessage = "Por favor, preencha o campo")]
         public DateTime EndDate { get; set; }
 
         [ForeignKey("Candidate")]

@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Jobs.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Jobs.Controllers
 {
+    [Authorize(Roles = "Candidato")]
     public class EducationsController : Controller
     {
         private readonly ApplicationDbContext _context;

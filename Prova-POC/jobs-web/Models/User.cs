@@ -37,5 +37,7 @@ namespace Jobs.Models
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public string Perfil { get; set; }
         public DateTime RegistrationDate { get; set; }
+
+        public virtual Candidate Canditate { get; set; }
     }
 }
