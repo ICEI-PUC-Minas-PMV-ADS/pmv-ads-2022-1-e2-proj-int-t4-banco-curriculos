@@ -1,0 +1,60 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1b191a;
+}
+
+.container {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #1C191A;
+}
+
+.row {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.container-cadastro {
+    background-color: rgba(0, 0, 0, 0.86);
+    position: absolute;
+    top: 22%;
+    left: 21%;
+    padding: 80px;
+    border-radius: 8px;
+    color: white;
+    width: 60%;
+}
+
+.button-login {
+    background-color: #1e90ff;
+    border-radius: 10px;
+    height: 47px
+}
+
+.button-login:hover {
+    background-color: deepskyblue;
+}
+
+.titles {
+    display: block;
+    margin: 2%;
+}
+
+h1 {
+    color: white;
+    top: 20%;
+}
+
+h2 {
+    color: white;
+    font-size: 15px;
+}
