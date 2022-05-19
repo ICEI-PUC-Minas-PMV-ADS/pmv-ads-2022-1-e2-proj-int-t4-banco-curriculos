@@ -69,9 +69,15 @@ namespace jobs_web.Controllers
 
                 _context.Add(user);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Login", "Users");
+                return RedirectToAction("Success", "Users");
             }
             return View(user);
+        }
+
+        [AllowAnonymous]
+        public IActionResult Success()
+        {
+            return View();
         }
 
         [AllowAnonymous]
@@ -86,6 +92,11 @@ namespace jobs_web.Controllers
         {
             var usuario = await _context.Users.FirstOrDefaultAsync(m => m.Email == user.Email);
 
+            if (user.Email == null || user.Senha == null)
+            {
+                return View();
+            }
+
             if (usuario == null)
             {
                 ViewBag.Message = "Usuário e/ou senha inválidos";
@@ -98,8 +109,9 @@ namespace jobs_web.Controllers
             {
                 var claims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.Name, usuario.Nome),
-                    new Claim(ClaimTypes.Role, usuario.Perfil)
+                    new Claim(ClaimTypes.Name, usuario.Email),
+                    new Claim(ClaimTypes.Role, usuario.Perfil),
+                    new Claim(ClaimTypes.NameIdentifier, usuario.Id.ToString())
                 };
 
                 var userIdentity = new ClaimsIdentity(claims, "login");

@@ -26,7 +26,7 @@ namespace Jobs.Models
         public Pwd Pwd { get; set; }
 
         [Required(ErrorMessage = "Por favor, preencha o campo")]
-        public int Cpf { get; set; }
+        public string Cpf { get; set; }
 
         public string Linkedin { get; set; }
 

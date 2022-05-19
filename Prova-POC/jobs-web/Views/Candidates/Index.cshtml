@@ -13,9 +13,6 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.User.Nome)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.Birthdate)
             </th>
             <th>
@@ -33,27 +30,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Linkedin)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.User.Address)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.User.Neighborhood)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.User.ZipCode)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.User.City)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.User.State)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.User.Phone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.User.CellPhone)
-            </th>
+    
             <th></th>
         </tr>
     </thead>
@@ -61,9 +38,6 @@
         @foreach (var item in Model)
         {
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.User.Nome)
-            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Birthdate)
             </td>
@@ -81,27 +55,6 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Linkedin)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.User.Address)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.User.Neighborhood)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.User.ZipCode)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.User.City)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.User.State)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.User.Phone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.User.CellPhone)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

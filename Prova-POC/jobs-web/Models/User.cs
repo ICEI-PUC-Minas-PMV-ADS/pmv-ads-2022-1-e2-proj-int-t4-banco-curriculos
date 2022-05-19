@@ -31,9 +31,9 @@ namespace Jobs.Models
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public string State { get; set; }
         [Required(ErrorMessage = "Por favor, preencha o campo")]
-        public int Phone { get; set; }
+        public string Phone { get; set; }
         [Required(ErrorMessage = "Por favor, preencha o campo")]
-        public int CellPhone { get; set; }
+        public string CellPhone { get; set; }
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public string Perfil { get; set; }
         public DateTime RegistrationDate { get; set; }

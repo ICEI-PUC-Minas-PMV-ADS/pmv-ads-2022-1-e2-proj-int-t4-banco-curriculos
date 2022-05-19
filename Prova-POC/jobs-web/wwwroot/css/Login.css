@@ -32,7 +32,7 @@ h1{
 .container-login {
     background-color: rgba(0, 0, 0, 0.86);
     position: absolute;
-    top: 10%;
+    top: 6%;
     left: 70%;
     padding: 80px;
     border-radius: 8px;
@@ -71,11 +71,8 @@ hr {
 .button-login:hover {
     background-color: deepskyblue;
 }
+
 a {
     color: dodgerblue;
-}
-
-.errorMessage {
-    color: #dc3545!important;
 }
 

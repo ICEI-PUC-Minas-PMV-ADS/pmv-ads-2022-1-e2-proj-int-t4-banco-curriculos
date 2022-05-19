@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 using Jobs.Models;
 
 namespace Jobs.Controllers
@@ -55,12 +56,14 @@ namespace Jobs.Controllers
             // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
             [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Birthdate,Gender,Race,Pwd,Cpf,Rg,Linkedin, User")] Candidate candidate)
+        public async Task<IActionResult> Create([Bind("Id,Birthdate,Gender,Race,Pwd,Cpf,Linkedin, UserId")] Candidate candidate)
         {
             if (ModelState.IsValid)
             {
-               // candidate.User = candidate.User.Identity.Name;
-                
+                var userIdlogged = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+                candidate.UserId = userIdlogged;
+
                 _context.Add(candidate);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -97,7 +100,7 @@ namespace Jobs.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Birthdate,Gender,Race,Pwd,Cpf,Rg,Linkedin, User")] Candidate candidate)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Birthdate,Gender,Race,Pwd,Cpf,Linkedin, UserId")] Candidate candidate)
         {
             if (id != candidate.Id)
             {
@@ -108,6 +111,9 @@ namespace Jobs.Controllers
             {
                 try
                 {
+                    var userIdlogged = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+                    candidate.UserId = userIdlogged;
                     _context.Update(candidate);
                     await _context.SaveChangesAsync();
                 }
