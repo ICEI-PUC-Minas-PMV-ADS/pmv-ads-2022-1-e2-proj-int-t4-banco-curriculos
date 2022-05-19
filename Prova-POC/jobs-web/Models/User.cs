@@ -39,5 +39,6 @@ namespace Jobs.Models
         public DateTime RegistrationDate { get; set; }
 
         public virtual Candidate Canditate { get; set; }
+        public virtual jobs_web.Models.Empresa Empresa { get; set; }
     }
 }
