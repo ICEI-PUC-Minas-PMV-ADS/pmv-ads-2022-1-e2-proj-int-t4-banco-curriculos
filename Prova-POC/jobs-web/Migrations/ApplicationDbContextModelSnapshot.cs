@@ -16,7 +16,7 @@ namespace Jobs.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.16")
+                .HasAnnotation("ProductVersion", "5.0.17")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("Jobs.Models.Candidate", b =>
@@ -189,6 +189,32 @@ namespace Jobs.Migrations
                     b.ToTable("User");
                 });
 
+            modelBuilder.Entity("jobs_web.Models.Empresa", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("cnpj")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("descricao")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("Empresa");
+                });
+
             modelBuilder.Entity("Jobs.Models.Candidate", b =>
                 {
                     b.HasOne("Jobs.Models.User", "User")
@@ -222,6 +248,17 @@ namespace Jobs.Migrations
                     b.Navigation("Candidate");
                 });
 
+            modelBuilder.Entity("jobs_web.Models.Empresa", b =>
+                {
+                    b.HasOne("Jobs.Models.User", "User")
+                        .WithOne("Empresa")
+                        .HasForeignKey("jobs_web.Models.Empresa", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Jobs.Models.Candidate", b =>
                 {
                     b.Navigation("Educations");
@@ -232,6 +269,8 @@ namespace Jobs.Migrations
             modelBuilder.Entity("Jobs.Models.User", b =>
                 {
                     b.Navigation("Canditate");
+
+                    b.Navigation("Empresa");
                 });
 #pragma warning restore 612, 618
         }
