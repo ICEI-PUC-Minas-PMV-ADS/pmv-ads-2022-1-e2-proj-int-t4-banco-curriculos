@@ -27,18 +27,7 @@ namespace Jobs.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_User", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_User_Candidate_CandidateId",
-                        column: x => x.CandidateId,
-                        principalTable: "Candidate",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
                 });
-
-            migrationBuilder.CreateIndex(
-                name: "IX_User_CandidateId",
-                table: "User",
-                column: "CandidateId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
