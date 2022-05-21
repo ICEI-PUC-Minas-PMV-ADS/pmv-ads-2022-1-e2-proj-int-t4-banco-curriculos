@@ -15654,6 +15654,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "g:\\Meu Drive\\Puc\\Eixo 2\\Projeto\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Views\\Empresas\\Index.cshtml",
+      "TargetPath": "Views\\Empresas\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "g:\\Meu Drive\\Puc\\Eixo 2\\Projeto\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Views\\ProfessionalExperiences\\Delete.cshtml",
       "TargetPath": "Views\\ProfessionalExperiences\\Delete.cshtml",
       "FileKind": "mvc"
@@ -15689,6 +15694,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "g:\\Meu Drive\\Puc\\Eixo 2\\Projeto\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Views\\Empresas\\Create.cshtml",
+      "TargetPath": "Views\\Empresas\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "g:\\Meu Drive\\Puc\\Eixo 2\\Projeto\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Views\\Candidates\\Create.cshtml",
       "TargetPath": "Views\\Candidates\\Create.cshtml",
       "FileKind": "mvc"
@@ -15714,6 +15724,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "g:\\Meu Drive\\Puc\\Eixo 2\\Projeto\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Views\\Empresas\\Delete.cshtml",
+      "TargetPath": "Views\\Empresas\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "g:\\Meu Drive\\Puc\\Eixo 2\\Projeto\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -15729,8 +15744,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "g:\\Meu Drive\\Puc\\Eixo 2\\Projeto\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Views\\Empresas\\Edit.cshtml",
+      "TargetPath": "Views\\Empresas\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "g:\\Meu Drive\\Puc\\Eixo 2\\Projeto\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Views\\Educations\\Details.cshtml",
       "TargetPath": "Views\\Educations\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "g:\\Meu Drive\\Puc\\Eixo 2\\Projeto\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Views\\Empresas\\Details.cshtml",
+      "TargetPath": "Views\\Empresas\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],

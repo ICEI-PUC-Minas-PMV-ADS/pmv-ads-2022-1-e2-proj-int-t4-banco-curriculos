@@ -24,6 +24,7 @@ namespace Jobs.Controllers
         // GET: Candidates
         public async Task<IActionResult> Index()
         {
+            var applicationDbContext = _context.Candidates.Include(e => e.User);
             return View(await _context.Candidates.ToListAsync());
         }
 
@@ -35,7 +36,7 @@ namespace Jobs.Controllers
                 return NotFound();
             }
 
-            var candidate = await _context.Candidates
+            var candidate = await _context.Candidates.Include(e => e.User)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (candidate == null)
             {
@@ -48,6 +49,7 @@ namespace Jobs.Controllers
         // GET: Candidates/Create
         public IActionResult Create()
         {
+            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Name");
             return View();
         }
 
@@ -69,7 +71,7 @@ namespace Jobs.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            
+            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Name", candidate.UserId);
             return View(candidate);
         }
 
@@ -92,6 +94,7 @@ namespace Jobs.Controllers
             {
                 return NotFound();
             }
+            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Name", candidate.UserId);
             return View(candidate);
         }
 
@@ -130,6 +133,7 @@ namespace Jobs.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Name", candidate.UserId);
             return View(candidate);
         }
 

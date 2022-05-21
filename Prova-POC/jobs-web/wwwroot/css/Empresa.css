@@ -1,0 +1,48 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+nav > .container, footer > .container, footer {
+    background-color: white;
+}
+
+nav {
+    width: 100%;
+}
+
+.row {
+    margin: 0;
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+}
+
+body, .container {
+    background-color: #1b191a;
+}
+
+form {
+    color: white;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.86);
+    padding: 5%;
+}
+
+.form-group {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px){
+    .pb-3 {
+        margin-top: 20%;
+    }
+}

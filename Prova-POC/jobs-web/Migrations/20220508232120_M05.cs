@@ -6,13 +6,13 @@ namespace Jobs.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AlterColumn<string>(
+            migrationBuilder.AlterColumn<int>(
                 name: "Race",
                 table: "Candidate",
-                type: "nvarchar(max)",
+                type: "int",
                 nullable: true,
-                oldClrType: typeof(string),
-                oldType: "nvarchar(max)");
+                oldClrType: typeof(int),
+                oldType: "int");
 
             migrationBuilder.AlterColumn<string>(
                 name: "Name",
@@ -33,14 +33,14 @@ namespace Jobs.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AlterColumn<string>(
+            migrationBuilder.AlterColumn<int>(
                 name: "Race",
                 table: "Candidate",
-                type: "nvarchar(max)",
+                type: "int",
                 nullable: false,
                 defaultValue: "",
-                oldClrType: typeof(string),
-                oldType: "nvarchar(max)",
+                oldClrType: typeof(int),
+                oldType: "int",
                 oldNullable: true);
 
             migrationBuilder.AlterColumn<string>(
