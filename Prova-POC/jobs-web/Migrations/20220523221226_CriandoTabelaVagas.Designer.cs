@@ -4,14 +4,16 @@ using Jobs.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Jobs.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220523221226_CriandoTabelaVagas")]
+    partial class CriandoTabelaVagas
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -215,44 +217,6 @@ namespace Jobs.Migrations
                     b.ToTable("Empresa");
                 });
 
-            modelBuilder.Entity("jobs_web.Models.Vagas", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Cargo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("ClosingDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("RegistrationDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("descricao")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("quantidade_vagas")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("status")
-                        .HasColumnType("bit");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId")
-                        .IsUnique();
-
-                    b.ToTable("Vagas");
-                });
-
             modelBuilder.Entity("Jobs.Models.Candidate", b =>
                 {
                     b.HasOne("Jobs.Models.User", "User")
@@ -297,17 +261,6 @@ namespace Jobs.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("jobs_web.Models.Vagas", b =>
-                {
-                    b.HasOne("Jobs.Models.User", "User")
-                        .WithOne("Vagas")
-                        .HasForeignKey("jobs_web.Models.Vagas", "UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("Jobs.Models.Candidate", b =>
                 {
                     b.Navigation("Educations");
@@ -320,8 +273,6 @@ namespace Jobs.Migrations
                     b.Navigation("Canditate");
 
                     b.Navigation("Empresa");
-
-                    b.Navigation("Vagas");
                 });
 #pragma warning restore 612, 618
         }

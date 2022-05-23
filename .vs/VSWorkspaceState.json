@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Prova-POC"
+    "\\Prova-POC",
+    "\\Prova-POC\\jobs-web",
+    "\\Prova-POC\\jobs-web\\Controllers"
   ],
-  "SelectedNode": "\\Prova-POC\\Jobs.sln",
   "PreviewInSolutionExplorer": false
 }

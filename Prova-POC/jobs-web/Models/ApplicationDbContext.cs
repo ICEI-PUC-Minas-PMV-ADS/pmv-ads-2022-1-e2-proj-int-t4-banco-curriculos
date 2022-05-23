@@ -18,5 +18,6 @@ namespace Jobs.Models
         public DbSet<ProfessionalExperience> ProfessionalExperiences { get; set; }
         public DbSet<Education> Educations { get; set; }
         public DbSet<jobs_web.Models.Empresa> Empresa { get; set; }
+        public DbSet<jobs_web.Models.Vagas> Vagas { get; set; }
     }
 }
