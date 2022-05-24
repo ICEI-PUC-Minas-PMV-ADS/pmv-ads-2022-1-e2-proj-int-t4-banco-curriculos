@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Jobs.Models;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -20,7 +21,9 @@ namespace jobs_web.Models
 
         [ForeignKey("User")]
         public int UserId { get; set; }
-        public virtual Jobs.Models.User User { get; set; }
+        public virtual User User { get; set; }
+
+        public ICollection<Vagas> Vagas{ get; set; }
 
     }
 }

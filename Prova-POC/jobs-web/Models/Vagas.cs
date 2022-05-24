@@ -30,9 +30,9 @@ namespace jobs_web.Models
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public DateTime ClosingDate { get; set; }
 
-        [ForeignKey("User")]
-        public int UserId { get; set; }
-        public virtual Jobs.Models.User User { get; set; }
+        [ForeignKey("Empresa")]
+        public int EmpresaId { get; set; }
+        public Empresa Empresa { get; set; }
 
     }
 }

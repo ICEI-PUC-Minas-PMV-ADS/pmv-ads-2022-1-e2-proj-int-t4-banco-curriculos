@@ -23,7 +23,7 @@ namespace jobs_web.Controllers
         // GET: Vagas
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Vagas.Include(v => v.User);
+            var applicationDbContext = _context.Vagas.Include(v => v.Empresa);
             return View(await applicationDbContext.ToListAsync());
         }
 
@@ -36,7 +36,7 @@ namespace jobs_web.Controllers
             }
 
             var vagas = await _context.Vagas
-                .Include(v => v.User)
+                .Include(v => v.Empresa)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (vagas == null)
             {
@@ -49,7 +49,7 @@ namespace jobs_web.Controllers
         // GET: Vagas/Create
         public IActionResult Create()
         {
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Address");
+            ViewData["EmpresaId"] = new SelectList(_context.Empresa, "Id", "cnpj");
             return View();
         }
 
@@ -58,20 +58,21 @@ namespace jobs_web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Cargo,descricao,quantidade_vagas,status,RegistrationDate,ClosingDate,UserId")] Vagas vagas)
+        public async Task<IActionResult> Create([Bind("Id,Cargo,descricao,quantidade_vagas,status,RegistrationDate,ClosingDate,EmpresaId")] Vagas vagas)
         {
             if (ModelState.IsValid)
-            {
-                DateTime data = DateTime.Now;
-                vagas.RegistrationDate = data;
 
+            {
                 var userIdlogged = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
-                vagas.UserId = userIdlogged;
+                var empresa = await _context.Empresa.FirstOrDefaultAsync(m => m.UserId == userIdlogged);
+
+                vagas.EmpresaId = empresa.Id;
 
                 _context.Add(vagas);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["EmpresaId"] = new SelectList(_context.Empresa, "Id", "cnpj", vagas.EmpresaId);
             return View(vagas);
         }
 
@@ -88,7 +89,7 @@ namespace jobs_web.Controllers
             {
                 return NotFound();
             }
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Address", vagas.UserId);
+            ViewData["EmpresaId"] = new SelectList(_context.Empresa, "Id", "cnpj", vagas.EmpresaId);
             return View(vagas);
         }
 
@@ -97,7 +98,7 @@ namespace jobs_web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Cargo,descricao,quantidade_vagas,status,RegistrationDate,ClosingDate,UserId")] Vagas vagas)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Cargo,descricao,quantidade_vagas,status,RegistrationDate,ClosingDate,EmpresaId")] Vagas vagas)
         {
             if (id != vagas.Id)
             {
@@ -124,7 +125,7 @@ namespace jobs_web.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Address", vagas.UserId);
+            ViewData["EmpresaId"] = new SelectList(_context.Empresa, "Id", "cnpj", vagas.EmpresaId);
             return View(vagas);
         }
 
@@ -137,7 +138,7 @@ namespace jobs_web.Controllers
             }
 
             var vagas = await _context.Vagas
-                .Include(v => v.User)
+                .Include(v => v.Empresa)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (vagas == null)
             {
