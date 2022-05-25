@@ -15,22 +15,29 @@ namespace Jobs.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Por favor, preencha o campo")]
+        [Display(Name = "Ocupação")]
         public string Occupation { get; set; }
 
+        [Display(Name = "Tipo de emprego")]
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public JobType JobType { get; set; }
 
+        [Display(Name = "Nome da empresa")]
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public string CompanyName { get; set; }
 
+        [Display(Name = "Cidade da empresa")]
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public string Locality { get; set; }
 
+        [Display(Name = "Data de início")]
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public DateTime StartDate { get; set; }
 
+        [Display(Name = "Data de conclusão")]
         public DateTime EndDate { get; set; }
 
+        [Display(Name = "Descrição")]
         public string Description { get; set; }
 
         [ForeignKey("Candidate")]

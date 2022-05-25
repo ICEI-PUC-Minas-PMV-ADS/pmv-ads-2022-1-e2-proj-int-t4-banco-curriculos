@@ -12,9 +12,11 @@ namespace jobs_web.Models
         [Key]
         public int Id { get; set; }
 
+        [Display(Name = "CNPJ")]
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public string cnpj { get; set; }
 
+        [Display(Name = "Descrição")]
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public string descricao { get; set; }
 

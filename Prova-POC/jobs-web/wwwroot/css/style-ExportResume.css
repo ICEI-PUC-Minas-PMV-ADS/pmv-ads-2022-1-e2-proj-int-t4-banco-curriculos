@@ -1,0 +1,136 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+nav > .container, footer > .container, footer {
+    background-color: white;
+}
+
+nav {
+    width: 100%;
+}
+
+body, .container {
+    background-color: #1b191a;
+}
+
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    text-align: left;
+    font-weight: 200;
+    color: white;
+    margin-top: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+}
+
+header {
+    display: flex;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+p {
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    color: white;
+}
+
+h3 {
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    color: white;
+}
+
+fieldset {
+    border: none;
+    color: white;
+}
+
+hr {
+    margin-top: 10px;
+    border-top: solid white;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    justify-items: right;
+}
+
+.subtitle {
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 43.57px;
+    color: white;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+
+.titleP {
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.btnExport {
+    height: 30px;
+    width: 70px;
+    background-color: rgb(19, 77, 184);
+    color: white;
+    border-radius: 5px;
+    transition: .3s;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    border: none;
+}
+
+@media (max-width: 800px) {
+    .main {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        background-size: cover;
+    }
+
+    .content {
+        display: flex;
+        width: 99%;
+        flex-direction: column;
+        background-size: cover;
+    }
+}

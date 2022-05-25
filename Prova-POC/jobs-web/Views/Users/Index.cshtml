@@ -1,8 +1,7 @@
 ﻿@model IEnumerable<Jobs.Models.User>
+@using System.Security.Claims;
 
-@{
-    ViewData["Title"] = "Index";
-}
+@{ ViewData["Title"] = "Index"; }
 
 <h1>Index</h1>
 
@@ -52,7 +51,10 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+        @foreach (var item in Model)
+        {
+    @if (item.Id == Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier)))
+    {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Nome)
@@ -96,6 +98,6 @@
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>
-}
+    }}
     </tbody>
 </table>
