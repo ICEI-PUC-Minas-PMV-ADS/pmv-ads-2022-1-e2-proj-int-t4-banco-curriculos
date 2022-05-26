@@ -1,4 +1,5 @@
-﻿using Jobs.Models;
+using Jobs.Models;
+using System.Collections.Generic;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -13,9 +14,11 @@ namespace jobs_web.Models
         [Key]
         public int Id { get; set; }
 
+        [Display(Name = "CNPJ")]
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public string cnpj { get; set; }
 
+        [Display(Name = "Descrição")]
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public string descricao { get; set; }
 
@@ -24,6 +27,5 @@ namespace jobs_web.Models
         public virtual User User { get; set; }
 
         public ICollection<Vagas> Vagas{ get; set; }
-
     }
 }

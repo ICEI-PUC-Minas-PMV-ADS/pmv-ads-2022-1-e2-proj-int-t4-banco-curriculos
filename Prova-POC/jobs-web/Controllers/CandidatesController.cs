@@ -24,6 +24,7 @@ namespace Jobs.Controllers
         // GET: Candidates
         public async Task<IActionResult> Index()
         {
+            var applicationDbContext = _context.Candidates.Include(e => e.User);
             return View(await _context.Candidates.ToListAsync());
         }
 
@@ -35,9 +36,13 @@ namespace Jobs.Controllers
                 return NotFound();
             }
 
-            var candidate = await _context.Candidates
+
+            var candidate = await _context.Candidates.Include(e => e.User)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (candidate == null)
+
+            var userIdlog = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+            if (candidate == null || candidate.UserId != userIdlog)
             {
                 return NotFound();
             }
@@ -45,9 +50,59 @@ namespace Jobs.Controllers
             return View(candidate);
         }
 
+        // GET: Candidates/Resume/5
+        public async Task<IActionResult> Resume(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var candidate = await _context.Candidates.Include(e => e.User)
+                .Include(t => t.Educations)
+                .Include(t => t.ProfessionalExperiences)
+                .FirstOrDefaultAsync(m => m.Id == id);
+
+            var userIdlog = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+            if (candidate == null || candidate.UserId != userIdlog)
+            {
+                return NotFound();
+            }
+
+            return View(candidate);
+
+        }
+
+        // GET: Candidates/Resume/5
+        public async Task<IActionResult> GeneralView(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var candidate = await _context.Candidates.Include(e => e.User)
+                .Include(t => t.Educations)
+                .Include(t => t.ProfessionalExperiences)
+                .FirstOrDefaultAsync(m => m.Id == id);
+
+            var userIdlog = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+            if (candidate == null || candidate.UserId != userIdlog)
+            {
+                return NotFound();
+            }
+
+            return View(candidate);
+
+        }
+
+
         // GET: Candidates/Create
         public IActionResult Create()
         {
+            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Name");
             return View();
         }
 
@@ -69,7 +124,7 @@ namespace Jobs.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            
+            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Name", candidate.UserId);
             return View(candidate);
         }
 
@@ -88,10 +143,18 @@ namespace Jobs.Controllers
             }
 
             var candidate = await _context.Candidates.FindAsync(id);
+
+            var userIdlogged = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
             if (candidate == null)
             {
                 return NotFound();
             }
+
+            if (candidate.UserId != userIdlogged)
+            {
+                return NotFound();
+            }
+            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Name", candidate.UserId);
             return View(candidate);
         }
 
@@ -130,6 +193,7 @@ namespace Jobs.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Name", candidate.UserId);
             return View(candidate);
         }
 
@@ -143,7 +207,10 @@ namespace Jobs.Controllers
 
             var candidate = await _context.Candidates
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (candidate == null)
+
+            var userIdlog = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+            if (candidate == null || candidate.UserId != userIdlog)
             {
                 return NotFound();
             }

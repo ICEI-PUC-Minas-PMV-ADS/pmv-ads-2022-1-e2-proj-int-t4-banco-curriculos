@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Jobs.Models;
+using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 
 namespace Jobs.Controllers
@@ -62,6 +63,11 @@ namespace Jobs.Controllers
         {
             if (ModelState.IsValid)
             {
+                int userIdlogged = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+                var candidate = await _context.Candidates.FirstOrDefaultAsync(m => m.UserId == userIdlogged);
+
+                professionalExperience.CandidateId = candidate.Id;
+
                 _context.Add(professionalExperience);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -103,6 +109,10 @@ namespace Jobs.Controllers
             {
                 try
                 {
+                    int userIdlogged = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+                    var candidate = await _context.Candidates.FirstOrDefaultAsync(m => m.UserId == userIdlogged);
+
+                    professionalExperience.CandidateId = candidate.Id;
                     _context.Update(professionalExperience);
                     await _context.SaveChangesAsync();
                 }

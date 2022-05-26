@@ -196,6 +196,7 @@ namespace jobs_web.Controllers
                         throw;
                     }
                 }
+                
                 return RedirectToAction(nameof(Index));
             }
             return View(user);
