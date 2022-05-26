@@ -13,18 +13,23 @@ namespace Jobs.Models
         [Key]
         public int Id { get; set; }
 
+        [Display(Name = "Instituição")]
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public string Institution { get; set; }
 
+        [Display(Name = "Curso")]
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public string Course { get; set; }
 
+        [Display(Name = "Tipo do curso")]
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public CourseType CourseType { get; set; }
 
+        [Display(Name = "Data de início")]
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public DateTime StartDate { get; set; }
 
+        [Display(Name = "Data de conclusão")]
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public DateTime EndDate { get; set; }
 

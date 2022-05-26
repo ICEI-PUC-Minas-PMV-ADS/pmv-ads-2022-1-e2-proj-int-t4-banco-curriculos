@@ -13,18 +13,24 @@ namespace Jobs.Models
         [Key]
         public int Id { get; set; }
 
+        
         [Required(ErrorMessage = "Por favor, preencha o campo")]
+        [Display(Name = "Data de Nascimento")]
         public DateTime Birthdate { get; set; }
 
+        [Display(Name = "Gênero")]
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public Gender Gender { get; set; }
 
+        [Display(Name = "Raça")]
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public Race Race { get; set; }
 
+        [Display(Name = "PCD")]
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public Pwd Pwd { get; set; }
 
+        [Display(Name = "CPF")]
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public string Cpf { get; set; }
 
