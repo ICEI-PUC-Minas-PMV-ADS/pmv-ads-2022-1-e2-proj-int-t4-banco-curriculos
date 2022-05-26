@@ -36,9 +36,13 @@ namespace Jobs.Controllers
                 return NotFound();
             }
 
+
             var candidate = await _context.Candidates.Include(e => e.User)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (candidate == null)
+
+            var userIdlog = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+            if (candidate == null || candidate.UserId != userIdlog)
             {
                 return NotFound();
             }
@@ -58,7 +62,10 @@ namespace Jobs.Controllers
                 .Include(t => t.Educations)
                 .Include(t => t.ProfessionalExperiences)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (candidate == null)
+
+            var userIdlog = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+            if (candidate == null || candidate.UserId != userIdlog)
             {
                 return NotFound();
             }
@@ -79,7 +86,10 @@ namespace Jobs.Controllers
                 .Include(t => t.Educations)
                 .Include(t => t.ProfessionalExperiences)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (candidate == null)
+
+            var userIdlog = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+            if (candidate == null || candidate.UserId != userIdlog)
             {
                 return NotFound();
             }
@@ -134,7 +144,13 @@ namespace Jobs.Controllers
 
             var candidate = await _context.Candidates.FindAsync(id);
 
+            var userIdlogged = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
             if (candidate == null)
+            {
+                return NotFound();
+            }
+
+            if (candidate.UserId != userIdlogged)
             {
                 return NotFound();
             }
@@ -191,7 +207,10 @@ namespace Jobs.Controllers
 
             var candidate = await _context.Candidates
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (candidate == null)
+
+            var userIdlog = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+            if (candidate == null || candidate.UserId != userIdlog)
             {
                 return NotFound();
             }

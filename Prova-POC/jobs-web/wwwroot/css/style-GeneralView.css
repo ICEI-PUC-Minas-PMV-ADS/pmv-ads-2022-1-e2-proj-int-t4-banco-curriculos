@@ -120,6 +120,11 @@ img {
     border: none;
 }
 
+.btnAddFormation:hover{
+    color: darkblue;
+}
+
+
 @media (max-width: 800px) {
     .main {
         display: flex;
