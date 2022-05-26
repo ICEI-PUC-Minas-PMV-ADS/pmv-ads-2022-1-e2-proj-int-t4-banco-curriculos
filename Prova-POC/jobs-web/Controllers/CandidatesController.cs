@@ -36,15 +36,68 @@ namespace Jobs.Controllers
                 return NotFound();
             }
 
+
             var candidate = await _context.Candidates.Include(e => e.User)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (candidate == null)
+
+            var userIdlog = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+            if (candidate == null || candidate.UserId != userIdlog)
             {
                 return NotFound();
             }
 
             return View(candidate);
         }
+
+        // GET: Candidates/Resume/5
+        public async Task<IActionResult> Resume(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var candidate = await _context.Candidates.Include(e => e.User)
+                .Include(t => t.Educations)
+                .Include(t => t.ProfessionalExperiences)
+                .FirstOrDefaultAsync(m => m.Id == id);
+
+            var userIdlog = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+            if (candidate == null || candidate.UserId != userIdlog)
+            {
+                return NotFound();
+            }
+
+            return View(candidate);
+
+        }
+
+        // GET: Candidates/Resume/5
+        public async Task<IActionResult> GeneralView(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var candidate = await _context.Candidates.Include(e => e.User)
+                .Include(t => t.Educations)
+                .Include(t => t.ProfessionalExperiences)
+                .FirstOrDefaultAsync(m => m.Id == id);
+
+            var userIdlog = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+            if (candidate == null || candidate.UserId != userIdlog)
+            {
+                return NotFound();
+            }
+
+            return View(candidate);
+
+        }
+
 
         // GET: Candidates/Create
         public IActionResult Create()
@@ -90,7 +143,14 @@ namespace Jobs.Controllers
             }
 
             var candidate = await _context.Candidates.FindAsync(id);
+
+            var userIdlogged = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
             if (candidate == null)
+            {
+                return NotFound();
+            }
+
+            if (candidate.UserId != userIdlogged)
             {
                 return NotFound();
             }
@@ -147,7 +207,10 @@ namespace Jobs.Controllers
 
             var candidate = await _context.Candidates
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (candidate == null)
+
+            var userIdlog = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+
+            if (candidate == null || candidate.UserId != userIdlog)
             {
                 return NotFound();
             }
