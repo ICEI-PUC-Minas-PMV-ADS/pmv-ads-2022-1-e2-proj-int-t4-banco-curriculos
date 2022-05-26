@@ -3,7 +3,8 @@
     "",
     "\\Prova-POC",
     "\\Prova-POC\\jobs-web",
-    "\\Prova-POC\\jobs-web\\Controllers"
+    "\\Prova-POC\\jobs-web\\Models"
   ],
+  "SelectedNode": "\\Prova-POC\\jobs-web\\Models\\Vagas.cs",
   "PreviewInSolutionExplorer": false
 }

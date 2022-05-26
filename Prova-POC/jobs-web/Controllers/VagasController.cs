@@ -63,6 +63,9 @@ namespace jobs_web.Controllers
             if (ModelState.IsValid)
 
             {
+                DateTime data = DateTime.Now;
+                vagas.RegistrationDate = data;
+
                 var userIdlogged = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
                 var empresa = await _context.Empresa.FirstOrDefaultAsync(m => m.UserId == userIdlogged);
 
