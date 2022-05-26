@@ -9758,11 +9758,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Jobs.csproj",
+      "projectUniqueName": "C:\\Users\\isaca\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Jobs.csproj",
       "projectName": "Jobs",
-      "projectPath": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Jobs.csproj",
+      "projectPath": "C:\\Users\\isaca\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Jobs.csproj",
       "packagesPath": "C:\\Users\\isaca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\obj\\",
+      "outputPath": "C:\\Users\\isaca\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\isaca\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9849,5 +9849,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\isaca\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

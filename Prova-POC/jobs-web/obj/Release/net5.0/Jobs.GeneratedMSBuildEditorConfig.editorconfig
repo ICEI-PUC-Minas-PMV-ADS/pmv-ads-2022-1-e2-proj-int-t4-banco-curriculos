@@ -14,4 +14,12 @@ build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = jobs_web
+<<<<<<< Updated upstream
 build_property.ProjectDir = C:\Users\isaca\source\repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\
+=======
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\
+=======
+build_property.ProjectDir = C:\Users\isaca\source\repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\
+>>>>>>> main
+>>>>>>> Stashed changes
