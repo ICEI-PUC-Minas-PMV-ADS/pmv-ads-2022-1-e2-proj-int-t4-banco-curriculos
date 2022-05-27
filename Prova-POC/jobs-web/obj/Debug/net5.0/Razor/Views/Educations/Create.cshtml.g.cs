@@ -290,8 +290,6 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                     __tagHelperExecutionContext.AddTagHelperAttribute("asp-for", __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
                     __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.InputTypeName = (string)__tagHelperAttribute_3.Value;
                     __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_3);
-                    __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_15);
-                    __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_16);
                     __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.Name = (string)__tagHelperAttribute_18.Value;
                     __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_18);
                     __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_19);

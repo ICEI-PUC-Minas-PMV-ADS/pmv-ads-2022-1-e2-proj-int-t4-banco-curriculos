@@ -4,14 +4,16 @@ using Jobs.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Jobs.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220523223137_CriandoTabelaVagas2")]
+    partial class CriandoTabelaVagas2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -181,15 +183,10 @@ namespace Jobs.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("VagasId")
-                        .HasColumnType("int");
-
                     b.Property<int>("ZipCode")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("VagasId");
 
                     b.ToTable("User");
                 });
@@ -234,11 +231,11 @@ namespace Jobs.Migrations
                     b.Property<DateTime>("ClosingDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("EmpresaId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("RegistrationDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
 
                     b.Property<string>("descricao")
                         .IsRequired()
@@ -252,7 +249,8 @@ namespace Jobs.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("EmpresaId");
+                    b.HasIndex("UserId")
+                        .IsUnique();
 
                     b.ToTable("Vagas");
                 });
@@ -290,15 +288,6 @@ namespace Jobs.Migrations
                     b.Navigation("Candidate");
                 });
 
-            modelBuilder.Entity("Jobs.Models.User", b =>
-                {
-                    b.HasOne("jobs_web.Models.Vagas", "Vagas")
-                        .WithMany()
-                        .HasForeignKey("VagasId");
-
-                    b.Navigation("Vagas");
-                });
-
             modelBuilder.Entity("jobs_web.Models.Empresa", b =>
                 {
                     b.HasOne("Jobs.Models.User", "User")
@@ -312,13 +301,13 @@ namespace Jobs.Migrations
 
             modelBuilder.Entity("jobs_web.Models.Vagas", b =>
                 {
-                    b.HasOne("jobs_web.Models.Empresa", "Empresa")
-                        .WithMany("Vagas")
-                        .HasForeignKey("EmpresaId")
+                    b.HasOne("Jobs.Models.User", "User")
+                        .WithOne("Vagas")
+                        .HasForeignKey("jobs_web.Models.Vagas", "UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Empresa");
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Jobs.Models.Candidate", b =>
@@ -333,10 +322,7 @@ namespace Jobs.Migrations
                     b.Navigation("Canditate");
 
                     b.Navigation("Empresa");
-                });
 
-            modelBuilder.Entity("jobs_web.Models.Empresa", b =>
-                {
                     b.Navigation("Vagas");
                 });
 #pragma warning restore 612, 618

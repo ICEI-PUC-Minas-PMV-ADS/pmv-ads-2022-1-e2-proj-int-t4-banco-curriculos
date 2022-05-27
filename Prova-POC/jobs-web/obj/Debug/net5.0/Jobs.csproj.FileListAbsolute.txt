@@ -2705,14 +2705,18 @@ C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4
 C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Debug\net5.0\Razor\Views\Empresas\Details.cshtml.g.cs
 C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Debug\net5.0\Razor\Views\Empresas\Edit.cshtml.g.cs
 C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Debug\net5.0\Razor\Views\Empresas\Index.cshtml.g.cs
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 1c159a34c60384cb4a6f2912323a0078c7f9d950
 C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\Create.cshtml.g.cs
 C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\Delete.cshtml.g.cs
 C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\Details.cshtml.g.cs
 C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\Edit.cshtml.g.cs
 C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\Index.cshtml.g.cs
+<<<<<<< HEAD
 >>>>>>> Stashed changes
 C:\Users\sabri\source\repos\jobs-web\jobs-web\obj\Debug\net5.0\Razor\Views\Empresas\Create.cshtml.g.cs
 C:\Users\sabri\source\repos\jobs-web\jobs-web\obj\Debug\net5.0\Razor\Views\Empresas\Delete.cshtml.g.cs
@@ -3180,3 +3184,5 @@ C:\Users\sabri\source\repos\jobs-web\jobs-web\obj\Debug\net5.0\Razor\Views\Candi
 >>>>>>> main
 C:\Users\isaca\source\repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Debug\net5.0\Razor\Views\Candidates\GeneralView.cshtml.g.cs
 C:\Users\isaca\source\repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Debug\net5.0\Razor\Views\Candidates\Resume.cshtml.g.cs
+=======
+>>>>>>> 1c159a34c60384cb4a6f2912323a0078c7f9d950
