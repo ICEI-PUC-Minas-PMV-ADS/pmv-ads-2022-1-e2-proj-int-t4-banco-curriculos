@@ -115,9 +115,11 @@
             <hr>
         </div>
         <div>
-            <button type="button" class="btn btn-primary" onclick="Export()">Exportar</button>
+            <button class="btn btn-primary btnAddFormation">
+            <a asp-action="Resume" asp-route-id="@Model.Id">Exportar currículo</a>
+            </button>
         </div>
     </div>
 </body>
 </html>
-<script src="~/js/ExportResume.js"></script>
+

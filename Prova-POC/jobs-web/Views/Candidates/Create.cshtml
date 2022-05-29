@@ -31,8 +31,7 @@
                                id="birthdate"
                                onfocus="(this.type='date')"
                                onblur="(this.type='text')"
-                               placeholder="Data de nascimento"
-                               required />
+                               placeholder="Data de nascimento" />
                         <select asp-for="Gender"
                                 name="gender" id="gender" asp-items="Html.GetEnumSelectList<Gender>()">
                             <option selected disable value="">Gênero</option>
@@ -56,11 +55,6 @@
         </div>
     </div>
     <script src="~/js/script-NewResume.js"></script>
-    <!--
-            <div>
-            <a asp-action="Index">Back to List</a>
-        </div>
-    -->
 </body>
 
 @section Scripts {

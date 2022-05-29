@@ -84,7 +84,9 @@ namespace Jobs.Controllers
                 return NotFound();
             }
 
-            var education = await _context.Educations.FindAsync(id);
+            var education = await _context.Educations
+    .Include(e => e.Candidate)
+    .FirstOrDefaultAsync(m => m.Id == id);
             if (education == null)
             {
                 return NotFound();

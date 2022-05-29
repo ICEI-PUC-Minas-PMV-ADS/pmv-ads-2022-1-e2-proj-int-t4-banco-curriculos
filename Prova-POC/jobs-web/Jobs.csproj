@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\css\StyleSheet.css" />
+    <Content Remove="wwwroot\js\script-NewResume.js" />
   </ItemGroup>
 
   <ItemGroup>

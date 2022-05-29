@@ -84,7 +84,9 @@ namespace Jobs.Controllers
                 return NotFound();
             }
 
-            var professionalExperience = await _context.ProfessionalExperiences.FindAsync(id);
+            var professionalExperience = await _context.ProfessionalExperiences
+    .Include(p => p.Candidate)
+    .FirstOrDefaultAsync(m => m.Id == id);
             if (professionalExperience == null)
             {
                 return NotFound();

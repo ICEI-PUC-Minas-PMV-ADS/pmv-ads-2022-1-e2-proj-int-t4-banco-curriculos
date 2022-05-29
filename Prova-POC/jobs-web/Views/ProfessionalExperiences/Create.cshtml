@@ -45,19 +45,8 @@
                                 </div>
                             </div>
                             <textarea asp-for="Description" class="form-group description" name="description" id="description" cols="30" rows="10" placeholder="Descrição"></textarea>
-                            <!--
-                                  <div class="form-group">
-                                    <label asp-for="CandidateId" class="control-label"></label>
-                                    <select asp-for="CandidateId" class="form-control" asp-items="ViewBag.CandidateId"></select>
-                                </div>
-                            -->
                         </div>
                     </div>
-                    <div class="addEvent">
-                        <label for="addJob" class="addJob">Adicionar experiência</label>
-                        <button type="button" onclick="addJob()" class="add">+</button>
-                    </div>
-
                 </fieldset>
                 <div>
                     <button type="submit" class="buttons">Salvar</button>
@@ -65,12 +54,6 @@
             </form>
         </div>
     </div>
-    <script src="~/js/script-NewResume.js"></script>
-    <!--
-            <div>
-            <a asp-action="Index">Back to List</a>
-        </div>
-    -->
 </body>
 
 @section Scripts {

@@ -26,11 +26,14 @@ namespace Jobs.Models
         public CourseType CourseType { get; set; }
 
         [Display(Name = "Data de início")]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
+        [DataType(DataType.Date, ErrorMessage = "Data em formato inválido")]
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public DateTime StartDate { get; set; }
 
         [Display(Name = "Data de conclusão")]
-        [Required(ErrorMessage = "Por favor, preencha o campo")]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
+        [DataType(DataType.Date, ErrorMessage = "Data em formato inválido")]
         public DateTime EndDate { get; set; }
 
         [ForeignKey("Candidate")]

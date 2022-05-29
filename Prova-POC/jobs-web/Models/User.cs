@@ -54,6 +54,8 @@ namespace Jobs.Models
         public string Perfil { get; set; }
 
         [Display(Name = "Data de registro")]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
+        [DataType(DataType.Date, ErrorMessage = "Data em formato inválido")]
         public DateTime RegistrationDate { get; set; }
 
         public virtual Candidate Canditate { get; set; }
