@@ -106,18 +106,21 @@ img {
 }
 
 
-.btnAddFormation:hover{
+.btnAddFormation:hover, button > a:hover {
     color: darkblue;
 }
 
-a, a:hover{
+button > a, button > a:hover{
     text-decoration: none;
-    color: white;
 }
 
+    button > a{
+        color: white;
+    }
 
-@media (max-width: 800px) {
-    .main {
+
+    @media (max-width: 800px) {
+        .main {
         display: flex;
         width: 100%;
         flex-direction: column;

@@ -25,6 +25,7 @@ namespace Jobs.Controllers
         public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.Candidates.Include(e => e.User);
+            
             return View(await _context.Candidates.ToListAsync());
         }
 
@@ -121,7 +122,7 @@ namespace Jobs.Controllers
 
                 _context.Add(candidate);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("GeneralView", new { id = candidate.Id });
             }
 
             ViewData["UserId"] = new SelectList(_context.Users, "Id", "Name", candidate.UserId);

@@ -22,14 +22,11 @@
                         <ul class="navbar-nav flex-grow-1">
                             @if (User.IsInRole("Candidato"))
                             {
+                                /*<li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Candidates" asp-action="GeneralView">Meu Currículo</a>
+                                </li>*/
                                 <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Candidates" asp-action="Create">Meu Currículo</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Educations" asp-action="Create">Formação Acadêmica</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="ProfessionalExperiences" asp-action="Create">Experiência Profissional</a>
+                                    <a class="nav-link text-dark" href="#">Buscar Vagas</a>
                                 </li>
                             }
                             @if (User.IsInRole("Recrutador"))

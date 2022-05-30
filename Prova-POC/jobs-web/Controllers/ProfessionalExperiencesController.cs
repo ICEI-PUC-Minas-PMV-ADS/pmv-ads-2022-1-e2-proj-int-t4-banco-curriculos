@@ -70,7 +70,7 @@ namespace Jobs.Controllers
 
                 _context.Add(professionalExperience);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("GeneralView", "Candidates", new { id = candidate.Id });
             }
             ViewData["CandidateId"] = new SelectList(_context.Candidates, "Id", "Name", professionalExperience.CandidateId);
             return View(professionalExperience);
