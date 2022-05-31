@@ -3168,3 +3168,15 @@ C:\Users\palom\source\repos\jobs-web\jobs-web\obj\Debug\net5.0\Jobs.genruntimeco
 C:\Users\palom\source\repos\jobs-web\jobs-web\obj\Debug\net5.0\Razor\Views\Candidates\Resume.cshtml.g.cs
 C:\Users\sabri\source\repos\jobs-web\jobs-web\obj\Debug\net5.0\Razor\Views\Candidates\Resume.cshtml.g.cs
 C:\Users\sabri\source\repos\jobs-web\jobs-web\obj\Debug\net5.0\Razor\Views\Candidates\GeneralView.cshtml.g.cs
+C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Debug\net5.0\Razor\Views\Candidates\GeneralView.cshtml.g.cs
+C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Debug\net5.0\Razor\Views\Candidates\Resume.cshtml.g.cs
+C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\Create.cshtml.g.cs
+C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\Delete.cshtml.g.cs
+C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\Details.cshtml.g.cs
+C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\Edit.cshtml.g.cs
+C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\Index.cshtml.g.cs
+C:\Users\sabri\source\repos\jobs-web\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\Create.cshtml.g.cs
+C:\Users\sabri\source\repos\jobs-web\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\Delete.cshtml.g.cs
+C:\Users\sabri\source\repos\jobs-web\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\Details.cshtml.g.cs
+C:\Users\sabri\source\repos\jobs-web\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\Edit.cshtml.g.cs
+C:\Users\sabri\source\repos\jobs-web\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\Index.cshtml.g.cs

@@ -215,6 +215,43 @@ namespace Jobs.Migrations
                     b.ToTable("Empresa");
                 });
 
+            modelBuilder.Entity("jobs_web.Models.Vagas", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Cargo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ClosingDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("EmpresaId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("RegistrationDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("descricao")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("quantidade_vagas")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("status")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("EmpresaId");
+
+                    b.ToTable("Vagas");
+                });
+
             modelBuilder.Entity("Jobs.Models.Candidate", b =>
                 {
                     b.HasOne("Jobs.Models.User", "User")
@@ -259,6 +296,17 @@ namespace Jobs.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("jobs_web.Models.Vagas", b =>
+                {
+                    b.HasOne("jobs_web.Models.Empresa", "Empresa")
+                        .WithMany("Vagas")
+                        .HasForeignKey("EmpresaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Empresa");
+                });
+
             modelBuilder.Entity("Jobs.Models.Candidate", b =>
                 {
                     b.Navigation("Educations");
@@ -271,6 +319,11 @@ namespace Jobs.Migrations
                     b.Navigation("Canditate");
 
                     b.Navigation("Empresa");
+                });
+
+            modelBuilder.Entity("jobs_web.Models.Empresa", b =>
+                {
+                    b.Navigation("Vagas");
                 });
 #pragma warning restore 612, 618
         }

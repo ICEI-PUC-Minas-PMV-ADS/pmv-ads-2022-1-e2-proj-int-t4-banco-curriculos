@@ -1,0 +1,46 @@
+﻿@model jobs_web.Models.Vagas
+
+@{
+    ViewData["Title"] = "Create";
+}
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/Vagas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap" rel="stylesheet">
+    <title>Meu currículo</title>
+</head>
+<div class="container-vagas">
+    <form asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="Cargo" class="control-label">Cargo</label>
+            <input asp-for="Cargo" class="form-control" />
+            <span asp-validation-for="Cargo" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="descricao" class="control-label">Descrição</label>
+            <textarea rows="5" asp-for="descricao" class="form-control"></textarea>
+            <span asp-validation-for="descricao" class="text-danger"></span>
+        </div>
+        <div class="inputs-medios">
+            <div class="form-group medios">
+                <label asp-for="quantidade_vagas" class="control-label">Quantidade de vagas</label>
+                <input asp-for="quantidade_vagas" class="form-control" />
+                <span asp-validation-for="quantidade_vagas" class="text-danger"></span>
+            </div>
+            <div class="form-group medios">
+                <label asp-for="ClosingDate" class="control-label">Encerramento da vaga</label>
+                <input asp-for="ClosingDate" class="form-control" />
+                <span asp-validation-for="ClosingDate" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="botoes">
+            <div>
+                <a class="btn btn-danger" asp-action="Index">Cancelar</a>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Salvar" class="btn btn-primary" />
+            </div>
+        </div>
+    </form>
+</div>
+

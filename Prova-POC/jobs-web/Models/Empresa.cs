@@ -24,5 +24,7 @@ namespace jobs_web.Models
         public int UserId { get; set; }
         public virtual Jobs.Models.User User { get; set; }
 
+        public ICollection<Vagas> Vagas { get; set; }
+
     }
 }
