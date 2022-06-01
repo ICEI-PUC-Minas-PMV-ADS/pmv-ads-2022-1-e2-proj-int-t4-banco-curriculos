@@ -27,8 +27,41 @@ namespace jobs_web.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
+        //Buscar vagas
+        public async Task<IActionResult> Search(string searchString)
+        {
+            var vacancies = from v in _context.Vagas
+                         select v;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                vacancies = vacancies.Where(s => s.Cargo!.Contains(searchString));
+            }
+
+            return View(await vacancies.ToListAsync());
+        }
+
         // GET: Vagas/Details/5
         public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var vagas = await _context.Vagas
+                .Include(v => v.Empresa)
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (vagas == null)
+            {
+                return NotFound();
+            }
+
+            return View(vagas);
+        }
+
+        // GET: Vagas/Details/5
+        public async Task<IActionResult> DetailsVacancy(int? id)
         {
             if (id == null)
             {

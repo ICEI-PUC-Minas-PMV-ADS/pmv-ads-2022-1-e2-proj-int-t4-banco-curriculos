@@ -25,6 +25,8 @@ namespace jobs_web.Models
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public bool status { get; set; }
 
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd-MM-yyyy}")]
+        [DataType(DataType.Date, ErrorMessage = "Data em formato inválido")]
         public DateTime RegistrationDate { get; set; }
 
         [Required(ErrorMessage = "Por favor, preencha o campo")]

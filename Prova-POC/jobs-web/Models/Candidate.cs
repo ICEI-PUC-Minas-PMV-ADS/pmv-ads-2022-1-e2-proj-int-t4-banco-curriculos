@@ -16,7 +16,7 @@ namespace Jobs.Models
         
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         [Display(Name = "Data de Nascimento")]
-        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd-MM-yyyy}")]
         [DataType(DataType.Date, ErrorMessage = "Data em formato inválido")]
         public DateTime Birthdate { get; set; }
 
