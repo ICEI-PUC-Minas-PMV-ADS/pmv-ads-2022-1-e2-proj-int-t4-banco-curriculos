@@ -14,7 +14,7 @@
         <div class="content">
 
             @{ var userIdlog = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
-                if (Model?.User.Perfil == "Candidato")
+                if (User.IsInRole("Candidato"))
                 {
                     if (Model?.UserId == null)
                     {
@@ -46,7 +46,7 @@
         </div>
     </fieldset> }
 }
-else
+else if(User.IsInRole("Recrutador"))
 {
 <h1>Olá, seja bem-vindo(a)!</h1> } }
         </div>
