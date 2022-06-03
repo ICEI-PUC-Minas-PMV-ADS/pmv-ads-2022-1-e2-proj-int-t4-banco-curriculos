@@ -69,7 +69,7 @@ namespace jobs_web.Controllers
             }
 
             var vagas = await _context.Vagas
-                .Include(v => v.Empresa)
+                .Include(v => v.Empresa).Include(u => u.Empresa.User)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (vagas == null)
             {

@@ -48,7 +48,7 @@ h1 {
 }
 
 .cards {
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-wrap: wrap;
@@ -57,7 +57,12 @@ h1 {
     width: 70%;
 }
 
-.card{
+.card {
     margin-top: 5%;
+    border: 2px solid cadetblue;
 }
 
+.uniqueCard{
+    margin-left: auto;
+    margin-right: auto;
+}
