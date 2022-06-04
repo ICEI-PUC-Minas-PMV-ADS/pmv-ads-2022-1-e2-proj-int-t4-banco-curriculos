@@ -20,6 +20,14 @@ namespace jobs_web.Models
         [Required(ErrorMessage = "Por favor, preencha o campo")]
         public string descricao { get; set; }
 
+        [Display(Name = "Nome")]
+        [Required(ErrorMessage = "Por favor, preencha o campo")]
+        public string nome { get; set; }
+
+        [Display(Name = "contato")]
+        [Required(ErrorMessage = "Por favor, preencha o campo")]
+        public string contato { get; set; }
+
         [ForeignKey("User")]
         public int UserId { get; set; }
         public virtual Jobs.Models.User User { get; set; }

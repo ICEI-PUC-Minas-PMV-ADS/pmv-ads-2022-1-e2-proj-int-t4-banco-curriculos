@@ -16,6 +16,7 @@ body > .container {
 
 main {
     background-color: #1b191a;
+    min-height: 91.3vh;
 }
 
 .mb-3, .my-3 {

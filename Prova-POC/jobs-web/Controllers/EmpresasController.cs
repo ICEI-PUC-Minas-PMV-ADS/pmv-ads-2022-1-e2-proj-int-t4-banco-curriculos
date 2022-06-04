@@ -58,7 +58,7 @@ namespace jobs_web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,cnpj,descricao,UserId")] Empresa empresa)
+        public async Task<IActionResult> Create([Bind("Id,cnpj,descricao,nome,contato,UserId")] Empresa empresa)
         {
             if (ModelState.IsValid)
             {
@@ -95,7 +95,7 @@ namespace jobs_web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,cnpj,descricao,UserId")] Empresa empresa)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,cnpj,descricao,nome,contato,UserId")] Empresa empresa)
         {
             if (id != empresa.Id)
             {
@@ -106,6 +106,8 @@ namespace jobs_web.Controllers
             {
                 try
                 {
+                    var userIdlogged = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+                    empresa.UserId = userIdlogged;
                     _context.Update(empresa);
                     await _context.SaveChangesAsync();
                 }

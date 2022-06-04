@@ -3182,3 +3182,5 @@ C:\Users\sabri\source\repos\jobs-web\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas
 C:\Users\sabri\source\repos\jobs-web\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\Index.cshtml.g.cs
 C:\Users\sabri\source\repos\jobs-web\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\Search.cshtml.g.cs
 C:\Users\sabri\source\repos\jobs-web\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\DetailsVacancy.cshtml.g.cs
+C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\DetailsVacancy.cshtml.g.cs
+C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Debug\net5.0\Razor\Views\Vagas\Search.cshtml.g.cs

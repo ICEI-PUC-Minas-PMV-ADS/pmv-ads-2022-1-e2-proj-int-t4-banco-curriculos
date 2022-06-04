@@ -99,6 +99,8 @@ namespace jobs_web.Controllers
                 DateTime data = DateTime.Now;
                 vagas.RegistrationDate = data;
 
+                vagas.status = true;
+
                 var userIdlogged = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
                 var empresa = await _context.Empresa.FirstOrDefaultAsync(m => m.UserId == userIdlogged);
 
@@ -145,6 +147,10 @@ namespace jobs_web.Controllers
             {
                 try
                 {
+                    var userIdlogged = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+                    var empresa = await _context.Empresa.FirstOrDefaultAsync(m => m.UserId == userIdlogged);
+
+                    vagas.EmpresaId = empresa.Id;
                     _context.Update(vagas);
                     await _context.SaveChangesAsync();
                 }

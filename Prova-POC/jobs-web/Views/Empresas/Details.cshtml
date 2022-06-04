@@ -3,34 +3,24 @@
 @{
     ViewData["Title"] = "Details";
 }
-
-<h1>Details</h1>
-
-<div>
-    <h4>Empresa</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.cnpj)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.cnpj)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.descricao)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.descricao)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.User)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.User.Nome)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/DetailsEmpresas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap" rel="stylesheet">
+    <title>Meu currículo</title>
+</head>
+<div class="container-detail-empresa">
+    <h4>@Html.DisplayFor(model => model.User.Nome)</h4>
+    <p class="descricao">@Html.DisplayFor(model => model.descricao)</p>
+    <div class="contato">
+        <h5>Contato</h5>
+        <ul>
+            <li>Telefone: @Html.DisplayFor(model => model.User.Phone)</li>
+            <li>Celular: @Html.DisplayFor(model => model.User.CellPhone)</li>
+            <li>Email: @Html.DisplayFor(model => model.User.Email)</li>
+        </ul>
+    </div>
+    <div class="container-botoes">
+        <a asp-action="Index" class="btn btn-dark">Voltar</a>
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Editar</a>
+    </div>
 </div>

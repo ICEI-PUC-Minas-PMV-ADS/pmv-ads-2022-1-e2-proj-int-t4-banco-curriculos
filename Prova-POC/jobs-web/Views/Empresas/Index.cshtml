@@ -1,47 +1,38 @@
 ﻿@model IEnumerable<jobs_web.Models.Empresa>
+@using System.Security.Claims;
 
 @{
     ViewData["Title"] = "Index";
 }
-
-<h1>Index</h1>
-
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/IndexEmpresas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap" rel="stylesheet">
+    <title>Meu currículo</title>
+</head>
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Adicionar Informações</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.cnpj)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.descricao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.User)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.cnpj)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.descricao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.User.Nome)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
+@foreach (var item in Model)
+{
+
+    @if (item.UserId == Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier)))
+    {
+
+        <div class="container-detail-empresa">
+            <h4>@Html.DisplayFor(modelItem => item.User.Nome)</h4>
+            <p class="descricao">@Html.DisplayFor(modelItem => item.descricao)</p>
+            <div class="contato">
+                <h5>Contato</h5>
+                <ul>
+                    <li>Telefone: @Html.DisplayFor(modelItem => item.User.Phone)</li>
+                    <li>Celular: @Html.DisplayFor(modelItem => item.User.CellPhone)</li>
+                    <li>Email: @Html.DisplayFor(modelItem => item.User.Email)</li>
+                </ul>
+            </div>
+            <div class="container-botoes">
+                <a asp-action="Index" class="btn btn-dark">Voltar</a>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+            </div>
+        </div>
+    }
 }
-    </tbody>
-</table>

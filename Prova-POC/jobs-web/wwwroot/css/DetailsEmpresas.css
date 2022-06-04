@@ -1,4 +1,4 @@
-﻿* {
+﻿﻿* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -22,8 +22,8 @@ main {
     margin-bottom: 0 !important;
 }
 
-.container-detail-vagas {
-    width: 85%;
+.container-detail-empresa {
+    width: 60%;
     height: 90%;
     margin: 0 auto;
     box-sizing: border-box;
@@ -32,16 +32,34 @@ main {
     background-color: white;
 }
 
-.light-color {
-    font-weight: 300;
-}
-
-.container-detail-vagas-title {
-    display: flex;
-    justify-content: space-between;
+.container-detail-empresa > h4 {
+    text-align: center;
     margin-bottom: 5%;
 }
 
-.container-botoes {
+.container-detail-empresa .descricao {
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+.container-detail-empresa .contato > h5 {
     margin-bottom: 3%;
+}
+
+.container-detail-empresa .contato {
+    margin-bottom: 5%;
+}
+
+.container-detail-empresa .contato ul {
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container-botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

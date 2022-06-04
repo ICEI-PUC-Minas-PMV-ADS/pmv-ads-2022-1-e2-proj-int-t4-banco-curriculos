@@ -12,12 +12,12 @@
 <div class="container-detail-vagas">
     <div class="container-detail-vagas-title">
         <h4>@Html.DisplayFor(model => model.Cargo)</h4>
-        <h4>@Html.DisplayFor(model => model.Empresa.cnpj)</h4>
+        <h4>@Html.DisplayFor(model => model.Empresa.nome)</h4>
     </div>
     <p>@Html.DisplayFor(model => model.descricao)</p>
     <p>Quantidade de vagas: @Html.DisplayFor(model => model.quantidade_vagas)</p>
-    <p>Criação da Vaga: @Html.DisplayFor(model => model.RegistrationDate)</p>
     <p>Fechamento da Vaga: @Html.DisplayFor(model => model.ClosingDate)</p>
+    <p>Informações de contato: @Html.DisplayFor(model => model.Empresa.contato)</p>
     <div class="container-botoes">
         <form asp-action="Delete">
             <input type="hidden" asp-for="Id" />

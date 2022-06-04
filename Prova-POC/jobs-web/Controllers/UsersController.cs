@@ -121,7 +121,7 @@ namespace jobs_web.Controllers
                 var props = new AuthenticationProperties
                 {
                     AllowRefresh = true,
-                    ExpiresUtc = DateTime.Now.ToLocalTime().AddHours(5),
+                    ExpiresUtc = DateTime.Now.ToLocalTime().AddHours(1),
                     IsPersistent = true
                 };
 
