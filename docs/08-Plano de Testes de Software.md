@@ -17,7 +17,7 @@
 |--------------------|------------------------------------|
 | RF 03 | O sistema deve permitir a publicação de posições de trabalho|
 |Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botão Vagas 5) Clicar no botao "registrar vaga" |
-|Critérios de Êxito | Conseguir salvar e compartilhar o link de uma vaga registrada pela empresa.|
+|Critérios de Êxito | Conseguir salvar uma vaga registrada pela empresa.|
 |Entradas| Usuário, senha e característica da vaga|
 |Objetivo do teste | Constatar se a pessoa que está ofertando a vaga vai conseguir registrá-la no banco.                                         |
 
