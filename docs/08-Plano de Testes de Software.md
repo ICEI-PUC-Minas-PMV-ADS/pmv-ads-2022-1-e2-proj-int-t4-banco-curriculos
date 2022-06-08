@@ -13,7 +13,7 @@
 | Objetivo do teste | Constatar se o usuário consegue inserir e salvar suas informações no banco. | 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-|Caso de Teste | CT-02 - Publicação e pesquisa de vagas de emprego |
+|Caso de Teste | CT-02 - Publicação de vagas de emprego |
 |--------------------|------------------------------------|
 | RF 03 | O sistema deve permitir a publicação de posições de trabalho|
 |Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botão Vagas 5) Clicar no botao "registrar vaga" |
