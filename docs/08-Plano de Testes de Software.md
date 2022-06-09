@@ -59,16 +59,7 @@
 |Objetivo do teste | Constatar se as informações do usuário foram incluídas como candidatura na vaga desejada.|
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-|Caso de Teste | CT 07 - Filtragem nas buscas |
-|--------------------|------------------------------------|
-| RF 08 | O sistema deve possuir filtro de busca para critérios conforme demanda| 
-|Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botão Vagas 5) Clicar no botão "pesquisar vaga" 6) Selecionar os filtros desejados para a vaga 7) Clicar em "Pesquisar"|
-|Critérios de Êxito | Apresentar no resultado de pesquisa apenas vagas que condizem com os critérios filtrados anteriormente|
-|Entradas| Filtros e(ou) palavra-chave|
-|Objetivo do teste | Constatar se os filtros estão coletando somente as informações desejadas|
-  
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-|Caso de Teste | CT 08 - Recebimento de informaçoes de vagas |
+|Caso de Teste | CT 07 - Recebimento de informaçoes de vagas |
 |--------------------|------------------------------------|
 | RF 12 | O sistema deve permitir o cadastro de email para recebimento de vagas de trabalho|
 |Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botão "Registrar-se" 5) Completar o formulário de informações 6) Clicar no botão "receber informações sobre vagas relacionadas ao meu currículo"|
@@ -77,7 +68,7 @@
 |Objetivo do teste | Constatar se o usuário ficará vinculado a uma tipagem de filtros, e sempre que correspondida a tipagem, se ele vai receber o email de uma nova vaga|
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-|Caso de Teste | CT 09 - Recebimento de informações de candidatos|
+|Caso de Teste | CT 08 - Recebimento de informações de candidatos|
 |--------------------|------------------------------------|
 | RF 13 | O sistema deve permitir o cadastro de email para recebimento de pessoas candidatas|
 |Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botão "Registrar-se" 5) Completar o formulário de informações 6) Clicar no botão "receber informações sobre candidatos registrados".|
