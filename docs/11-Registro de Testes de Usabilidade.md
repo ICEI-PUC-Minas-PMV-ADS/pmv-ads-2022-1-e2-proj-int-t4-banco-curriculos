@@ -2,6 +2,13 @@
 
 # Teste 1 - Cadastrar novo usuário
 
-
 https://user-images.githubusercontent.com/26911388/172954216-84c9ec81-cf99-44f6-97d3-7f23f1afb0ff.mp4
+
+# Teste 2 - Login
+
+https://user-images.githubusercontent.com/26911388/172963712-50185080-9b47-4b23-982e-55977062ee19.mp4
+
+# Teste 3 - Cadastro, edição e exclusão de vagas
+
+https://user-images.githubusercontent.com/26911388/172963719-251aae1b-9882-4964-8cbe-b4f96659d8fe.mp4
 
