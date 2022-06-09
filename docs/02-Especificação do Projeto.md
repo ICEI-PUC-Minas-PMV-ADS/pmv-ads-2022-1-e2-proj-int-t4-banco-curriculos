@@ -91,6 +91,7 @@ O Quadro 5 apresenta as funcionalidades que a plataforma se propõe a oferecer.
 |RF-15 | O sistema deve apresentar as vagas de trabalho separadas por categorias                                  | MÉDIA      |
 |RF-16 | O sistema deve conter uma página com as principais perguntas frequentes (FAQ - Frequent Asked Questions) | MÉDIA      |
 |RF-17 | O sistema deve conter uma página com espaço para envio de dúvidas, sugestões, elogios e/ou reclamações   | ALTA       |
+|RF-18 | O sistema deve permitir a edição de posições de trabalho                                                 | MÉDIA      |
 
 </div>
 
