@@ -145,13 +145,17 @@ Ao clicar em "Excluir" o usuário é direcionado para a tela de "Vagas" e consta
 <p align="center">Fonte: Elaborado pelos autores</p>
 
 
-## CT 05 - Publicação de vagas de emprego (candidatos)
+## CT 05 - Pesquisar vagas de emprego (candidatos)
+
+Quando o usuário acessa "Buscar Vagas" no menu, uma tela de pesquisa é apresentada e é possível usar o campo de pesquisa para encontrar uma vaga desejada. No caso de teste digitou-se "Desenvolver" e clicou-se no botão "Buscar" (Figura 50).
 
 <p align="center">Figura 50 – Teste pesquisa de vagas </p>
 <div align="center">
     <img src="img\PesquisaVagas.png">
 </div>
 <p align="center">Fonte: Elaborado pelos autores</p>
+
+A ação é concluída com êxito quando a aplicação retorna o resultado da pesquisa. No exemplo deste teste 2 vagas foram retornadas como resultado da pesquisa (Figura 51).
 
 <p align="center">Figura 51 – Resultado pesquisa </p>
 <div align="center">
