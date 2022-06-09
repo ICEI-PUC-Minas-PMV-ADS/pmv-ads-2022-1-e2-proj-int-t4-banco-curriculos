@@ -102,17 +102,23 @@ Nesse cenário, quando o usuário clica no Botão "Salvar" ele é direcionado pa
 
 ## CT 03 - Edição das vagas de emprego (empresas)
 
+É possivel realizar a edição de uma vaga já postada. Para isso o usuário clica em "Mais detalhes" no card da vaga que deseja fazer a alteração. O usuário visualiza 3 opções que o levam a ações posteriores. São elas: "Excluir", "Editar" e "Voltar". Deve-se clicar em "Editar" para prosseguir. Essa opção pode ser visualizada na Figura 45
+
 <p align="center">Figura 45 – Detalhes da vaga </p>
 <div align="center">
     <img src="img\DetailsVagas.png">
 </div>
 <p align="center">Fonte: Elaborado pelos autores</p>
 
+Em seguida visualiza-se a tela (Figura 46) onde o usuário realiza as modificações que deseja e clica no botão "Salvar" posteriormente.
+
 <p align="center">Figura 46 – Edição da vaga </p>
 <div align="center">
     <img src="img\UpdateVagas.png">
 </div>
 <p align="center">Fonte: Elaborado pelos autores</p>
+
+O êxito é comprovado imediatamente quando o usuário é direcionado para a tela "Vagas" e a vaga alterada consta no card com a devidas modificações. A Figura 47 faz esse registro.
 
 <p align="center">Figura 47 – Resultado da edição da vaga </p>
 <div align="center">
