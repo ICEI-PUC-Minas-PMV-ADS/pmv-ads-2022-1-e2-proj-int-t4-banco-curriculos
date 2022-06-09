@@ -22,7 +22,17 @@
 |Objetivo do teste | Constatar se a pessoa que está ofertando a vaga vai conseguir registrá-la no banco.                                         |
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-|Caso de Teste | CT 03 - Pesquisar vagas de emprego |
+|Caso de Teste | CT-03 - Edição das vagas de emprego |
+|--------------------|------------------------------------|
+| RF 18 | O sistema deve permitir a edição de posições de trabalho|
+|Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botão Vagas 5) Clicar no botao "mais detalhes" 6) Clicar no botão "editar" |
+|Critérios de Êxito | Conseguir editar informações de uma vaga registrada pela empresa.|
+|Entradas| Usuário, senha e características da vaga|
+|Objetivo do teste | Constatar se a pessoa que está ofertando a vaga vai conseguir editar informações da vaga no banco.                                         |
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+  
+|Caso de Teste | CT 04 - Pesquisar vagas de emprego |
 |--------------------|------------------------------------|
 | RF 04 | O sistema deve permitir a pesquisa por vagas de emprego|
 |Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botão Vagas 5) Clicar no botao "pesquisar vaga".|
@@ -31,7 +41,7 @@
 |Objetivo do teste | Constatar se as vagas foram salvas no banco.|
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-|Caso de Teste | CT 04 - Candidatura para vagas |
+|Caso de Teste | CT 05 - Candidatura para vagas |
 |--------------------|------------------------------------|
 | RF 06 | O sistema deve permitir ao usuário a candidatura para as vagas de trabalho |
 |Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botão Vagas 5) Clicar no botão "pesquisar vaga" 6) Selecionar a vaga desejada 7) Clicar em "Candidatar-se" |
@@ -40,7 +50,7 @@
 |Objetivo do teste | Constatar se as informações do usuário foram incluídas como candidatura na vaga desejada.|
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-|Caso de Teste | CT 05 - Filtragem nas buscas |
+|Caso de Teste | CT 06 - Filtragem nas buscas |
 |--------------------|------------------------------------|
 | RF 08 | O sistema deve possuir filtro de busca para critérios conforme demanda| 
 |Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botão Vagas 5) Clicar no botão "pesquisar vaga" 6) Selecionar os filtros desejados para a vaga 7) Clicar em "Pesquisar"|
@@ -49,7 +59,7 @@
 |Objetivo do teste | Constatar se os filtros estão coletando somente as informações desejadas|
   
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-|Caso de Teste | CT 06 - Recebimento de informaçoes de vagas |
+|Caso de Teste | CT 07 - Recebimento de informaçoes de vagas |
 |--------------------|------------------------------------|
 | RF 12 | O sistema deve permitir o cadastro de email para recebimento de vagas de trabalho|
 |Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botão "Registrar-se" 5) Completar o formulário de informações 6) Clicar no botão "receber informações sobre vagas relacionadas ao meu currículo"|
@@ -58,7 +68,7 @@
 |Objetivo do teste | Constatar se o usuário ficará vinculado a uma tipagem de filtros, e sempre que correspondida a tipagem, se ele vai receber o email de uma nova vaga|
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-|Caso de Teste | CT 07 - Recebimento de informações de candidatos|
+|Caso de Teste | CT 08 - Recebimento de informações de candidatos|
 |--------------------|------------------------------------|
 | RF 13 | O sistema deve permitir o cadastro de email para recebimento de pessoas candidatas|
 |Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botão "Registrar-se" 5) Completar o formulário de informações 6) Clicar no botão "receber informações sobre candidatos registrados".|
@@ -66,12 +76,3 @@
 |Entradas| Usuário, senha e email|
 |Objetivo do teste | Constatar se a pessoa que registrou a vaga vai receber as notificações sobre quem está se candidatando|
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-|Caso de Teste | CT 08 - Registro de dúvidas e ajuda para candidatos e empresas|
-|--------------------|------------------------------------|
-| RF 17 | O sistema deve conter uma página com espaço para envio de dúvidas, sugestões, elogios e/ou reclamações|
-|Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Rolar até o rodapé da página 5) Clicar em "Ajuda"|
-|Critérios de Êxito | Chegar email para os mantenedores do site com as mansagens de quem entrou em contato|
-|Entradas| Usuário e senha|
-|Objetivo do teste | Constatar se são registradas as dúvidas de quem precisa de ajuda para entrar em contato e resolver as pendências|
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
