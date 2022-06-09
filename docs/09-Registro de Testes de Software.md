@@ -58,7 +58,7 @@ Completando os dados cadastrais, a Figura 39 registra a inserção da experiênc
 </div>
 <p align="center">Fonte: Elaborado pelos autores</p>
 
-Caso o perfil seja de recrutador, a figura 40 registra a inserção das informações sobre a empresa
+Caso o perfil seja de recrutador, a Figura 40 registra a inserção das informações sobre a empresa
 
 <p align="center">Figura 40 – Preenchimento de dados da empresa</p>
 <div align="center">
@@ -68,11 +68,15 @@ Caso o perfil seja de recrutador, a figura 40 registra a inserção das informa�
 
 ## CT 02 - Publicação de vagas de emprego (empresas)
 
+Para verificar a aplicabilidade da opção de postagem de vagas na plataforma, o usuário acessa "Vagas" no menu e "Criar nova vaga" respectivamente. A ilustração é vista na Figura 41.
+
 <p align="center">Figura 41 – Página index das vagas</p>
 <div align="center">
     <img src="img\IndexVagas.png">
 </div>
 <p align="center">Fonte: Elaborado pelos autores</p>
+
+Conforme a Figura 42, o usuário é direcionado para a tela onde os campos de "Cargo", "Descrição", "Quantidade de vagas" e "Encerramento da vaga" devem ser preenchidos obrigatoriamente. Caso esses requisitos não sejam atendidos e o botão "Salvar" seja clicado, mensagens "Por favor, preencha o campo" aparecem sob os campos.
 
 <p align="center">Figura 42 – Teste criação de vagas incompleto </p>
 <div align="center">
@@ -80,11 +84,15 @@ Caso o perfil seja de recrutador, a figura 40 registra a inserção das informa�
 </div>
 <p align="center">Fonte: Elaborado pelos autores</p>
 
+Na Figura 43, exemplifica-se o preenchimento dos campos para inserção da posição de trabalho a ser divulgada.
+
 <p align="center">Figura 43 – Teste criação de vagas completo </p>
 <div align="center">
     <img src="img\CreateVagas.png">
 </div>
 <p align="center">Fonte: Elaborado pelos autores</p>
+
+Nesse cenário, quando o usuário clica no Botão "Salvar" ele é direcionado para a tela "Vagas" onde a vaga salva e é possível visualizá-la no card. A constatação é vista na Figura 44.
 
 <p align="center">Figura 44 – Teste criação de vagas completo </p>
 <div align="center">
