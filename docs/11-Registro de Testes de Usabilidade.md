@@ -1,5 +1,7 @@
 # Registro de Testes de Usabilidade
 
-O registro do Teste de Usabilidade pode ser visto no vídeo a seguir. O intuito é demonstrar um protótipo com real utilização para validar as funcionalidades do que está sendo implementado no projeto.
+# Teste 1 - Cadastrar novo usuário
 
-https://youtu.be/Uy1GiNxxAaY
+
+https://user-images.githubusercontent.com/26911388/172954216-84c9ec81-cf99-44f6-97d3-7f23f1afb0ff.mp4
+
