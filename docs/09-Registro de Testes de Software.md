@@ -84,6 +84,20 @@ Completando os dados cadastrais, a Figura 39 registra a inserção da experiênc
 </div>
 <p align="center">Fonte: Elaborado pelos autores</p>
 
+## CT 03 - Publicação de vagas de emprego (candidatos)
+
+<p align="center">Figura 44 – Teste pesquisa de vagas </p>
+<div align="center">
+    <img src="img\PesquisaVagas.png">
+</div>
+<p align="center">Fonte: Elaborado pelos autores</p>
+
+<p align="center">Figura 45 – Resultado pesquisa </p>
+<div align="center">
+    <img src="img\PesquisaResultado.png">
+</div>
+<p align="center">Fonte: Elaborado pelos autores</p>
+
 
 
 
