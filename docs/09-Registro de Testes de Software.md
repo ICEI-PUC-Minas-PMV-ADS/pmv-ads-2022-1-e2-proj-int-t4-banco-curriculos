@@ -60,5 +60,31 @@ Completando os dados cadastrais, a Figura 39 registra a inserção da experiênc
 
 ## CT 02 - Publicação de vagas de emprego (empresas)
 
+<p align="center">Figura 40 – Página index das vagas</p>
+<div align="center">
+    <img src="img\IndexVagas.png">
+</div>
+<p align="center">Fonte: Elaborado pelos autores</p>
+
+<p align="center">Figura 41 – Teste criação de vagas incompleto </p>
+<div align="center">
+    <img src="img\ErrorCreateVagas.png">
+</div>
+<p align="center">Fonte: Elaborado pelos autores</p>
+
+<p align="center">Figura 42 – Teste criação de vagas completo </p>
+<div align="center">
+    <img src="img\CreateVagas.png">
+</div>
+<p align="center">Fonte: Elaborado pelos autores</p>
+
+<p align="center">Figura 43 – Teste criação de vagas completo </p>
+<div align="center">
+    <img src="img\IndexVagasAfterCreate.png">
+</div>
+<p align="center">Fonte: Elaborado pelos autores</p>
+
+
+
 
 
