@@ -104,15 +104,30 @@ Completando os dados cadastrais, a Figura 39 registra a inserção da experiênc
 </div>
 <p align="center">Fonte: Elaborado pelos autores</p>
 
-## CT 04 - Publicação de vagas de emprego (candidatos)
+## CT 04 - Excluir vagas de emprego (empresas)
 
-<p align="center">Figura 47 – Teste pesquisa de vagas </p>
+<p align="center">Figura 47 – Detalhes da vaga </p>
+<div align="center">
+    <img src="img\DetailsVagasAfterUpdate.png">
+</div>
+<p align="center">Fonte: Elaborado pelos autores</p>
+
+<p align="center">Figura 48 – Index vaags após exclusão </p>
+<div align="center">
+    <img src="img\IndexVagasAfterDelete.png">
+</div>
+<p align="center">Fonte: Elaborado pelos autores</p>
+
+
+## CT 05 - Publicação de vagas de emprego (candidatos)
+
+<p align="center">Figura 49 – Teste pesquisa de vagas </p>
 <div align="center">
     <img src="img\PesquisaVagas.png">
 </div>
 <p align="center">Fonte: Elaborado pelos autores</p>
 
-<p align="center">Figura 48 – Resultado pesquisa </p>
+<p align="center">Figura 50 – Resultado pesquisa </p>
 <div align="center">
     <img src="img\PesquisaResultado.png">
 </div>
