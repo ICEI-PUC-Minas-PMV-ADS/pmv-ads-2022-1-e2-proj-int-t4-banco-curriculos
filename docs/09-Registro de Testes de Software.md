@@ -128,11 +128,15 @@ O êxito é comprovado imediatamente quando o usuário é direcionado para a tel
 
 ## CT 04 - Excluir vagas de emprego (empresas)
 
+Para verificar a funcionalidade da exclusão de vagas, o usuário acessa "Vagas" e clica em "Mais detalhes" no card da vaga. Utilizou-se o exemplo da vaga de QA nesse teste. A tela com detalhes da vaga é exibida e o usuário clica no botão "Excluir" como apresentado na Figura 48.
+
 <p align="center">Figura 48 – Detalhes da vaga </p>
 <div align="center">
     <img src="img\DetailsVagasAfterUpdate.png">
 </div>
 <p align="center">Fonte: Elaborado pelos autores</p>
+
+Ao clicar em "Excluir" o usuário é direcionado para a tela de "Vagas" e constata que a ação foi validada quando a devida vaga  de QA não é mais vista na Figura 49.
 
 <p align="center">Figura 49 – Index vaags após exclusão </p>
 <div align="center">
