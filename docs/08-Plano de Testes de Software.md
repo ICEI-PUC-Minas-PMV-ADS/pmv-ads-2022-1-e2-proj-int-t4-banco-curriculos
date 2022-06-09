@@ -27,7 +27,7 @@
 | RF 04 | O sistema deve permitir a pesquisa por vagas de emprego|
 |Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botão Vagas 5) Clicar no botao "pesquisar vaga".|
 |Critérios de Êxito | Ter resultado de vagas após a pesquisa.|
-|Entradas| Usuário, senha, filtro e(ou) palavra-chave|
+|Entradas| Usuário, senha, palavra-chave|
 |Objetivo do teste | Constatar se as vagas foram salvas no banco.|
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
