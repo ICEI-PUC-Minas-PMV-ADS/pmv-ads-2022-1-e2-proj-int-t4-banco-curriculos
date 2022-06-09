@@ -9,7 +9,6 @@
 ## Integrantes
 
 * Isabella Fernanda Campos Emiliano
-* Neeminas Junio Anjos Lopes
 * Paloma Chaves Silva
 * Sabrina Chaves Silva
 
