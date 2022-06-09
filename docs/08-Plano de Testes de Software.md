@@ -25,17 +25,17 @@
 |Caso de Teste | CT-03 - Edição das vagas de emprego |
 |--------------------|------------------------------------|
 | RF 18 | O sistema deve permitir a edição de posições de trabalho|
-|Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botão Vagas 5) Clicar no botao "mais detalhes" 6) Clicar no botão "editar" |
-|Critérios de Êxito | Conseguir editar informações de uma vaga registrada pela empresa.|
+|Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar em Vagas no menu 5) Clicar no botão "Mais detalhes" 6) Clicar no botão "Editar" |
+|Critérios de Êxito | Conseguir editar informações de uma vaga registrada pela empresa|
 |Entradas| Usuário, senha e características da vaga|
-|Objetivo do teste | Constatar se a pessoa que está ofertando a vaga vai conseguir editar informações da vaga no banco.                                         |
+|Objetivo do teste | Constatar se a pessoa que está ofertando a vaga vai conseguir editar informações da vaga no banco                                         |
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------  
 |Caso de Teste | CT-04 - Exclusão das vagas de emprego |
 |--------------------|------------------------------------|
 | RF 19 | O sistema deve permitir a exclusão de posições de trabalho|
 |Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botão Vagas 5) Clicar no botao "mais detalhes" 6) Clicar no botão "excluir" |
-|Critérios de Êxito | Conseguir excluir uma vaga registrada pela empresa.|
+|Critérios de Êxito | Conseguir excluir uma vaga registrada pela empresa|
 |Entradas| Usuário, senha |
 |Objetivo do teste | Constatar se as informações da vaga foram apagadas do banco.                                         |
 
