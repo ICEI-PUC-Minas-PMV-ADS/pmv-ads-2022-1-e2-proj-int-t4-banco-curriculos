@@ -12,3 +12,7 @@ https://user-images.githubusercontent.com/26911388/172963712-50185080-9b47-4b23-
 
 https://user-images.githubusercontent.com/26911388/172963719-251aae1b-9882-4964-8cbe-b4f96659d8fe.mp4
 
+# Teste 4 - Pesquisa de vagas
+
+https://user-images.githubusercontent.com/26911388/172965695-7ed496b2-37b8-4d88-913f-78d17136442b.mp4
+
