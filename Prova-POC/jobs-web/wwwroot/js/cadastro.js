@@ -24,13 +24,16 @@ const mascaraCelular = (valor) => {
 
 const senha = document.getElementById('password')
 const confirmacao = document.getElementById('confirmationPassword')
+let span = document.getElementById('msgConfirmationPassword')
 
 confirmacao.addEventListener('keyup', (e) => validacaoSenha(e.target.value))
 
 function validacaoSenha() {
 
     if (confirmacao.value != senha.value) {
-        var span = document.getElementById('msgConfirmationPassword')
         return span.classList.remove('invisible');
+    } else {
+        return span.classList.add('invisible');
     }
+
 }
