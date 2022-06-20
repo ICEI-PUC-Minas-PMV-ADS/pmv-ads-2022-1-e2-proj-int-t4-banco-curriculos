@@ -33,14 +33,24 @@
                                onblur="(this.type='text')"
                                placeholder="Data de nascimento" />
                         <select asp-for="Gender"
-                                name="gender" id="gender" asp-items="Html.GetEnumSelectList<Gender>()">
+                                name="gender" id="gender">
                             <option selected disable value="">Gênero</option>
+                            <option>Feminino</option>
+                            <option>Masculino</option>
+                            <option>Prefiro não informar</option>
                         </select>
-                        <select asp-for="Race" name="race" id="race" asp-items="Html.GetEnumSelectList<Race>()">
+                        <select asp-for="Race" name="race" id="race">
                             <option selected disable value="">Raça</option>
+                            <option>Amarela</option>
+                            <option>Branca</option>
+                            <option>Indígena</option>
+                            <option>Parda</option>
+                            <option>Preta</option>
                         </select>
-                        <select asp-for="Pwd" name="pcd" id="pcd" asp-items="Html.GetEnumSelectList<Pwd>()">
+                        <select asp-for="Pwd" name="pwd" id="pwd">
                             <option selected disable value="">PCD</option>
+                            <option>Não</option>
+                            <option>Sim</option>
                         </select>
                     </div>
                     <div class="form-group">
