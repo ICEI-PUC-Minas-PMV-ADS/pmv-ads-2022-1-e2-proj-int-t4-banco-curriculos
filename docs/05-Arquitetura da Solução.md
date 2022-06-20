@@ -70,4 +70,4 @@ A solução do projeto conta com os seguintes módulos:
 
 ## Hospedagem
 
-O projeto será armazenado na plataforma GitHub Pages. O GitHub pages é um serviço de hospedagem de site estático diretamente de um repositório no GitHub, além disso, é possível que o site seja armazenado no domínio `github.io` ou em um domínio personalizado caso seja especificado.
+O projeto será hospedado no Azure, uma plataforma da Microsoft que oferece vários serviços baseados na computação em nuvem.
