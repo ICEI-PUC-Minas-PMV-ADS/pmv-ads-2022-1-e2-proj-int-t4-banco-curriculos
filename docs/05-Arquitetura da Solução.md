@@ -52,7 +52,8 @@ Segue abaixo o diagrama de componentes, apresentando os componentes que farão p
 
 <div align="center">
 
-<img src="img\diagramaComponentes.jpeg">
+![image](https://user-images.githubusercontent.com/26911388/174690749-b850699d-21e4-4f0b-a7cd-01d1c065096a.png)
+
 
 </div>
 
