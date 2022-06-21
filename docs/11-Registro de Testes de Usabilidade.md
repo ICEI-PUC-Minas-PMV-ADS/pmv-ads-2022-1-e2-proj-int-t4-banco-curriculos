@@ -16,3 +16,7 @@ https://user-images.githubusercontent.com/26911388/172963719-251aae1b-9882-4964-
 
 https://user-images.githubusercontent.com/26911388/172965695-7ed496b2-37b8-4d88-913f-78d17136442b.mp4
 
+# Teste 5 -  Cadastro Currículo
+
+https://user-images.githubusercontent.com/26911388/174903671-2cab8634-4677-4aed-b67b-6523da2d628d.mp4
+
