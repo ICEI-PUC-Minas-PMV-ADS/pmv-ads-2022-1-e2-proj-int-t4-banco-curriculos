@@ -20,3 +20,8 @@ https://user-images.githubusercontent.com/26911388/172965695-7ed496b2-37b8-4d88-
 
 https://user-images.githubusercontent.com/26911388/174903671-2cab8634-4677-4aed-b67b-6523da2d628d.mp4
 
+# Teste 6 -  Exportar Currículo
+
+https://user-images.githubusercontent.com/26911388/174906419-7bb32062-c1ec-4c57-9a18-cd50a1d6c602.mp4
+
+
