@@ -24,7 +24,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Caso de Teste | CT-03 - Edição das vagas de emprego |
 |--------------------|------------------------------------|
-| RF 18 | O sistema deve permitir a edição de posições de trabalho|
+| RF 10 | O sistema deve permitir a edição de posições de trabalho|
 |Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar em Vagas no menu 5) Clicar no botão "Mais detalhes" 6) Clicar no botão "Editar" |
 |Critérios de Êxito | Conseguir editar informações de uma vaga registrada pela empresa|
 |Entradas| Usuário, senha e características da vaga|
@@ -33,7 +33,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------  
 |Caso de Teste | CT-04 - Exclusão das vagas de emprego |
 |--------------------|------------------------------------|
-| RF 19 | O sistema deve permitir a exclusão de posições de trabalho|
+| RF 11 | O sistema deve permitir a exclusão de posições de trabalho|
 |Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botão Vagas 5) Clicar no botao "mais detalhes" 6) Clicar no botão "excluir" |
 |Critérios de Êxito | Conseguir excluir uma vaga registrada pela empresa|
 |Entradas| Usuário, senha |
@@ -61,7 +61,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Caso de Teste | CT 07 - Recebimento de informaçoes de vagas |
 |--------------------|------------------------------------|
-| RF 12 | O sistema deve permitir o cadastro de email para recebimento de vagas de trabalho|
+| RF 08 | O sistema deve permitir o cadastro de email para recebimento de vagas de trabalho|
 |Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botão "Registrar-se" 5) Completar o formulário de informações 6) Clicar no botão "receber informações sobre vagas relacionadas ao meu currículo"|
 |Critérios de Êxito | Chegar no email do candidato vagas que correspondem as informações do curriculo que ele registrou|
 |Entradas| Usuário, senha e email|
@@ -70,7 +70,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 |Caso de Teste | CT 08 - Recebimento de informações de candidatos|
 |--------------------|------------------------------------|
-| RF 13 | O sistema deve permitir o cadastro de email para recebimento de pessoas candidatas|
+| RF 09 | O sistema deve permitir o cadastro de email para recebimento de pessoas candidatas|
 |Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Visualizar a página principal 4) Clicar no botão "Registrar-se" 5) Completar o formulário de informações 6) Clicar no botão "receber informações sobre candidatos registrados".|
 |Critérios de Êxito | Chegar aviso no email da empresa com candidatos que se registraramna vaga|
 |Entradas| Usuário, senha e email|
