@@ -105,3 +105,20 @@ A tela de cadatro permite que o usuário crie uma conta na aplicação caso o me
 </div>
 
 <p align="center">Fonte: Elaborado pelos autores</p>
+
+![image](https://user-images.githubusercontent.com/26911388/174692346-08fe3302-2253-4d78-95db-f2f68ee5c4ea.png)
+![image](https://user-images.githubusercontent.com/26911388/174692382-d502817a-5d14-4089-a622-7973f076774a.png)
+![image](https://user-images.githubusercontent.com/26911388/174692399-c01e607f-1234-402e-b121-bb793be334f1.png)
+![image](https://user-images.githubusercontent.com/26911388/174692415-c12f4505-0542-4b5b-bf19-598ae6c6fd8a.png)
+![image](https://user-images.githubusercontent.com/26911388/174692851-fb8d2b56-5535-4176-adbe-4a575a4b9f5a.png)
+![image](https://user-images.githubusercontent.com/26911388/174692864-be1ec93a-2aa2-4072-9d00-6177d331a551.png)
+![image](https://user-images.githubusercontent.com/26911388/174693152-f3c9f8bf-14cd-4e5d-a8b2-ce2d8abd8041.png)
+![image](https://user-images.githubusercontent.com/26911388/174693173-d795c52d-1a34-473b-a429-8733b4e44025.png)
+![image](https://user-images.githubusercontent.com/26911388/174693190-0e71f9a2-6973-4d47-b213-39470c59a2e6.png)
+![image](https://user-images.githubusercontent.com/26911388/174693211-01055792-96da-43f2-8fe4-8ece6d98d579.png)
+
+
+
+
+
+
