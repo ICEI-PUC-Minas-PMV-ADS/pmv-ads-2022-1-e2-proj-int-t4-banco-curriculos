@@ -116,7 +116,7 @@ A tela de cadatro permite que o usuário crie uma conta na aplicação caso o me
 ![image](https://user-images.githubusercontent.com/26911388/174693173-d795c52d-1a34-473b-a429-8733b4e44025.png)
 ![image](https://user-images.githubusercontent.com/26911388/174693190-0e71f9a2-6973-4d47-b213-39470c59a2e6.png)
 ![image](https://user-images.githubusercontent.com/26911388/174693211-01055792-96da-43f2-8fe4-8ece6d98d579.png)
-
+![image](https://user-images.githubusercontent.com/26911388/175168090-0a426ae9-9e3e-491d-9bea-c0b5ac0445bc.png)
 
 
 
