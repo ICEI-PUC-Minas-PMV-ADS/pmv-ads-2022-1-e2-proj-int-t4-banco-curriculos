@@ -24,4 +24,8 @@ https://user-images.githubusercontent.com/26911388/174903671-2cab8634-4677-4aed-
 
 https://user-images.githubusercontent.com/26911388/174906419-7bb32062-c1ec-4c57-9a18-cd50a1d6c602.mp4
 
+# Teste 7 -  Cadastro de Informações da empresa
+
+https://user-images.githubusercontent.com/26911388/175167800-da3a8c2d-d552-4e3e-bfcb-aad7777c85f5.mp4
+
 
