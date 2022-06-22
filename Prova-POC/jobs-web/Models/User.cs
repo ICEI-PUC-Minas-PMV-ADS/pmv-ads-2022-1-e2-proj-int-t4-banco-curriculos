@@ -1,4 +1,5 @@
-﻿using System;
+﻿using jobs_web.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -59,6 +60,6 @@ namespace Jobs.Models
         public DateTime RegistrationDate { get; set; }
 
         public virtual Candidate Canditate { get; set; }
-        public virtual jobs_web.Models.Empresa Empresa { get; set; }
+        public virtual Empresa Empresa { get; set; }
     }
 }
