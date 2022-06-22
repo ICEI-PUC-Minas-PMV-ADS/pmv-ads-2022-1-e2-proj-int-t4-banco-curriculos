@@ -9,10 +9,19 @@
     <title>Meu currículo</title>
 </head>
 <div class="container-detail-empresa">
-    <h4>@Html.DisplayFor(model => model.User.Nome)</h4>
-    <p class="descricao">@Html.DisplayFor(model => model.descricao)</p>
+    <h4>Informações da empresa</h4>
+    <h5>@Html.DisplayFor(model => model.nome)</h5>
+    <div class="bloco-descrição">
+        <p class="descricao">@Html.DisplayFor(model => model.descricao)</p>
+    </div>
     <div class="contato">
-        <h5>Contato</h5>
+        <h6>Email</h6>
+        <p>@Html.DisplayFor(model => model.contato)</p>
+    </div>
+    <h4>Informações do recrutador</h4>
+    <h5>@Html.DisplayFor(model => model.User.Nome)</h5>
+    <div class="contato">
+        <p>Contato</p>
         <ul>
             <li>Telefone: @Html.DisplayFor(model => model.User.Phone)</li>
             <li>Celular: @Html.DisplayFor(model => model.User.CellPhone)</li>
@@ -21,6 +30,6 @@
     </div>
     <div class="container-botoes">
         <a asp-action="Index" class="btn btn-dark">Voltar</a>
-        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Editar</a>
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Editar Empresa</a>
     </div>
 </div>

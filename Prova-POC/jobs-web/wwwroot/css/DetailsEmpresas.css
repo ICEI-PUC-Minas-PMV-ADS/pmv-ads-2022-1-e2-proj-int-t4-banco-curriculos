@@ -14,7 +14,6 @@ body > .container {
 
 main {
     background-color: #1b191a;
-    height: 91.3vh;
     padding: 3%;
 }
 
@@ -52,6 +51,15 @@ main {
 
 .container-detail-empresa .contato ul {
     padding: 0px;
+}
+
+.bloco-descrição {
+    border: black solid 1px;
+    border-radius: 3px;
+    padding: 2em;
+    display: flex;
+    margin: 3em auto;
+    width: 80%;
 }
 
 li {
