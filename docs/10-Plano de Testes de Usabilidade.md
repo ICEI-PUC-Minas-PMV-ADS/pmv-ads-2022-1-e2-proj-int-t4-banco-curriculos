@@ -21,3 +21,15 @@ Os perfis selecionados para o teste são como os descritos nas personas deste pr
 |Tarefa 4 |Critério de êxito | O que será avaliado |
 |---------|------------------|---------------------|
 | Pesquisa de vagas | Visualizar vagas no resultado da pesquisa realizada | Finalização da tarefa e tempo necessário para execução |
+
+|Tarefa 5 |Critério de êxito | O que será avaliado |
+|---------|------------------|---------------------|
+| Cadastro de currículo | Permitir cadastrar, editar e excluir o currículo do candidato | Finalização da tarefa e tempo necessário para execução |
+
+|Tarefa 6 |Critério de êxito | O que será avaliado |
+|---------|------------------|---------------------|
+| Exportar Currículo | Permitir que o usuário consiga exportar o currículo no formato PDF | Finalização da tarefa e tempo necessário para execução |
+
+|Tarefa 7 |Critério de êxito | O que será avaliado |
+|---------|------------------|---------------------|
+| Cadastro da empresa | Permitir que o usuário recrutador cadastre informações sobre a empresa que ele representa | Finalização da tarefa e tempo necessário para execução |
