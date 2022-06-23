@@ -76,3 +76,30 @@
 |Entradas| Usuário, senha e email|
 |Objetivo do teste | Constatar se a pessoa que registrou a vaga vai receber as notificações sobre quem está se candidatando|
 
+-------------------------------------------------------------------------
+|Caso de Teste | CT 09 - Cadastro do currículo do candidato|
+|--------------------|------------------------------------|
+| RF 12 | O sistema deve permitir o cadastro do currículo do candidato|
+|Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Realizar o login 4) Visualizar a página principal 5) Clicar em "Cadastrar currículo" 6) Adicionar as informações necessárias 7) Clicar em "Salvar"|
+|Critérios de Êxito | Salvar as informações adicionadas no currículo|
+|Entradas| Usuário, senha e email, dados que serão adicionados no currículo|
+|Objetivo do teste | Constatar se o candidato conseguirá salvar no banco os dados do seu currículo|
+
+-------------------------------------------------------------------------
+|Caso de Teste | CT 10 - Edição de informações no currículo do candidato|
+|--------------------|------------------------------------|
+| RF 13 | O sistema deve permitir a edição das informações no currículo do candidato|
+|Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Realizar o login 4) Visualizar a página principal 5) Clicar em "Visualizar currículo" 6) Clicar no ícone de lápis 7) Alterar as informações 8) Clicar em "Salvar"|
+|Critérios de Êxito | Salvar as informações alteradas no currículo|
+|Entradas| Usuário, senha e email, dados que serão alterados no currículo|
+|Objetivo do teste | Constatar se o candidato conseguirá salvar no banco as alterações feitas em seu currículo|
+  
+-------------------------------------------------------------------------
+|Caso de Teste | CT 11 - Exclusão de informações no currículo do candidato|
+|--------------------|------------------------------------|
+| RF 14 | O sistema deve permitir a exclusão das informações no currículo do candidato|
+|Passos | 1) Acessar o navegador 2) Informar o endereço do site 3) Realizar o login 4) Visualizar a página principal 5) Clicar em "Visualizar currículo" 6) Clicar no ícone de lixeira 7) Clicar em "Excluir"|
+|Critérios de Êxito | Excluir as informações no currículo|
+|Entradas| Usuário, senha e email|
+|Objetivo do teste | Constatar se o candidato conseguirá apagar do banco os dados do seu currículo|
+
