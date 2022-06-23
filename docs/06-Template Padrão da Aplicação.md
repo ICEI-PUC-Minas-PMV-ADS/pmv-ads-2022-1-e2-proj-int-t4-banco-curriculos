@@ -187,7 +187,7 @@ A tela de detalhes da empresa e do recrutador apresenta informações de sobre a
 
 ## Tela - Criação de vaga
 
-A tela de criação de vaga apresenta uma série de input d=aos quais o usuário recrutador deverá preencher corretamente para que seja criada uma nova vaga de emprego.
+A tela de criação de vaga apresenta uma série de input dos quais o usuário recrutador deverá preencher corretamente para que seja criada uma nova vaga de emprego.
 
 <p align="center">Figura 42 - Tela criação da vaga</p>
 
