@@ -84,6 +84,7 @@ O Quadro 5 apresenta as funcionalidades que a plataforma se propõe a oferecer.
 |RF-09 | O sistema deve permitir o cadastro de email para recebimento de pessoas candidatas                       | ALTA       |
 |RF-10 | O sistema deve permitir a edição de posições de trabalho                                                 | MÉDIA      |
 |RF-11 | O sistema deve permitir a exclusão de posições de trabalho                                               | MÉDIA      |
+|RF-12 | O sistema deve permitir o cadastro do currículo do candidato                                             | MÉDIA      |
 
 </div>
 
