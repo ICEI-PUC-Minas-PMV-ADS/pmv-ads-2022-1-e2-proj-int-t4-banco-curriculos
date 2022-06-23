@@ -164,12 +164,31 @@ A ação é concluída com êxito quando a aplicação retorna o resultado da pe
 <p align="center">Fonte: Elaborado pelos autores</p>
 
 
+## CT 06 - Candidatar a uma vaga de emprego (candidatos)
+
+Quando o usuário acessa "Buscar Vagas" no menu, uma tela de pesquisa é apresentada com as vagas de emprego adicionadas mais recentemente e é possível usar o campo de pesquisa para encontrar uma vaga desejada. Para visualizar uma vaga específica, basta clicar em "Mais detalhes".
+
+<p align="center">Figura 52 – Overview das vagas </p>
+
+![image](https://user-images.githubusercontent.com/26911388/175431574-dddc07c1-3398-4996-b02c-72649fa5de8d.png)
+
+<p align="center">Fonte: Elaborado pelos autores</p>
+
+Após escolher uma vaga específica, o candidado é redirecionao a uma página onde poderá ver todos os detalhes da mesma. Para candidatar-se na vaga, basta clicar no botão "Candidatar-se".
+
+<p align="center">Figura 53 – Candidatar para uma vaga </p>
+
+![image](https://user-images.githubusercontent.com/26911388/175431609-76303b8c-6db8-4f19-8436-787b7bacf54c.png)
+
+<p align="center">Fonte: Elaborado pelos autores</p>
+
+
 ## CT 09 - Editar informações do currículo (candidatos)
 
 Quando o usuário acessa "Meu currículo" no menu, é apresentada uma tela com todas informações
 pessoais e referentes ao currículo do candidato. Ao lado das informações são apresentados dois ícones, de um lápis e de uma lixeira, e para editar uma informação, basta o usuário clicar no ícone de lápis.
 
-<p align="center">Figura 51 – Teste editar informações do currículo </p>
+<p align="center">Figura 54 – Teste editar informações do currículo </p>
 
 ![image](https://user-images.githubusercontent.com/26911388/175427780-58db83ba-8366-4137-89bc-626a0d0cdcef.png)
 
@@ -177,13 +196,13 @@ pessoais e referentes ao currículo do candidato. Ao lado das informações são
 
 Após clicar no ícone de lápis, o usuário é redirecionado a uma página onde poderá fazer as alterações necessárias.
 
-<p align="center">Figura 52 – Página de edição do currículo </p>
+<p align="center">Figura 55 – Página de edição do currículo </p>
 
 ![image](https://user-images.githubusercontent.com/26911388/175429795-9d28e3be-b448-4e4e-bb63-967a24925654.png)
 
 <p align="center">Fonte: Elaborado pelos autores</p>
 
-<p align="center">Figura 53 – Currículo atualizado </p>
+<p align="center">Figura 56 – Currículo atualizado </p>
 
 ![image](https://user-images.githubusercontent.com/26911388/175430000-127774ae-da4e-4804-8649-3451cf54d06d.png)
 
@@ -194,7 +213,7 @@ Após clicar no ícone de lápis, o usuário é redirecionado a uma página onde
 Quando o usuário acessa "Meu currículo" no menu, é apresentada uma tela com todas informações
 pessoais e referentes ao currículo do candidato. Ao lado das informações são apresentados dois ícones, de um lápis e de uma lixeira, e para excluir uma informação, basta o usuário clicar no ícone de lixeira.
 
-<p align="center">Figura 54 – Teste excluir informações do currículo </p>
+<p align="center">Figura 57 – Teste excluir informações do currículo </p>
 
 ![image](https://user-images.githubusercontent.com/26911388/175428058-18844eb2-1fa4-4ace-a249-90ab1990b60c.png)
 
@@ -202,13 +221,13 @@ pessoais e referentes ao currículo do candidato. Ao lado das informações são
 
 Após clicar no ícone de lixeira, o usuário é redirecionado a uma página de confirmação de exclusão do item selecionado.
 
-<p align="center">Figura 55 –  Página de exclusão de informação do currículo </p>
+<p align="center">Figura 58 –  Página de exclusão de informação do currículo </p>
 
 ![image](https://user-images.githubusercontent.com/26911388/175428137-65ca88cd-e158-4676-bf41-5cbaaa2c7224.png)
 
 <p align="center">Fonte: Elaborado pelos autores</p>
 
-<p align="center">Figura 56 – Currículo atualizado </p>
+<p align="center">Figura 59 – Currículo atualizado </p>
 
 ![image](https://user-images.githubusercontent.com/26911388/175428162-c1122dff-e079-4715-9460-75589224add6.png)
 
