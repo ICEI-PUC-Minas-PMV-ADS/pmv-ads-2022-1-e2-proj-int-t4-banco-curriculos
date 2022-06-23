@@ -164,6 +164,57 @@ A ação é concluída com êxito quando a aplicação retorna o resultado da pe
 <p align="center">Fonte: Elaborado pelos autores</p>
 
 
+## CT 09 - Editar informações do currículo (candidatos)
+
+Quando o usuário acessa "Meu currículo" no menu, é apresentada uma tela com todas informações
+pessoais e referentes ao currículo do candidato. Ao lado das informações são apresentados dois ícones, de um lápis e de uma lixeira, e para editar uma informação, basta o usuário clicar no ícone de lápis.
+
+<p align="center">Figura 51 – Teste editar informações do currículo </p>
+
+![image](https://user-images.githubusercontent.com/26911388/175427780-58db83ba-8366-4137-89bc-626a0d0cdcef.png)
+
+<p align="center">Fonte: Elaborado pelos autores</p>
+
+Após clicar no ícone de lápis, o usuário é redirecionado a uma página onde poderá fazer as alterações necessárias.
+
+<p align="center">Figura 52 – Página de edição do currículo </p>
+
+![image](https://user-images.githubusercontent.com/26911388/175429795-9d28e3be-b448-4e4e-bb63-967a24925654.png)
+
+<p align="center">Fonte: Elaborado pelos autores</p>
+
+<p align="center">Figura 53 – Currículo atualizado </p>
+
+![image](https://user-images.githubusercontent.com/26911388/175430000-127774ae-da4e-4804-8649-3451cf54d06d.png)
+
+<p align="center">Fonte: Elaborado pelos autores</p>
+
+## CT 10 - Excluir informações do currículo (candidatos)
+
+Quando o usuário acessa "Meu currículo" no menu, é apresentada uma tela com todas informações
+pessoais e referentes ao currículo do candidato. Ao lado das informações são apresentados dois ícones, de um lápis e de uma lixeira, e para excluir uma informação, basta o usuário clicar no ícone de lixeira.
+
+<p align="center">Figura 54 – Teste excluir informações do currículo </p>
+
+![image](https://user-images.githubusercontent.com/26911388/175428058-18844eb2-1fa4-4ace-a249-90ab1990b60c.png)
+
+<p align="center">Fonte: Elaborado pelos autores</p>
+
+Após clicar no ícone de lixeira, o usuário é redirecionado a uma página de confirmação de exclusão do item selecionado.
+
+<p align="center">Figura 55 –  Página de exclusão de informação do currículo </p>
+
+![image](https://user-images.githubusercontent.com/26911388/175428137-65ca88cd-e158-4676-bf41-5cbaaa2c7224.png)
+
+<p align="center">Fonte: Elaborado pelos autores</p>
+
+<p align="center">Figura 56 – Currículo atualizado </p>
+
+![image](https://user-images.githubusercontent.com/26911388/175428162-c1122dff-e079-4715-9460-75589224add6.png)
+
+<p align="center">Fonte: Elaborado pelos autores</p>
+
+
 
 
 
