@@ -85,6 +85,8 @@ O Quadro 5 apresenta as funcionalidades que a plataforma se propõe a oferecer.
 |RF-10 | O sistema deve permitir a edição de posições de trabalho                                                 | MÉDIA      |
 |RF-11 | O sistema deve permitir a exclusão de posições de trabalho                                               | MÉDIA      |
 |RF-12 | O sistema deve permitir o cadastro do currículo do candidato                                             | MÉDIA      |
+|RF-13 | O sistema deve permitir a edição das informações no currículo do candidato                                            | MÉDIA      |
+|RF-14 | O sistema deve permitir a exclusão das informações no currículo do candidato                                          | MÉDIA      |
 
 </div>
 
