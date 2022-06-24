@@ -159,7 +159,7 @@ O candidato e o recrutador podem avaliar a experiência que tiveram durante o pr
 <p align = "center">Figura 1 - Diagrama de Casos de Uso</p>
 
 <div align = "center">
-<img src="img\usecasediagram.png"  width="600" title="persona1">
+<img src="img\usecasediagram.jpg"  width="600" title="persona1">
 </div>
 <p align = "center">Fonte: Elaborado pelos autores</p>
 
