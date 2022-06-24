@@ -183,7 +183,7 @@ Após escolher uma vaga específica, o candidado é redirecionao a uma página o
 <p align="center">Fonte: Elaborado pelos autores</p>
 
 
-## CT 09 - Editar informações do currículo (candidatos)
+## CT 07 - Editar informações do currículo (candidatos)
 
 Quando o usuário acessa "Meu currículo" no menu, é apresentada uma tela com todas informações
 pessoais e referentes ao currículo do candidato. Ao lado das informações são apresentados dois ícones, de um lápis e de uma lixeira, e para editar uma informação, basta o usuário clicar no ícone de lápis.
@@ -208,7 +208,7 @@ Após clicar no ícone de lápis, o usuário é redirecionado a uma página onde
 
 <p align="center">Fonte: Elaborado pelos autores</p>
 
-## CT 10 - Excluir informações do currículo (candidatos)
+## CT 08 - Excluir informações do currículo (candidatos)
 
 Quando o usuário acessa "Meu currículo" no menu, é apresentada uma tela com todas informações
 pessoais e referentes ao currículo do candidato. Ao lado das informações são apresentados dois ícones, de um lápis e de uma lixeira, e para excluir uma informação, basta o usuário clicar no ícone de lixeira.
