@@ -8,7 +8,7 @@ A Figura 23 apresenta o Diagrama de Classes, com as listas de atributos e de ope
 
 <div align="center">
 
-<img src="img\classDiagram.jpg">
+<img src="img\classDiagram.jpeg">
 
 </div>
 
