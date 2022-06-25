@@ -5,22 +5,18 @@
     font-family: 'Inter', sans-serif;
 }
 
-nav > .container, footer > .container, footer {
-    background-color: white;
-}
-
 nav {
     width: 100%;
 }
 
 body, .container {
-    background-color: #1b191a;
+    background-color: #FFFAFA;
 }
 
 form {
-    color: white;
+    color: #1C191A;
     width: auto;
-    background-color: rgba(0, 0, 0, 0.86);
+    border: 2px solid #F14902;
     padding: 5%;
 }
 

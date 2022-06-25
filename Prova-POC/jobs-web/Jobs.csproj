@@ -21,6 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\css\style-ExportResume.css" />
+    <Content Remove="wwwroot\css\style-ExportResume.scss" />
     <Content Remove="wwwroot\css\StyleSheet.css" />
   </ItemGroup>
 
@@ -49,6 +51,7 @@
     <None Include="Views\Users\Index.cshtml" />
     <None Include="Views\Users\AccessDenied.cshtml" />
     <None Include="Views\Users\Login.cshtml" />
+    <None Include="Views\Users\Success.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

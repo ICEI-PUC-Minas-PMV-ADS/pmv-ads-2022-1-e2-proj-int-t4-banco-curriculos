@@ -27,7 +27,7 @@ using Jobs.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f4041f29b402343a154db2459300009e779c86d8", @"/Views/Empresas/Edit.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"876ff6f4fb19d11a89cec964eca9252bd8ccc3c6", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"38d09b94bec750800d2f3804557b477055f15fcb", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Empresas_Edit : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<jobs_web.Models.Empresa>
     #nullable disable

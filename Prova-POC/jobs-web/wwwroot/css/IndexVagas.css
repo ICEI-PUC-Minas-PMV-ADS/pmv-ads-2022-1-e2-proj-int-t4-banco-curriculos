@@ -15,7 +15,7 @@ body > .container {
 }
 
 main {
-    background-color: #1b191a;
+    background-color: #FFFAFA;
     min-height: 91.3vh;
 }
 
@@ -47,6 +47,6 @@ h1 {
     background-color: #ffffff;
     color: black;
     box-sizing: border-box;
-    border: 2px solid cadetblue;
+    border: 2px solid #F14902;
     border-radius: 5px;
 }

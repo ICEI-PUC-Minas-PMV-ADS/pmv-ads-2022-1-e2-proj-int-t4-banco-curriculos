@@ -19,7 +19,7 @@ body > .container {
     margin: 0;
     padding: 0;
     height: 91.3vh;
-    background-color: #1b191a;
+    background-color: #FFFAFA;
 }
 
 .container-vagas {
@@ -27,9 +27,10 @@ body > .container {
     margin: 0 auto;
     box-sizing: border-box;
     padding: 3%;
-    background: black;
+    border: 2px solid #F14902;
+    border-radius: 8px;
     margin-top: 2%;
-    color: white;
+    color: #1C191A;
 }
 
 .inputs-medios {

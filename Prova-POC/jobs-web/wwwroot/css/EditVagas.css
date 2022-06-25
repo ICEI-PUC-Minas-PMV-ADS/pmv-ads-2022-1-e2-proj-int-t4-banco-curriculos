@@ -13,7 +13,7 @@ body > .container {
 }
 
 main {
-    background-color: #1b191a;
+    background-color: #FFFAFA;
     height: 91.3vh;
     padding: 1%;
     color: #ffffff;
@@ -28,8 +28,9 @@ main {
     margin: 0 auto;
     box-sizing: border-box;
     padding: 3%;
-    background: black;
+    border: 2px solid #F14902;
     margin-top: 2%;
+    border-radius: 8px;
 }
 
 .inputs-medios {

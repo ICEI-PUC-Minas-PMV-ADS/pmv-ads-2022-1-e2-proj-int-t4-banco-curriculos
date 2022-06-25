@@ -1,24 +1,21 @@
 ﻿* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
-body {
-  background-color: #1b191a;
+
+nav {
+    width: 100%;
+}
+
+body, .container {
+    background-color: #1b191a;
 }
 
 h1{
     text-align:center;
     font-size: 30px;
-}
-
-.container {
-    width: 100%;
-    min-width: 100%;
-    max-width: 100%;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    background-color: #1C191A;
 }
 
 .row {
@@ -31,9 +28,6 @@ h1{
 
 .container-login {
     background-color: rgba(0, 0, 0, 0.86);
-    position: absolute;
-    top: 6%;
-    left: 70%;
     padding: 80px;
     border-radius: 8px;
     color: white;
@@ -49,12 +43,6 @@ h1{
 
 .forget-password:hover{
     text-decoration: underline;
-}
-
-.logo-login {
-    position: absolute;
-    top: 12%;
-    left: 5%;
 }
 
 hr {
@@ -74,5 +62,11 @@ hr {
 
 a {
     color: dodgerblue;
+}
+
+@media (max-width: 600px){
+    #logoLogin{
+        width: 80%;
+    }
 }
 

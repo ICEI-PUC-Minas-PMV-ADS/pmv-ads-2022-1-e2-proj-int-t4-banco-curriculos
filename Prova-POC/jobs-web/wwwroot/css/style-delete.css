@@ -5,17 +5,13 @@
     font-family: 'Inter', sans-serif;
 }
 
-nav > .container, footer > .container, footer {
-    background-color: white;
-}
-
 nav {
     width: 100%;
 }
 
 body, .container {
-    background-color: #1b191a;
-    color: white;
+    background-color: #FFFAFA;
+    color: #1C191A;
     font-family: 'Inter', sans-serif;
 }
 
@@ -25,14 +21,14 @@ h3 {
     text-align: center;
     padding-top: 10vh;
     font-weight: 200;
-    color: white;
+    color: #1C191A;
     padding: 30px;
 }
 
 hr {
-    border-color: white;
+    border-color: #1C191A;
 }
 
 th, tr {
-    color: white;
+    color: #1C191A;
 }

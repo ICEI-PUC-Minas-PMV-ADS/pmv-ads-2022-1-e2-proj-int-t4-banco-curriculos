@@ -34,7 +34,7 @@ using System.Security.Claims;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c24c6a8c40aa13f6a50db96ffce4e00766f8e950", @"/Views/Empresas/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"876ff6f4fb19d11a89cec964eca9252bd8ccc3c6", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"38d09b94bec750800d2f3804557b477055f15fcb", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Empresas_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<jobs_web.Models.Empresa>>
     #nullable disable

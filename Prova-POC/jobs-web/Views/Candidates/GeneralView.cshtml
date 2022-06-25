@@ -59,13 +59,11 @@
 
 
             <fieldset class="fieldset-line">
-                <label class="subtitle">
-                    Formação
-                </label>
-                <div>
+                <div class="titleButton">
+                    <label class="subtitle">Formação</label>
                     <a asp-controller="Educations" asp-action="Create">
                         <button type="button" class="btn btn-primary btnAddFormation">Adicionar Formação</button>
-                     </a>
+                    </a>
                 </div>
                 <div>
                     @foreach (var item in Model.Educations)
@@ -84,9 +82,9 @@
                 </div>
             </fieldset>
             <hr>
-            <fieldset class="fieldset-line">
-                <label class="subtitle">Experiência</label>
-                <div>
+            <fieldset class="fieldset-line">      
+                <div class="titleButton">
+                    <label class="subtitle">Experiência</label>
                     <a asp-controller="ProfessionalExperiences" asp-action="Create">
                         <button type="button" class="btn btn-primary btnAddFormation">Adicionar Experiência</button>
                     </a>
@@ -115,7 +113,7 @@
             <hr>
         </div>
         <div>
-            <button class="btn btn-primary btnAddFormation">
+            <button type="button" class="btn btn-primary btnAddFormation">
             <a asp-action="Resume" asp-route-id="@Model.Id">Exportar currículo</a>
             </button>
         </div>

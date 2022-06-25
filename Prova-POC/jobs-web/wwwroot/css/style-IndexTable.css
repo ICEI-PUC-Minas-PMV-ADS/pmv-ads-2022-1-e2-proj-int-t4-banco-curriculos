@@ -5,9 +5,6 @@
     font-family: 'Inter', sans-serif;
 }
 
-nav > .container, footer > .container, footer {
-    background-color: white;
-}
 
 nav {
     width: 100%;
