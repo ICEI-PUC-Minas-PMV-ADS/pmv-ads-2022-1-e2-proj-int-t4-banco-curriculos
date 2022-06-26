@@ -82,11 +82,7 @@ A tela de login é a tela que permite o usuário fazer o login no sistema bastan
 
 <p align="center">Figura 32 - Tela de login</p>
 
-<div align="center">
-
-<img src="img\TelaLogin.png">
-
-</div>
+![image](https://user-images.githubusercontent.com/26911388/175797036-e2d8c1e4-a5e8-4255-a235-c50174376172.png)
 
 <p align="center">Fonte: Elaborado pelos autores</p>
 
@@ -96,10 +92,8 @@ A tela de cadatro permite que o usuário crie uma conta na aplicação caso o me
 
 <p align="center">Figura 33 - Tela de cadastro</p>
 
-<div align="center">
-  <img src="img\TelaCadastro1.png">
-  <img src="img\TelaCadastro2.png">
-</div>
+![image](https://user-images.githubusercontent.com/26911388/175797067-6f715594-334f-4848-943e-5bf4bed534e2.png)
+![image](https://user-images.githubusercontent.com/26911388/175797101-d31ea19b-24cb-45f2-b439-7a8afbdde6b6.png)
 
 <p align="center">Fonte: Elaborado pelos autores</p>
 
@@ -109,13 +103,13 @@ A tela de Home apresenta cards que direcionam o usuário para as ações que o m
 
 <p align="center">Figura 34 - Tela Home (Candidato)</p>
 
-![image](https://user-images.githubusercontent.com/26911388/174692346-08fe3302-2253-4d78-95db-f2f68ee5c4ea.png)
+![image](https://user-images.githubusercontent.com/26911388/175797129-bac84186-480b-41e2-b605-5c02159816fa.png)
 
 <p align="center">Fonte: Elaborado pelos autores</p>
 
 <p align="center">Figura 35 - Tela Home (Recrutador)</p>
 
-![image](https://user-images.githubusercontent.com/26911388/175168090-0a426ae9-9e3e-491d-9bea-c0b5ac0445bc.png)
+![image](https://user-images.githubusercontent.com/26911388/175797161-5979f357-9bb5-49d9-9de8-7cf940672d58.png)
 
 <p align="center">Fonte: Elaborado pelos autores</p>
 
@@ -126,9 +120,8 @@ profissional. Além disso a tela possui um botão que permite a exportação des
 
 <p align="center">Figura 36 - Tela cadastro de currículo</p>
 
-![image](https://user-images.githubusercontent.com/26911388/174692382-d502817a-5d14-4089-a622-7973f076774a.png)
-![image](https://user-images.githubusercontent.com/26911388/174692399-c01e607f-1234-402e-b121-bb793be334f1.png)
-![image](https://user-images.githubusercontent.com/26911388/174692415-c12f4505-0542-4b5b-bf19-598ae6c6fd8a.png)
+![image](https://user-images.githubusercontent.com/26911388/175797186-e924de29-48da-4d9d-a134-f221c8466f25.png)
+![image](https://user-images.githubusercontent.com/26911388/175797192-98122c35-e365-4010-8e72-d59e86b4a841.png)
 
 <p align="center">Fonte: Elaborado pelos autores</p>
 
@@ -139,7 +132,7 @@ pesquisar por vagas específicas que ele queira.
 
 <p align="center">Figura 37 - Tela pesquisa de vagas</p>
 
-![image](https://user-images.githubusercontent.com/26911388/174692851-fb8d2b56-5535-4176-adbe-4a575a4b9f5a.png)
+![image](https://user-images.githubusercontent.com/26911388/175797206-82bb97bc-8621-4c3d-8ffe-2f671cfa5094.png)
 
 <p align="center">Fonte: Elaborado pelos autores</p>
 
@@ -150,7 +143,7 @@ através dele.
 
 <p align="center">Figura 38 - Tela detalhes da vaga</p>
 
-![image](https://user-images.githubusercontent.com/26911388/174692864-be1ec93a-2aa2-4072-9d00-6177d331a551.png)
+![image](https://user-images.githubusercontent.com/26911388/175797216-9a884e38-f0c3-4fc7-b151-7b80870049ef.png)
 
 <p align="center">Fonte: Elaborado pelos autores</p>
 
@@ -160,7 +153,7 @@ A tela de cadastro de informações da empresa permite que o usuário do tipo re
 
 <p align="center">Figura 39 - Tela cadastro de informações da empresa</p>
 
-![image](https://user-images.githubusercontent.com/26911388/175174141-a62f0ea4-dee6-48af-891e-a1514fdb2e4c.png)
+![image](https://user-images.githubusercontent.com/26911388/175797243-a44f52e6-74e1-4b00-b7fd-cc96278dd575.png)
 
 <p align="center">Fonte: Elaborado pelos autores</p>
 
@@ -171,7 +164,7 @@ o usuário a uma página com informações mais completas a respeito da empresa.
 
 <p align="center">Figura 40 - Tela resumo sobre a empresa</p>
 
-![image](https://user-images.githubusercontent.com/26911388/175174292-6c02d182-7e4b-4eab-895d-0bd784a3dd68.png)
+![image](https://user-images.githubusercontent.com/26911388/175797267-bdaf0ed7-38ed-4af5-bfc4-7142d93f370a.png)
 
 <p align="center">Fonte: Elaborado pelos autores</p>
 
@@ -181,7 +174,7 @@ A tela de detalhes da empresa e do recrutador apresenta informações de sobre a
 
 <p align="center">Figura 41 - Tela detalhes da empresa e recrutador</p>
 
-![image](https://user-images.githubusercontent.com/26911388/175174472-9dc9ac98-0cae-4e9e-b7af-dc56057cb2b2.png)
+![image](https://user-images.githubusercontent.com/26911388/175797279-e7aef770-82f5-4bf4-bda1-7c5387f2723c.png)
 
 <p align="center">Fonte: Elaborado pelos autores</p>
 
@@ -191,7 +184,7 @@ A tela de criação de vaga apresenta uma série de input dos quais o usuário r
 
 <p align="center">Figura 42 - Tela criação da vaga</p>
 
-![image](https://user-images.githubusercontent.com/26911388/174693211-01055792-96da-43f2-8fe4-8ece6d98d579.png)
+![image](https://user-images.githubusercontent.com/26911388/175797294-f33f8445-7e75-48e1-a16f-42e326d49aa6.png)
 
 <p align="center">Fonte: Elaborado pelos autores</p>
 
@@ -201,7 +194,7 @@ A tela de detalhes permite que o recrutador veja os detalhes da vaga que criou e
 
 <p align="center">Figura 43 - Tela edição ou exclusão da vaga criada</p>
 
-![image](https://user-images.githubusercontent.com/26911388/174693190-0e71f9a2-6973-4d47-b213-39470c59a2e6.png)
+![image](https://user-images.githubusercontent.com/26911388/175797309-66de9edb-8ca4-433d-a2dc-83c5bd08255e.png)
 
 <p align="center">Fonte: Elaborado pelos autores</p>
 
@@ -211,7 +204,7 @@ A tela de visualização de vagas permite com que o recrutador consiga ver todas
 
 <p align="center">Figura 44 - Tela visualização das vagas criadas</p>
 
-![image](https://user-images.githubusercontent.com/26911388/174693173-d795c52d-1a34-473b-a429-8733b4e44025.png)
+![image](https://user-images.githubusercontent.com/26911388/175797318-999aeef6-d44e-49fe-983a-e2ad551e790d.png)
 
 <p align="center">Fonte: Elaborado pelos autores</p>
 
