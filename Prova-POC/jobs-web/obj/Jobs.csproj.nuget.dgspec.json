@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Jobs.csproj": {}
+    "C:\\Users\\isaca\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Jobs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Jobs.csproj": {
+    "C:\\Users\\isaca\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Jobs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Jobs.csproj",
+        "projectUniqueName": "C:\\Users\\isaca\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Jobs.csproj",
         "projectName": "Jobs",
-        "projectPath": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Jobs.csproj",
+        "projectPath": "C:\\Users\\isaca\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\Jobs.csproj",
         "packagesPath": "C:\\Users\\isaca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\obj\\",
+        "outputPath": "C:\\Users\\isaca\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\\Prova-POC\\jobs-web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isaca\\AppData\\Roaming\\NuGet\\NuGet.Config",

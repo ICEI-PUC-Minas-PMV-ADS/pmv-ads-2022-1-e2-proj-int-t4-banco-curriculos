@@ -5,16 +5,13 @@
     font-family: 'Inter', sans-serif;
 }
 
-nav > .container, footer > .container, footer {
-    background-color: white;
-}
 
 nav {
     width: 100%;
 }
 
 body, .container {
-    background-color: #1b191a;
+    background-color: #FFFAFA;
 }
 
 
@@ -23,7 +20,7 @@ h1 {
     font-size: 36px;
     text-align: center;
     font-weight: 200;
-    color: white;
+    color: #1C191A;
     margin-top: 10px;
     margin-bottom: 30px
 }
@@ -55,7 +52,7 @@ p {
     margin: 5px;
     font-family: 'Inter', sans-serif;
     font-weight: 200;
-    color: white;
+    color: #1C191A;
 }
 
 h3 {
@@ -63,17 +60,17 @@ h3 {
     margin: 5px;
     font-family: 'Inter', sans-serif;
     font-weight: 200;
-    color: white;
+    color: #1C191A;
 }
 
 fieldset {
     border: none;
-    color: white;
 }
 
 hr {
     margin-top: 10px;
-    border-top: solid white;
+    border-top: solid rgba(0, 0, 0, 0.86);
+    ;
 }
 
 img {
@@ -87,7 +84,9 @@ img {
     font-weight: 200;
     font-size: 24px;
     line-height: 43.57px;
-    color: white;
+    color: #1C191A;
+    margin-right: 10px;
+    margin-bottom: 0;
 }
 
 .title {
@@ -97,30 +96,42 @@ img {
     margin-top: 10vh;
 }
 
-.titleP {
+.titleP, .fa {
     padding: 5px;
     margin: 5px;
     font-family: 'Inter', sans-serif;
-    font-weight: bold;
+    font-weight: 400;
+    color: #1C191A;
+}
+
+.fa {
+    color: #F14902;
+}
+
+    .fa:hover {
+        color: #8C8C8C;
+    }
+
+.btnAddFormation:hover {
+    background-color: #8C8C8C;
+    border-color: #8C8C8C;
     color: white;
 }
 
-
-.btnAddFormation:hover, button > a:hover {
-    color: darkblue;
-}
-
-button > a, button > a:hover{
+button > a, button > a:hover {
     text-decoration: none;
+    color: white;
 }
 
-    button > a{
-        color: white;
-    }
+.titleButton {
+    display: flex;
+    justify-content: space-between;
+}
 
 
-    @media (max-width: 800px) {
-        .main {
+@media (max-width: 800px) {
+
+    .main {
         display: flex;
         width: 100%;
         flex-direction: column;

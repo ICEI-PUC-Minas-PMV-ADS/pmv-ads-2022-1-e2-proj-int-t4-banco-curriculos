@@ -1,4 +1,4 @@
-﻿﻿* {
+﻿﻿﻿* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +13,7 @@ body > .container {
 }
 
 main {
-    background-color: #1b191a;
+    background-color: #FFFAFA;
     height: 91.3vh;
     padding: 3%;
 }
@@ -24,35 +24,36 @@ main {
 
 .container-detail-empresa {
     width: 60%;
-    height: 90%;
     margin: 0 auto;
     box-sizing: border-box;
     padding: 5%;
     color: black;
     background-color: white;
+    border: 2px solid #F14902;
+    border-radius: 8px;
 }
 
-.container-detail-empresa > h4 {
-    text-align: center;
-    margin-bottom: 5%;
-}
+    .container-detail-empresa > h4 {
+        text-align: center;
+        margin-bottom: 5%;
+    }
 
-.container-detail-empresa .descricao {
-    text-align: justify;
-    margin-bottom: 5%;
-}
+    .container-detail-empresa .descricao {
+        text-align: justify;
+        margin-bottom: 5%;
+    }
 
-.container-detail-empresa .contato > h5 {
-    margin-bottom: 3%;
-}
+    .container-detail-empresa .contato > h5 {
+        margin-bottom: 3%;
+    }
 
-.container-detail-empresa .contato {
-    margin-bottom: 5%;
-}
+    .container-detail-empresa .contato {
+        margin-bottom: 5%;
+    }
 
-.container-detail-empresa .contato ul {
-    padding: 0px;
-}
+        .container-detail-empresa .contato ul {
+            padding: 0px;
+        }
 
 li {
     list-style-type: none;

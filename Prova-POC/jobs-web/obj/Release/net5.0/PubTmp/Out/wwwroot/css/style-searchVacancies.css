@@ -1,4 +1,4 @@
-﻿* {
+﻿﻿* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,8 +14,8 @@ body > .container {
     color: #ffffff;
 }
 
-main {
-    background-color: #1b191a;
+.main {
+    background-color: #FFFAFA;
     min-height: 91.3vh;
 }
 
@@ -29,7 +29,7 @@ h1 {
     text-align: center;
     padding-top: 10vh;
     font-weight: 200;
-    color: white;
+    color: #1C191A;
 }
 
 .new-vaga {
@@ -51,17 +51,16 @@ h1 {
     background-color: #ffffff;
     color: black;
     box-sizing: border-box;
-    border: 2px solid cadetblue;
+    border: 2px solid #F14902;
     border-radius: 5px;
 }
 
-form{
-    margin-left:auto;
+form {
+    margin-left: auto;
     margin-right: auto;
-    text-align:center;
+    text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
-
 }
 
 .searchField {
@@ -73,6 +72,5 @@ form > p {
     margin: 5px;
     font-family: 'Inter', sans-serif;
     font-weight: 200;
-    color: white;
+    color: #1C191A;
 }
-

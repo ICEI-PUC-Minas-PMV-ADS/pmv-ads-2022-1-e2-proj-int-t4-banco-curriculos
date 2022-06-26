@@ -24,8 +24,7 @@
                                 <h5 class="card-title">Cadastrar currículo</h5>
                                 <a asp-controller="Candidates" asp-action="Create" class="btn btn-primary">Cadastrar</a>
                             </div>
-                        </div>
-                    }
+                        </div> }
                     else
                     {
                         <fieldset>
@@ -45,17 +44,16 @@
                                     </div>
                                 </div>
                             </div>
-                        </fieldset>
-                    }
+                        </fieldset> }
                 }
-                else
+                else if (User.IsInRole("Recrutador"))
                 {
                     <h1>Olá, seja bem-vindo!</h1>
                     <div class="cards">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body text-center">
-                                <h5 class="card-title">Cadastrar empresa</h5>
-                                <a asp-controller="Empresas" asp-action="Index" class="btn btn-primary">Cadastrar</a>
+                                <h5 class="card-title">Informações da empresa</h5>
+                                <a asp-controller="Empresas" asp-action="Index" class="btn btn-primary">Visualizar</a>
                             </div>
                         </div>
 
@@ -70,6 +68,8 @@
             }
         </div>
     </div>
+
 </body>
+
 
 

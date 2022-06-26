@@ -21,7 +21,7 @@
                 <p class="descricao">@Html.DisplayFor(modelItem => item.descricao)</p>
             </div>
             <div class="container-botoes" style="margin-top: 2em">
-                <a asp-action="Index" class="btn btn-dark">Voltar</a>
+                <a asp-controller="Home" asp-action="Index" class="btn btn-dark">Voltar</a>
                 <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Detalhes</a>
             </div>
         </div>

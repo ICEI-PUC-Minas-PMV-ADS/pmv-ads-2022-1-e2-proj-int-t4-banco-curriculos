@@ -5,6 +5,7 @@ C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4
 C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Release\net5.0\PubTmp\Out\wwwroot\css\EditEmpresa.css
 C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Release\net5.0\PubTmp\Out\wwwroot\css\EditVagas.css
 C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Release\net5.0\PubTmp\Out\wwwroot\css\Empresa.css
+C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Release\net5.0\PubTmp\Out\wwwroot\css\IndexEmpresas.css
 C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Release\net5.0\PubTmp\Out\wwwroot\css\IndexVagas.css
 C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Release\net5.0\PubTmp\Out\wwwroot\css\Login.css
 C:\Users\isaca\Source\Repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\obj\Release\net5.0\PubTmp\Out\wwwroot\css\site.css

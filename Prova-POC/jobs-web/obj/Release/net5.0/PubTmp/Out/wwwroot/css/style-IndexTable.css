@@ -5,9 +5,6 @@
     font-family: 'Inter', sans-serif;
 }
 
-nav > .container, footer > .container, footer {
-    background-color: white;
-}
 
 nav {
     width: 100%;
@@ -33,6 +30,6 @@ hr {
     border-color: white;
 }
 
-th, tr{
-    color:white;
+th, tr {
+    color: white;
 }

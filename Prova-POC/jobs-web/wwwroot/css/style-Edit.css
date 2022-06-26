@@ -1,21 +1,17 @@
-﻿* {
+﻿﻿* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-
 }
 
-nav > .container, footer > .container, footer {
-    background-color: white;
-}
 
 nav {
     width: 100%;
 }
 
 body, .container {
-    background-color: #1b191a;
+    background-color: #FFFAFA;
 }
 
 
@@ -37,27 +33,13 @@ h1 {
     text-align: center;
     padding-top: 10vh;
     font-weight: 200;
-    color: white;
+    color: #1C191A;
 }
 
-.buttons {
-    height: 30px;
-    width: 70px;
-    background-color: rgb(19, 77, 184);
-    color: white;
-    border-radius: 5px;
-    transition: .3s;
-    cursor: pointer;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1em;
-    border: none;
+.btn-primary:hover {
+    background-color: #8C8C8C;
+    border-color: #8C8C8C;
 }
-
-    .buttons:hover {
-        background-color: black;
-    }
 
 .main {
     display: flex;
@@ -84,7 +66,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.86);
+    border: 2px solid #F14902;
     padding-left: 5%;
     padding-right: 5%;
     border-radius: 8px;
@@ -116,7 +98,7 @@ fieldset {
     font-weight: 200;
     font-size: 24px;
     line-height: 43.57px;
-    color: white;
+    color: #1C191A;
 }
 
 .checkbox {
@@ -138,7 +120,7 @@ fieldset {
     margin: 5px;
     white-space: nowrap;
     align-items: center;
-    color: white;
+    color: #1C191A;
 }
 
 .checkbox-wrapper, .addEvent, .removeEvent {
@@ -150,7 +132,7 @@ fieldset {
     height: 30px;
     width: 30px;
     background-color: gray;
-    color: white;
+    color: #1C191A;
     border-radius: 5px;
     font-weight: bold;
     transition: .3s;
@@ -196,22 +178,22 @@ fieldset {
 }
 
 .control-label {
-    color: white;
+    color: #1C191A;
     margin-bottom: 0;
     margin-top: 8px;
 }
 
-button > a, button > a:hover{
+button > a, button > a:hover {
     text-decoration: none;
     color: white;
 }
 
-.divButtons{
+.divButtons {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     width: 30%;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+    justify-content: space-between;
 }
-
