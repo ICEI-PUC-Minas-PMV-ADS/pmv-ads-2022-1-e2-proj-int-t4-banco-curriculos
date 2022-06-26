@@ -1,0 +1,40 @@
+﻿@model jobs_web.Models.Empresa
+
+@{
+    ViewData["Title"] = "Create";
+}
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/Empresa.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap" rel="stylesheet">
+    <title>Informações da Empresa</title>
+</head>
+<body>
+    <div class="row">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="nome" class="control-label">Razão Social</label>
+                <input asp-for="nome" class="form-control" />
+                <span asp-validation-for="nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="cnpj" class="control-label">CNPJ</label>
+                <input asp-for="cnpj" class="form-control" />
+                <span asp-validation-for="cnpj" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="contato" class="control-label">Email</label>
+                <input asp-for="contato" type="email" placeholder="teste@teste.com" class="form-control" />
+                <span asp-validation-for="contato" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="descricao" class="control-label">Descrição</label>
+                <textarea rows="5" asp-for="descricao" class="form-control"></textarea>
+                <span asp-validation-for="descricao" class="text-danger"></span>
+            </div>
+            <div id="btn" class="form-group">
+                <input type="submit" value="Salvar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</body>

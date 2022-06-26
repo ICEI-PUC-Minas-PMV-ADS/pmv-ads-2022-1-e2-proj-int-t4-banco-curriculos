@@ -1,0 +1,86 @@
+﻿@model IEnumerable<Jobs.Models.ProfessionalExperience>
+@using System.Security.Claims;
+
+@{ ViewData["Title"] = "Index"; }
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/style-IndexTable.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap" rel="stylesheet">
+    <title>Tabela Experiência Profissional</title>
+</head>
+
+<body>
+    <h1>Controle das experiências profissionais</h1>
+    <p>
+        <a asp-action="Create">Cadastrar Experiência Profissional</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Occupation)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.JobType)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CompanyName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Locality)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.StartDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EndDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CandidateId)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+@if (item.Candidate.UserId == Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier)))
+{
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Occupation)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.JobType)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.CompanyName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Locality)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.StartDate)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.EndDate)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Description)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.CandidateId)
+    </td>
+    <td>
+        <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+        <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+        <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+    </td>
+</tr>}}
+        </tbody>
+    </table>
+
+</body>

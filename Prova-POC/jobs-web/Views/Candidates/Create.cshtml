@@ -1,0 +1,72 @@
+﻿@model Jobs.Models.Candidate
+
+@{
+    ViewData["Title"] = "Meu Currículo";
+}
+
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/style-NewResume.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap" rel="stylesheet">
+    <title>Meu currículo</title>
+</head>
+<body>
+    <div class="main">
+        <div class="content">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="title">
+                    <h1>Meu currículo</h1>
+                </div>
+
+                <fieldset>
+                    <label class="subtitle">Dados pessoais</label>
+                    <div class="form-group">
+                        <input asp-for="Cpf" type="number" name="cpf" pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" placeholder="CPF">
+                    </div>
+                    <div class="form-group">
+                        <input asp-for="Birthdate"
+                               type="text"
+                               name="birthdate"
+                               id="birthdate"
+                               onfocus="(this.type='date')"
+                               onblur="(this.type='text')"
+                               placeholder="Data de nascimento" />
+                        <select asp-for="Gender"
+                                name="gender" id="gender">
+                            <option selected disable value="">Gênero</option>
+                            <option>Feminino</option>
+                            <option>Masculino</option>
+                            <option>Prefiro não informar</option>
+                        </select>
+                        <select asp-for="Race" name="race" id="race">
+                            <option selected disable value="">Raça</option>
+                            <option>Amarela</option>
+                            <option>Branca</option>
+                            <option>Indígena</option>
+                            <option>Parda</option>
+                            <option>Preta</option>
+                        </select>
+                        <select asp-for="Pwd" name="pwd" id="pwd">
+                            <option selected disable value="">PCD</option>
+                            <option>Não</option>
+                            <option>Sim</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input asp-for="Linkedin" type="text" nome="linkedin" id="linkedin" placeholder="Linkedin">
+                    </div>
+                </fieldset>
+
+                <div class="divButton">
+                    <button type="submit" class="btn btn-primary">Salvar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="~/js/script-NewResume.js"></script>
+</body>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

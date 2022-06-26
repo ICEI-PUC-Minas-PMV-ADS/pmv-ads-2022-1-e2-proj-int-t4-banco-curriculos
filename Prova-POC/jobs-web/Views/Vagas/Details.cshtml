@@ -1,0 +1,29 @@
+﻿@model jobs_web.Models.Vagas
+
+@{
+    ViewData["Title"] = "Details";
+}
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/DetailsVagas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap" rel="stylesheet">
+    <title>Meu currículo</title>
+</head>
+
+<div class="container-detail-vagas">
+    <div class="container-detail-vagas-title">
+        <h4>@Html.DisplayFor(model => model.Cargo)</h4>
+        <h4>@Html.DisplayFor(model => model.Empresa.nome)</h4>
+    </div>
+    <p>@Html.DisplayFor(model => model.descricao)</p>
+    <p>Quantidade de vagas: @Html.DisplayFor(model => model.quantidade_vagas)</p>
+    <p>Fechamento da Vaga: @Html.DisplayFor(model => model.ClosingDate)</p>
+    <p>Informações de contato: @Html.DisplayFor(model => model.Empresa.contato)</p>
+    <div class="container-botoes">
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="Id" />
+            <input type="submit" value="Excluir" class="btn btn-danger" /> |
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Editar</a>
+        </form>
+    </div>
+    <a asp-action="Index" class="btn btn-dark">Voltar</a>
+</div>

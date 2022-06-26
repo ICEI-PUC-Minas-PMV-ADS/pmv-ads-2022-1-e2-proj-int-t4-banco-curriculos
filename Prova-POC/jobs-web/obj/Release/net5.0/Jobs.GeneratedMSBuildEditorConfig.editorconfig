@@ -1,0 +1,17 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = jobs_web
+build_property.ProjectDir = C:\Users\isaca\source\repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2022-1-e2-proj-int-t4-banco-curriculos\Prova-POC\jobs-web\

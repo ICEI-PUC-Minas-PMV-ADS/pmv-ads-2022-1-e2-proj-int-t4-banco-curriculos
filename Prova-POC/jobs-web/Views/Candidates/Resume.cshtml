@@ -1,0 +1,63 @@
+﻿@model Jobs.Models.Candidate
+
+@{
+    ViewData["Title"] = "Resume";
+}
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/exportResume.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap" rel="stylesheet">
+    <title>Meu currículo</title>
+</head>
+<body>
+    <div id="export">
+        <h1>@Html.DisplayFor(model => model.User.Nome)</h1>
+        <div>
+            <hr />
+            <fieldset class="fieldset-line">
+                <label class="subtitle">Contato</label>
+                <div>
+                    <p>@Html.DisplayFor(model => model.User.CellPhone)</p>
+                    <p>@Html.DisplayFor(model => model.User.Email)</p>
+                    @if (Model.Linkedin is not null)
+                    {
+                        <p>@Html.DisplayFor(model => model.Linkedin)</p>
+                    }
+                    <p>@Html.DisplayFor(model => model.User.City) - @Html.DisplayFor(model => model.User.State)</p>
+                </div>
+            </fieldset>
+            <hr>
+            <fieldset class="fieldset-line">
+                <label class="subtitle">Formação</label>
+                <div>
+                    @foreach (var item in Model.Educations)
+                    {
+                        <p class="titleP">@Html.DisplayFor(modelItem => item.Institution)</p>
+                        <p>@Html.DisplayFor(modelItem => item.CourseType), @Html.DisplayFor(modelItem => item.Course)</p>
+                        <p>@Html.DisplayFor(modelItem => item.StartDate) - @Html.DisplayFor(modelItem => item.EndDate)</p>
+                    }
+                </div>
+            </fieldset>
+            <hr>
+            <fieldset class="fieldset-line">
+                <label class="subtitle">Experiência</label>
+                <div>
+                    @foreach (var item in Model.ProfessionalExperiences)
+                    {
+                        <p class="titleP">@Html.DisplayFor(modelItem => item.CompanyName)</p>
+                        <p>@Html.DisplayFor(modelItem => item.Occupation)</p>
+                        <p>@Html.DisplayFor(modelItem => item.StartDate) - @Html.DisplayFor(modelItem => item.EndDate)</p>
+                        <p>@Html.DisplayFor(modelItem => item.Description)</p>
+                    }
+                </div>
+            </fieldset>
+            <hr>
+        </div>
+        <div>
+            <button type="button" class="btn btn-primary" onclick="Export()">Exportar</button>
+        </div>
+    </div>
+</body>
+</html>
+<script src="~/js/ExportResume.js"></script>

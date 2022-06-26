@@ -1,0 +1,35 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+nav {
+    width: 100%;
+}
+
+body, .container {
+    background-color: #1b191a;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 10vh;
+    font-weight: 200;
+    color: white;
+    padding: 20px;
+}
+
+hr {
+    border-color: white;
+}
+
+th, tr {
+    color: white;
+}

@@ -1,0 +1,28 @@
+﻿@model IEnumerable<jobs_web.Models.Vagas>
+
+    @{
+    ViewData["Title"] = "Search";
+    }
+    <head>
+        <link rel="stylesheet" type="text/css" href="~/css/style-searchVacancies.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap" rel="stylesheet">
+        <title>Meu currículo</title>
+    </head>
+    <h1>Vagas</h1>
+
+    <form asp-controller="Vagas" asp-action="Search" method="get">
+        <p>
+            Vaga: <input class="searchField" type="text" name="SearchString" />
+            <input type="submit" class="btn btn-primary" value="Buscar" />
+        </p>
+    </form>
+    <div class="container-index-vagas">
+        @foreach (var item in Model){
+        <section class="section-vagas">
+            <h3>@Html.DisplayFor(modelItem => item.Cargo)</h3>
+            <p> @Html.DisplayFor(modelItem => item.descricao)</p>
+            <p> Quantidade de vagas: @Html.DisplayFor(modelItem => item.quantidade_vagas)</p>
+            <a asp-action="DetailsVacancy" asp-route-id="@item.Id">Mais detalhes</a>
+        </section>
+        }
+    </div>

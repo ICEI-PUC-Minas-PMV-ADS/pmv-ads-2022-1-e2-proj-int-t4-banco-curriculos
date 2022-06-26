@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Jobs.Models.Candidate>
+@using System.Security.Claims;
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/style-IndexTable.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap" rel="stylesheet">
+    <title>Tabela Dados Pessoais</title>
+</head>
+
+<body>
+    <h1>Controle dos dados pessoais</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Birthdate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Gender)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Race)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Pwd)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cpf)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Linkedin)
+                </th>
+
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+@if (item.UserId == Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier)))
+{
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Birthdate)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Gender)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Race)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Pwd)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Cpf)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Linkedin)
+    </td>
+    <td>
+        <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+        <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+        <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+    </td>
+</tr>}}
+        </tbody>
+    </table>
+
+</body>

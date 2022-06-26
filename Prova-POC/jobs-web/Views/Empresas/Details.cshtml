@@ -1,0 +1,35 @@
+﻿@model jobs_web.Models.Empresa
+
+@{
+    ViewData["Title"] = "Details";
+}
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/DetailsEmpresas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap" rel="stylesheet">
+    <title>Meu currículo</title>
+</head>
+<div class="container-detail-empresa">
+    <h4>Informações da empresa</h4>
+    <h5>@Html.DisplayFor(model => model.nome)</h5>
+    <div class="bloco-descrição">
+        <p class="descricao">@Html.DisplayFor(model => model.descricao)</p>
+    </div>
+    <div class="contato">
+        <h6>Email</h6>
+        <p>@Html.DisplayFor(model => model.contato)</p>
+    </div>
+    <h4>Informações do recrutador</h4>
+    <h5>@Html.DisplayFor(model => model.User.Nome)</h5>
+    <div class="contato">
+        <p>Contato</p>
+        <ul>
+            <li>Telefone: @Html.DisplayFor(model => model.User.Phone)</li>
+            <li>Celular: @Html.DisplayFor(model => model.User.CellPhone)</li>
+            <li>Email: @Html.DisplayFor(model => model.User.Email)</li>
+        </ul>
+    </div>
+    <div class="container-botoes">
+        <a asp-action="Index" class="btn btn-dark">Voltar</a>
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Editar Empresa</a>
+    </div>
+</div>

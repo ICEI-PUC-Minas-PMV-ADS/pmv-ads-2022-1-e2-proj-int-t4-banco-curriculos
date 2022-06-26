@@ -1,0 +1,75 @@
+﻿@model Jobs.Models.Candidate
+@using System.Security.Claims;
+
+@{ ViewData["Title"] = "Home Page"; }
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/style-Home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="content">
+
+            @{ var userIdlog = Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier));
+                if (User.IsInRole("Candidato"))
+                {
+                    if (Model?.UserId == null)
+                    {
+                        <h1>Olá, seja bem-vindo(a)!</h1>
+                        <div class="card uniqueCard" style="width: 18rem;">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Cadastrar currículo</h5>
+                                <a asp-controller="Candidates" asp-action="Create" class="btn btn-primary">Cadastrar</a>
+                            </div>
+                        </div> }
+                    else
+                    {
+                        <fieldset>
+                            <h1>Olá, @Html.DisplayFor(model => model.User.Nome)!</h1>
+                            <div class="cards">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Meu currículo</h5>
+                                        <a asp-controller="Candidates" asp-action="GeneralView" asp-route-id="@Model.Id" class="btn btn-primary">Visualizar</a>
+                                    </div>
+                                </div>
+
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Buscar vagas</h5>
+                                        <a asp-controller="Vagas" asp-action="Search" class="btn btn-primary">Buscar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset> }
+                }
+                else if (User.IsInRole("Recrutador"))
+                {
+                    <h1>Olá, seja bem-vindo!</h1>
+                    <div class="cards">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Informações da empresa</h5>
+                                <a asp-controller="Empresas" asp-action="Index" class="btn btn-primary">Visualizar</a>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Criar vagas</h5>
+                                <a asp-controller="Vagas" asp-action="Create" class="btn btn-primary">Criar</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+
+</body>
+
+
+

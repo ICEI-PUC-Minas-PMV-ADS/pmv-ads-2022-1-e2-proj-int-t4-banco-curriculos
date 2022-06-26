@@ -1,0 +1,30 @@
+﻿@model IEnumerable<jobs_web.Models.Empresa>
+@using System.Security.Claims;
+
+@{
+    ViewData["Title"] = "Index";
+}
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/IndexEmpresas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap" rel="stylesheet">
+    <title>Meu currículo</title>
+</head>
+<a asp-controller="Empresas" asp-action="Create" class="btn btn-primary">Cadastrar</a>
+@foreach (var item in Model)
+{
+    @if (item.UserId == Convert.ToInt32(User.FindFirstValue(ClaimTypes.NameIdentifier)))
+    {
+
+        <div class="container-detail-empresa">
+            <h4>@Html.DisplayFor(modelItem => item.nome)</h4>
+            <div class="bloco-descrição">
+                <p class="descricao">@Html.DisplayFor(modelItem => item.descricao)</p>
+            </div>
+            <div class="container-botoes" style="margin-top: 2em">
+                <a asp-controller="Home" asp-action="Index" class="btn btn-dark">Voltar</a>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Detalhes</a>
+            </div>
+        </div>
+    }
+
+}

@@ -1,0 +1,76 @@
+﻿﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body > .container {
+    min-width: 100% !important;
+    max-width: 100% !important;
+    margin: 0;
+    padding: 0;
+    height: 91vh;
+    color: #ffffff;
+}
+
+.main {
+    background-color: #FFFAFA;
+    min-height: 91.3vh;
+}
+
+.mb-3, .my-3 {
+    margin-bottom: 0 !important;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 10vh;
+    font-weight: 200;
+    color: #1C191A;
+}
+
+.new-vaga {
+    margin: 2%;
+}
+
+.container-index-vagas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section-vagas {
+    width: 45%;
+    height: 40%;
+    margin: 0 0 5% 5%;
+    padding: 2%;
+    background-color: #ffffff;
+    color: black;
+    box-sizing: border-box;
+    border: 2px solid #F14902;
+    border-radius: 5px;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.searchField {
+    width: 50%;
+}
+
+form > p {
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    color: #1C191A;
+}

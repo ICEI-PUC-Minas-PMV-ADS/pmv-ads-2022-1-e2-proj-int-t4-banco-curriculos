@@ -1,0 +1,71 @@
+﻿﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    width: 100%;
+}
+
+body, .container {
+    background-color: #1b191a;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.row {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10% 5%;
+}
+
+.container-login {
+    background-color: rgba(0, 0, 0, 0.86);
+    padding: 80px;
+    border-radius: 8px;
+    color: white;
+}
+
+.forget-password {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+    .forget-password:hover {
+        text-decoration: underline;
+    }
+
+hr {
+    color: white;
+    border: 1px solid;
+}
+
+.button-login {
+    background-color: #1e90ff;
+    border-radius: 10px;
+    height: 47px
+}
+
+    .button-login:hover {
+        background-color: deepskyblue;
+    }
+
+a {
+    color: dodgerblue;
+}
+
+@media (max-width: 600px) {
+    #logoLogin {
+        width: 80%;
+    }
+}

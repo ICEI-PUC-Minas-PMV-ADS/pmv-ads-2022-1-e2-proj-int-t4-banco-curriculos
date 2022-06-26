@@ -1,0 +1,23 @@
+﻿@model jobs_web.Models.Vagas
+
+@{ ViewData["Title"] = "DetailsVacancy"; }
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/DetailsVagas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap" rel="stylesheet">
+    <title>Meu currículo</title>
+</head>
+
+<div class="container-detail-vagas">
+    <div class="container-detail-vagas-title">
+        <h4>@Html.DisplayFor(model => model.Cargo)</h4>
+    </div>
+    <p>@Html.DisplayFor(model => model.descricao)</p>
+    <p>Quantidade de vagas: @Html.DisplayFor(model => model.quantidade_vagas)</p>
+    <p>Criação da Vaga: @Html.DisplayFor(model => model.RegistrationDate)</p>
+    <div class="container-botoes">
+        <a href="#" class="btn btn-primary">Candidatar-se</a>
+    </div>
+    <a asp-action="Search" class="btn btn-dark">Voltar</a>
+</div>
+
+<script src="~/js/subscribeOk.js"></script>

@@ -1,0 +1,122 @@
+﻿@model Jobs.Models.Candidate
+@{
+    ViewData["Title"] = "GeneralView";
+}
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/style-GeneralView.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Meu currículo</title>
+</head>
+<body>
+    <div id="export">
+        <h1>Meu Currículo</h1>
+        <div>
+            <hr />
+            <fieldset class="fieldset-line">
+                <label class="subtitle">
+                    Contato
+                    <a asp-controller="Users" asp-action="Edit" asp-route-id="@Model.User.Id">
+                        <i class="fa fa-pencil fa-lg" aria-hidden="true"></i>
+                    </a>
+                </label>
+                <div>
+                    <p>@Html.DisplayNameFor(model => model.User.Nome): @Html.DisplayFor(model => model.User.Nome)</p>
+                    <p>@Html.DisplayNameFor(model => model.User.CellPhone): @Html.DisplayFor(model => model.User.CellPhone)</p>
+                    <p>@Html.DisplayNameFor(model => model.User.Phone): @Html.DisplayFor(model => model.User.Phone)</p>
+                    <p>@Html.DisplayNameFor(model => model.User.Email): @Html.DisplayFor(model => model.User.Email)</p>
+                    <p>@Html.DisplayNameFor(model => model.User.Address): @Html.DisplayFor(model => model.User.Address)</p>
+                    <p>@Html.DisplayNameFor(model => model.User.Neighborhood): @Html.DisplayFor(model => model.User.Neighborhood)</p>
+                    <p>@Html.DisplayNameFor(model => model.User.ZipCode): @Html.DisplayFor(model => model.User.ZipCode)</p>
+                    <p>@Html.DisplayNameFor(model => model.User.City): @Html.DisplayFor(model => model.User.City)</p>
+                    <p>@Html.DisplayNameFor(model => model.User.State): @Html.DisplayFor(model => model.User.State)</p>
+                </div>
+            </fieldset>
+            <hr>
+
+            <fieldset class="fieldset-line">
+                <label class="subtitle">
+                    Dados Pessoais
+                    <a asp-controller="Candidates" asp-action="Edit" asp-route-id="@Model.Id">
+                        <i class="fa fa-pencil fa-lg" aria-hidden="true"></i>
+                    </a>
+                </label>
+                <div>
+                    <p>@Html.DisplayNameFor(model => model.Cpf): @Html.DisplayFor(model => model.Cpf)</p>
+                    <p>@Html.DisplayNameFor(model => model.Birthdate): @Html.DisplayFor(model => model.Birthdate)</p>
+                    <p>@Html.DisplayNameFor(model => model.Gender): @Html.DisplayFor(model => model.Gender)</p>
+                    <p>@Html.DisplayNameFor(model => model.Race): @Html.DisplayFor(model => model.Race)</p>
+                    <p>@Html.DisplayNameFor(model => model.Pwd): @Html.DisplayFor(model => model.Pwd)</p>
+                    @if (Model.Linkedin is not null)
+                    {
+                        <p>@Html.DisplayNameFor(model => model.Linkedin): @Html.DisplayFor(model => model.Linkedin)</p>
+                    }
+                </div>
+            </fieldset>
+            <hr>
+
+
+            <fieldset class="fieldset-line">
+                <div class="titleButton">
+                    <label class="subtitle">Formação</label>
+                    <a asp-controller="Educations" asp-action="Create">
+                        <button type="button" class="btn btn-primary btnAddFormation">Adicionar Formação</button>
+                    </a>
+                </div>
+                <div>
+                    @foreach (var item in Model.Educations)
+                    {
+                        <p class="titleP">
+                            @Html.DisplayFor(modelItem => item.Institution)
+                            <a asp-controller="Educations" asp-action="Edit" asp-route-id="@item.Id">
+                                <i class="fa fa-pencil fa-lg" aria-hidden="true"></i>
+                            </a>
+                            <a asp-controller="Educations" asp-action="Delete" asp-route-id="@item.Id">
+                                <i class="fa fa-trash fa-lg" aria-hidden="true"></i>
+                            </a>
+                        </p>
+                        <p>@Html.DisplayFor(modelItem => item.CourseType), @Html.DisplayFor(modelItem => item.Course)</p>
+                        <p>@Html.DisplayFor(modelItem => item.StartDate) - @Html.DisplayFor(modelItem => item.EndDate)</p>}
+                </div>
+            </fieldset>
+            <hr>
+            <fieldset class="fieldset-line">
+                <div class="titleButton">
+                    <label class="subtitle">Experiência</label>
+                    <a asp-controller="ProfessionalExperiences" asp-action="Create">
+                        <button type="button" class="btn btn-primary btnAddFormation">Adicionar Experiência</button>
+                    </a>
+                </div>
+                <div>
+                    @foreach (var item in Model.ProfessionalExperiences)
+                    {
+                        <p class="titleP">
+                            @Html.DisplayFor(modelItem => item.CompanyName)
+                            <a asp-controller="ProfessionalExperiences" asp-action="Edit" asp-route-id="@item.Id">
+                                <i class="fa fa-pencil fa-lg" aria-hidden="true"></i>
+                            </a>
+                            <a asp-controller="ProfessionalExperiences" asp-action="Delete" asp-route-id="@item.Id">
+                                <i class="fa fa-trash fa-lg" aria-hidden="true"></i>
+                            </a>
+                        </p>
+                        <p>@Html.DisplayFor(modelItem => item.Occupation)</p>
+                        <p>@Html.DisplayFor(modelItem => item.StartDate) - @Html.DisplayFor(modelItem => item.EndDate)</p>
+                        @if (item.Description is not null)
+                        {
+                            <p>@Html.DisplayFor(modelItem => item.Description)</p>}
+                    }
+
+                </div>
+            </fieldset>
+            <hr>
+        </div>
+        <div>
+            <button type="button" class="btn btn-primary btnAddFormation">
+                <a asp-action="Resume" asp-route-id="@Model.Id">Exportar currículo</a>
+            </button>
+        </div>
+    </div>
+</body>
+</html>

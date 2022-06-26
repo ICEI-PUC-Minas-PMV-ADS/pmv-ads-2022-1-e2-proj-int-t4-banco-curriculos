@@ -1,0 +1,96 @@
+﻿@model Jobs.Models.User
+
+@{
+    ViewData["Title"] = "Create";
+}
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/Cadastro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap" rel="stylesheet">
+    <title>Meu currículo</title>
+</head>
+<body>
+    <main>
+        <div class="content">
+            <div class="row">
+                <div class="titles">
+                    <h1>Cadastre-se</h1>
+                </div>
+                <div class="container-cadastro">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="Nome" class="control-label">Nome ou Razão Social</label>
+                            <input asp-for="Nome" class="form-control" />
+                            <span asp-validation-for="Nome" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Email" class="control-label">Email</label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Senha" class="control-label">Senha</label>
+                            <input id="password" asp-for="Senha" class="form-control" />
+                            <span asp-validation-for="Senha" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label">Confirmação de Senha</label>
+                            <input id="confirmationPassword" type="password" class="form-control" />
+                            <span id="msgConfirmationPassword" class="text-danger invisible">As senhas devem ser iguais</span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Address" class="control-label">Endereço</label>
+                            <input asp-for="Address" class="form-control" />
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Neighborhood" class="control-label">Bairro</label>
+                            <input asp-for="Neighborhood" class="form-control" />
+                            <span asp-validation-for="Neighborhood" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="City" class="control-label">Cidade</label>
+                            <input asp-for="City" class="form-control" />
+                            <span asp-validation-for="City" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="ZipCode" class="control-label">CEP</label>
+                            <input asp-for="ZipCode" class="form-control" />
+                            <span asp-validation-for="ZipCode" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="State" class="control-label">Estado</label>
+                            <input asp-for="State" class="form-control" />
+                            <span asp-validation-for="State" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Phone" class="control-label">Telefone</label>
+                            <input id="telefone" asp-for="Phone" class="form-control" maxlength="14" pattern="\(\d{2}\)\s*\d{4}-\d{4}" required />
+                            <span asp-validation-for="Phone" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="CellPhone" class="control-label">Celular</label>
+                            <input id="celular" asp-for="CellPhone" class="form-control" maxlength="15" pattern="\(\d{2}\)\s*\d{5}-\d{4}" required />
+                            <span asp-validation-for="CellPhone" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Perfil" class="control-label">Perfil</label>
+                            <select asp-for="Perfil" class="form-control">
+                                <option selected value="">Selecione</option>
+                                <option>Recrutador</option>
+                                <option>Candidato</option>
+                            </select>
+                            <span asp-validation-for="Perfil" class="text-danger"></span>
+                        </div>
+                        <br />
+                        <div class="form-group">
+                            <input type="submit" value="Cadastrar" class="btn btn-primary form-control button-login" />
+                        </div>
+                    </form>
+                </div>
+                <br />
+            </div>
+        </div>
+    </main>
+    <script src="~/js/cadastro.js"></script>
+</body>

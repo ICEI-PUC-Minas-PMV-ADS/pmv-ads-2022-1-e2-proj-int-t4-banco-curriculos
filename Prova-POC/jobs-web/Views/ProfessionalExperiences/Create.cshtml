@@ -1,0 +1,62 @@
+﻿@model Jobs.Models.ProfessionalExperience
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/style-Experience.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap" rel="stylesheet">
+    <title>Formação</title>
+</head>
+<body>
+    <div class="main">
+        <div class="content">
+            <form asp-action="Create">
+                <div class="title">
+                    <h1>Meu currículo</h1>
+                </div>
+                <fieldset id="professionalExperience">
+                    <label class="subtitle">Experiência profissional</label>
+                    <div class="f-d-c" id="job-list">
+                        <div class="job-item m-b-40">
+                            <div class="form-group">
+                                <input asp-for="Occupation" type="text" nome="occupation" id="occupation" placeholder="Função">
+                                <select asp-for="JobType" name="jobType" id="jobType" asp-items="Html.GetEnumSelectList<JobType>()">
+                                    <option selected disable value="">Tipo de emprego</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="CompanyName" type="text" nome="company" id="company" placeholder="Empresa">
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="Locality" type="text" nome="local" id="local" placeholder="Local">
+                            </div>
+                            <div class="form-group">
+                                <input asp-for="StartDate" type="text" name="startDate" id="startDate" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="Data de início" />
+                                <input asp-for="EndDate" type="text" name="endDateJob" id="endDateJob" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="Data de saída" />
+                                <div class="checkbox-wrapper">
+                                    <input type="checkbox"
+                                           name="actualJob"
+                                           id="actualJob"
+                                           class="checkbox"
+                                           onChange="handleInprogressCheckbox('actualJob', 'endDateJob')">
+                                    <label for="inProgress" class="inProgress">Meu emprego atual</label>
+                                </div>
+                            </div>
+                            <textarea asp-for="Description" class="form-group description" name="description" id="description" cols="30" rows="10" placeholder="Descrição"></textarea>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="divButton">
+                    <button type="submit" class="btn btn-primary">Salvar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="~/js/script-NewResume.js"></script>
+</body>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

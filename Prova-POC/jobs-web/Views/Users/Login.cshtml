@@ -1,0 +1,51 @@
+﻿@model Jobs.Models.User
+
+@{
+    ViewData["Title"] = "Login";
+}
+<head>
+    <link rel="stylesheet" type="text/css" href="~/css/Login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;800&display=swap" rel="stylesheet">
+    <title>Meu currículo</title>
+</head>
+<body>
+    <div class="main">
+        <div class="content">
+            <div class="row">
+                <div class="logo-login">
+                    <img id="logoLogin" src="/imgs/logo.jpeg" alt="logo">
+                </div>
+                <div class="container-login">
+                    <form asp-action="Login">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <h1>Login</h1>
+                        <div style="color: red">@ViewBag.Message</div>
+                        <div class="form-group">
+                            <label asp-for="Email" class="control-label"></label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Senha" class="control-label"></label>
+                            <input asp-for="Senha" class="form-control" />
+                            <span asp-validation-for="Senha" class="text-danger"></span>
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="submit" value="Acessar" class="btn btn-primary form-control button-login" />
+                        </div>
+                        <div class="form-group">
+                            <div class="forget-password">
+                                <span>Esqueceu a senha?</span>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="form-group">
+                            Não tem cadastro? <a asp-action="Create">Cadastre-se</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,147 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+nav {
+    width: 100%;
+}
+
+body, .container {
+    background-color: #FFFAFA;
+}
+
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 200;
+    color: #1C191A;
+    margin-top: 10px;
+    margin-bottom: 30px
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+}
+
+header {
+    display: flex;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+p {
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    color: #1C191A;
+}
+
+h3 {
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    color: #1C191A;
+}
+
+fieldset {
+    border: none;
+}
+
+hr {
+    margin-top: 10px;
+    border-top: solid rgba(0, 0, 0, 0.86);
+    ;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    justify-items: right;
+}
+
+.subtitle {
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 43.57px;
+    color: #1C191A;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+
+.titleP, .fa {
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #1C191A;
+}
+
+.fa {
+    color: #F14902;
+}
+
+    .fa:hover {
+        color: #8C8C8C;
+    }
+
+.btnAddFormation:hover {
+    background-color: #8C8C8C;
+    border-color: #8C8C8C;
+    color: white;
+}
+
+button > a, button > a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.titleButton {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 800px) {
+
+    .main {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        background-size: cover;
+    }
+
+    .content {
+        display: flex;
+        width: 99%;
+        flex-direction: column;
+        background-size: cover;
+    }
+}
