@@ -80,13 +80,12 @@ O Quadro 5 apresenta as funcionalidades que a plataforma se propõe a oferecer.
 |RF-04 | O sistema deve permitir a pesquisa por vagas de emprego                                                  | ALTA       |
 |RF-06 | O sistema deve permitir o usuário a candidatura para as vagas de trabalho | ALTA |
 |RF-07 | O sistema deve permitir exportar currículos em formato PDF                                               | MÉDIA      | 
-|RF-08 | O sistema deve permitir o cadastro de email para recebimento de vagas de trabalho                        | ALTA       |
-|RF-09 | O sistema deve permitir o cadastro de email para recebimento de pessoas candidatas                       | ALTA       |
-|RF-10 | O sistema deve permitir a edição de posições de trabalho                                                 | MÉDIA      |
-|RF-11 | O sistema deve permitir a exclusão de posições de trabalho                                               | MÉDIA      |
-|RF-12 | O sistema deve permitir o cadastro do currículo do candidato                                             | MÉDIA      |
-|RF-13 | O sistema deve permitir a edição das informações no currículo do candidato                                            | MÉDIA      |
-|RF-14 | O sistema deve permitir a exclusão das informações no currículo do candidato                                          | MÉDIA      |
+|RF-08 | O sistema deve permitir o cadastro de email para recebimento de pessoas candidatas                       | ALTA       |
+|RF-09 | O sistema deve permitir a edição de posições de trabalho                                                 | MÉDIA      |
+|RF-10 | O sistema deve permitir a exclusão de posições de trabalho                                               | MÉDIA      |
+|RF-11 | O sistema deve permitir o cadastro do currículo do candidato                                             | MÉDIA      |
+|RF-12 | O sistema deve permitir a edição das informações no currículo do candidato                               | MÉDIA      |
+|RF-13 | O sistema deve permitir a exclusão das informações no currículo do candidato                             | MÉDIA      |
 
 </div>
 
@@ -107,12 +106,10 @@ Os requisitos não funcionais são apresentados no Quadro 6.
 |RNF-03 | O website deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Internet Explorer, Microsoft Edge, Safari)       |  ALTA    |
 |RNF-04 | O sistema estará disponível 100% do tempo                                                                                                        |  ALTA    |
 |RNF-05 | O sistema disponibilizará às funcionalidades ao usuário de maneira simples e intuitiva                                                           |  ALTA    |
-|RNF-06 | O sistema terá tempo máximo de resposta e, quando o tempo for excedido, informará ao usuário que a operação está demorando mais do que o esperado|  MÉDIA   |
-|RNF-07 | Apenas empresas que tenham sido autenticadas por um componente de controle de acesso e autenticação poderão visualizar informações dos candidatos|  MÉDIA   |
-|RNF-08 | Deve ser feita cópias de todos os dados do sistema a cada 24 horas                                                                               |  ALTA    |
-|RNF-09 | O sistema deve limitar o tempo de acesso ao sistema a fim de reduzir qualquer tipo de ameaça                                                     |  BAIXA   |
-|RNF-10 | O sistema deverá se comunicar com o banco SQL Server                                                                                             |  ALTA    |
-|RNF-11 | O sistema deve ser modularizado                                                                                                                  |  ALTA    |
+|RNF-06 | Apenas empresas que tenham sido autenticadas por um componente de controle de acesso e autenticação poderão visualizar informações dos candidatos|  MÉDIA   |
+|RNF-07 | O sistema deve limitar o tempo de acesso ao sistema a fim de reduzir qualquer tipo de ameaça                                                     |  BAIXA   |
+|RNF-08 | O sistema deverá se comunicar com o banco SQL Server                                                                                             |  ALTA    |
+|RNF-09 | O sistema deve ser modularizado                                                                                                                  |  ALTA    |
 
 </div>
 
