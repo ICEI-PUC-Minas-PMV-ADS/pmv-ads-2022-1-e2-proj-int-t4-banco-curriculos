@@ -2,7 +2,7 @@
 
 # Teste 1 - Cadastrar novo usuário
 
-https://user-images.githubusercontent.com/26911388/172954216-84c9ec81-cf99-44f6-97d3-7f23f1afb0ff.mp4
+https://user-images.githubusercontent.com/26911388/175798245-ac3cd1e8-9ae3-4464-a6f2-1183c02e2def.mp4
 
 # Teste 2 - Login
 
@@ -10,22 +10,24 @@ https://user-images.githubusercontent.com/26911388/172963712-50185080-9b47-4b23-
 
 # Teste 3 - Cadastro, edição e exclusão de vagas
 
-https://user-images.githubusercontent.com/26911388/172963719-251aae1b-9882-4964-8cbe-b4f96659d8fe.mp4
+https://user-images.githubusercontent.com/26911388/175797693-f889fc8f-e033-420f-a80f-80e80ea74bb7.mp4
 
 # Teste 4 - Pesquisa de vagas
 
-https://user-images.githubusercontent.com/26911388/172965695-7ed496b2-37b8-4d88-913f-78d17136442b.mp4
+https://user-images.githubusercontent.com/26911388/175797772-562d4004-146f-49d3-8442-a4e960ed9292.mp4
 
 # Teste 5 -  Cadastro Currículo
 
-https://user-images.githubusercontent.com/26911388/174903671-2cab8634-4677-4aed-b67b-6523da2d628d.mp4
+https://user-images.githubusercontent.com/26911388/175798055-5c601b9a-b860-4908-88c0-a7f0c7abc44f.mp4
 
 # Teste 6 -  Exportar Currículo
 
-https://user-images.githubusercontent.com/26911388/174906419-7bb32062-c1ec-4c57-9a18-cd50a1d6c602.mp4
+https://user-images.githubusercontent.com/26911388/175798330-7eeb7be9-2656-4847-a3a0-71f5e42b5661.mp4
 
 # Teste 7 -  Cadastro de Informações da empresa
 
-https://user-images.githubusercontent.com/26911388/175167800-da3a8c2d-d552-4e3e-bfcb-aad7777c85f5.mp4
+https://user-images.githubusercontent.com/26911388/175798128-deb0710c-9675-409a-b6bb-6d69ab3cc25d.mp4
+
+
 
 
